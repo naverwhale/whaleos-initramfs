@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="id">
+<translation id="1201402288615127009">Berikutnya</translation>
+<translation id="1207194515919037363">Modul keamanan pada perangkat ini tidak berfungsi.
+
+Buka URL ini untuk informasi lebih lanjut:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Terjadi error saat mendapatkan jaringan yang tersedia, coba lagi</translation>
+<translation id="1483971085438511843">Gunakan tombol enter untuk memilih opsi.</translation>
+<translation id="1486534340494484631">Terjadi error saat proses penghapusan disk yang disempurnakan.
+
+Pemulihan sistem selesai.
+Hapus media pemulihan dan komputer akan dimulai ulang secara otomatis.</translation>
+<translation id="1638626287317244115">Salin log</translation>
+<translation id="175933110504178679">Proses ini akan menghapus total data pribadi Anda. Proses ini akan memerlukan waktu beberapa menit. Jangan menonaktifkan perangkat.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Matikan perangkat</translation>
+<translation id="2160704550417277456">Opsi Lanjutan</translation>
+<translation id="2161775569013928937">Mulai pemulihan?</translation>
+<translation id="2238107357612570504">Opsi debug pemulihan</translation>
+<translation id="2249183435483068136">Kredensial Salah</translation>
+<translation id="2367943141906694421">Tidak dapat menemukan jaringan</translation>
+<translation id="2437368373459239842">Proses ini akan memerlukan waktu beberapa menit</translation>
+<translation id="2704439832119932045">Pilih saluran dan versi OS untuk melanjutkan pemulihan</translation>
+<translation id="2731700343119398978">Harap tunggu...</translation>
+<translation id="2904079386864173492">Model:</translation>
+<translation id="3029977119648083072">Masukkan sandi jaringan</translation>
+<translation id="3243756202241744259">Memverifikasi integritas media pemulihan Anda...</translation>
+<translation id="3377484800447890197">Terjadi error saat memulihkan perangkat Anda. Buka
+https://google.com/chromeos/recovery untuk melihat kemungkinan solusi atau coba lagi.</translation>
+<translation id="33938768013536853">Baterai terlalu lemah untuk mengupdate.
+
+Sambungkan Chromebook ke sumber listrik. Update
+akan otomatis dimulai segera setelah baterai memiliki daya yang cukup.</translation>
+<translation id="3554552348994984455">Mulai pemulihan</translation>
+<translation id="3723985428118783104">Pemulihan sedang berlangsung</translation>
+<translation id="385051799172605136">Kembali</translation>
+<translation id="3928994486545789273">Pilih jaringan</translation>
+<translation id="3942420633017001071">Diagnosis</translation>
+<translation id="3946632524220974380">Dibutuhkan perubahan kunci pengembang untuk melanjutkan; proses membutuhkan waktu 5 menit.</translation>
+<translation id="3986180833426451964">Pemilik perangkat mewajibkan perangkat ini berjalan dengan mengaktifkan
+verifikasi ChromeOS.  Anda mencoba menginstal image pemulihan ChromeOS
+tidak resmi yang tidak lulus verifikasi.
+
+Untuk informasi selengkapnya, buka URL ini:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Proses ini mungkin perlu beberapa menit</translation>
+<translation id="4007898787815310968">Terjadi error saat proses penghapusan disk yang disempurnakan.
+
+Terjadi error tidak terduga saat proses pemulihan. Buka URL ini untuk mengetahui tips pemecahan masalah:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Jaringan yang Tersedia</translation>
+<translation id="4261250127007881003">Log pesan</translation>
+<translation id="4287891348859705498">Salin log ke disk eksternal</translation>
+<translation id="4410491068110727276">Gunakan tombol volume untuk mengarahkan ke atas atau ke bawah.</translation>
+<translation id="4412740632134951267">Pilih opsi lanjutan di bawah untuk mengubah</translation>
+<translation id="4486160941938493301">Jika Anda ingin memilih metode pemulihan lain, kembali dengan menekan tombol Esc + Refresh + Daya</translation>
+<translation id="4503421634496749265">Coba lagi. Pastikan perangkat dicolokkan dan diisi daya.</translation>
+<translation id="4652489998517778111">Mulai ulang dan coba lagi</translation>
+<translation id="4791159253869531619">Disk eksternal dengan image pemulihan terdeteksi</translation>
+<translation id="4851795211104228792">Anda sekarang akan mengupdate ke versi stabil terbaru (Direkomendasikan)</translation>
+<translation id="4905949142713655149">Terjadi error tak terduga.  Lihat URL ini untuk kiat pemecahan masalah:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Pemulihan sistem selesai.
+
+Media pemulihan dapat dicopot sekarang. Komputer akan
+segera dinyalakan ulang secara otomatis.</translation>
+<translation id="5080881219404532322">Anda akan memulihkan komputer. Pastikan komputer terhubung ke sumber listrik.
+
+Jika Anda ingin membatalkan pemulihan, tekan tombol daya dan tahan hingga komputer mati (perlu waktu hingga 8 detik).
+Tindakan ini aman untuk dilakukan kapan saja selama proses verifikasi.</translation>
+<translation id="51254621993922230">Pemulihan selesai</translation>
+<translation id="537291066186627789">Pemulihan sistem selesai.
+
+Copot media pemulihan dan komputer akan dimulai ulang secara otomatis.</translation>
+<translation id="5512602676102820748">Baterai terlalu lemah untuk mengupdate.
+
+Mengisi baterai...
+
+Update akan otomatis dimulai segera setelah baterai memiliki daya yang cukup.</translation>
+<translation id="5592705604979238266">Pusat bantuan:</translation>
+<translation id="6185696379715117369">Page up</translation>
+<translation id="635783852215913562">Gunakan tombol panah untuk mengarahkan ke atas atau ke bawah.</translation>
+<translation id="6363786367719063276">Lihat log</translation>
+<translation id="6374469231428023295">Coba Lagi</translation>
+<translation id="6388429950346313390">Maaf, terjadi error</translation>
+<translation id="6408757960874122684">Komputer Anda tampaknya tidak menggunakan sistem ChromeOS.
+
+Operasi ini akan menghapus sistem operasi lain yang mungkin telah Anda
+instal dan semua datanya; pencadangan tidak dapat dilakukan.
+Jika ada data di komputer ini yang ingin disimpan, sebaiknya
+batalkan pemulihan.</translation>
+<translation id="6451786478565057499">Penghapusan disk yang disempurnakan sedang berlangsung ...
+
+Proses ini mungkin perlu waktu lama.</translation>
+<translation id="64764858283438323">Image di media pemulihan Anda adalah image developer yang belum terverifikasi.
+
+Pemulihan akan dilanjutkan karena booting terverifikasi dinonaktifkan.
+Jika nanti mengaktifkan verifikasi lagi, Anda perlu mengulangi pemulihan
+dengan image ChromeOS resmi.</translation>
+<translation id="6566947361877177265">Hubungkan ke jaringan untuk memulai pemulihan</translation>
+<translation id="6582194100503356658">Proses ini mungkin memerlukan waktu beberapa menit. Jangan menonaktifkan perangkat atau mencabut kabel daya.</translation>
+<translation id="662657262312410525">Anda menggunakan image pemulihan ChromeOS yang sudah usang.
+
+Buka URL ini untuk mendapatkan petunjuk cara membuat media
+pemulihan yang baru:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Lepaskan disk eksternal untuk memulai ulang.</translation>
+<translation id="6691307183503218714">Anda menggunakan image pemulihan ChromeOS resmi yang sudah usang.
+
+Pemulihan akan dilanjutkan karena verifikasi dinonaktifkan.
+Jika nanti mengaktifkan verifikasi lagi, Anda perlu mengulangi
+pemulihan dengan image ChromeOS terbaru.</translation>
+<translation id="6868586188416530903">Log tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Ketik sandi Anda. Tekan Tab untuk menampilkan atau menyembunyikan sandi. Tekan Enter untuk mengirim.</translation>
+<translation id="7126032376876878896">Gunakan tombol daya untuk memilih opsi.</translation>
+<translation id="7159548186721854353">Mulai ulang secara manual jika perangkat tidak otomatis dimulai ulang</translation>
+<translation id="7684530127758861598">Log pemulihan</translation>
+<translation id="7709095358410921767">Penghapusan disk yang disempurnakan berhasil.
+
+Terjadi error tidak terduga saat proses pemulihan. Buka URL ini untuk mengetahui tips pemecahan masalah:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Masukkan sandi Anda lagi. Hanya karakter ASCII yang didukung.</translation>
+<translation id="7939062555109487992">Opsi lanjutan</translation>
+<translation id="8048927549246926523">Pulihkan menggunakan koneksi internet</translation>
+<translation id="8114187014283095781">Penghapusan disk yang disempurnakan berhasil.
+
+Pemulihan sistem selesai.
+Hapus media pemulihan dan komputer akan dimulai ulang secara otomatis.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">Menghubungkan ke jaringan. Proses ini mungkin memerlukan waktu hingga satu menit.</translation>
+<translation id="8433773763660502318">Tidak dapat menyelesaikan proses pemulihan</translation>
+<translation id="8473826843543665828">Pilih jaringan baru atau coba lagi</translation>
+<translation id="8474679199432944250">Verifikasi ChromeOS dinonaktifkan.
+
+Jika hal ini tidak disengaja, sebaiknya batalkan pemulihan dan nonaktifkan
+mode developer untuk mengaktifkan verifikasi.  Untuk informasi selengkapnya,
+buka URL ini:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Menyelesaikan pemulihan</translation>
+<translation id="8596190965261846034">Menginstal update...
+
+Jangan matikan perangkat.
+Perangkat akan otomatis melakukan reboot saat update selesai.</translation>
+<translation id="8728458033228603970">Pemulihan sistem sedang berlangsung...
+
+Proses ini akan memakan waktu beberapa menit. Jangan menonaktifkan komputer atau memutus sambungan daya.</translation>
+<translation id="88986195241502842">Page down</translation>
+<translation id="8911667951938758302">Tidak dapat terhubung ke jaringan</translation>
+<translation id="9146946647152579011">Pemulihan telah selesai</translation>
+<translation id="9156766649956178343">Error saat memulihkan perangkat</translation>
+</translationbundle>

@@ -1,0 +1,158 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="cs">
+<translation id="1201402288615127009">Další</translation>
+<translation id="1207194515919037363">Bezpečnostní modul na tomto zařízení nefunguje.
+
+Další informace najdete na této adrese URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Při načítání dostupných sítí se vyskytl problém, zkuste to znovu</translation>
+<translation id="1483971085438511843">Pomocí klávesy Enter vyberte možnost.</translation>
+<translation id="1486534340494484631">Při důkladném vymazání disku došlo k chybě.
+
+Obnovení systému je dokončeno.
+Odeberte prosím médium pro obnovení. Počítač se automaticky restartuje.</translation>
+<translation id="1638626287317244115">Zkopírovat protokoly</translation>
+<translation id="175933110504178679">Tento proces vymaže vaše osobní data. Bude to trvat několik minut. Zařízení nevypínejte.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Vypnout</translation>
+<translation id="2160704550417277456">Pokročilé možnosti</translation>
+<translation id="2161775569013928937">Spustit obnovení?</translation>
+<translation id="2238107357612570504">Možnosti ladění obnovení</translation>
+<translation id="2249183435483068136">Neplatné identifikační údaje</translation>
+<translation id="2367943141906694421">Nebyly nalezeny žádné sítě</translation>
+<translation id="2437368373459239842">Bude to pár minut trvat</translation>
+<translation id="2704439832119932045">Pokud v obnovení chcete pokračovat, vyberte kanál a verzi operačního systému</translation>
+<translation id="2731700343119398978">Čekejte prosím...</translation>
+<translation id="2904079386864173492">Model:</translation>
+<translation id="3029977119648083072">Zadejte heslo sítě</translation>
+<translation id="3243756202241744259">Ověřování integrity média pro obnovení...</translation>
+<translation id="3377484800447890197">Při obnovování zařízení došlo k chybě. Přečtete si na adrese https://google.com/chromeos/recovery možná řešení nebo to zkuste znovu.</translation>
+<translation id="33938768013536853">Aktualizaci nelze spustit, protože je baterie příliš vybitá.
+
+Připojte Chromebook ke zdroji napájení. Jakmile bude baterie dostatečně nabitá, aktualizace se automaticky
+spustí.</translation>
+<translation id="3554552348994984455">Spustit obnovení</translation>
+<translation id="3723985428118783104">Probíhá obnovení</translation>
+<translation id="385051799172605136">Zpět</translation>
+<translation id="3928994486545789273">Vybrat síť</translation>
+<translation id="3942420633017001071">Diagnostika</translation>
+<translation id="3946632524220974380">Pokud chcete pokračovat, je třeba změnit klíč vývojáře.
+Tento proces trvá 5 minut.</translation>
+<translation id="3986180833426451964">Vlastník zařízení vyžaduje, aby toto zařízení bylo spuštěno
+se zapnutým ověřením systému ChromeOS. Pokoušíte se nainstalovat
+neoficiální obraz pro obnovení systému ChromeOS, který ověřením neprojde.
+
+Další informace najdete na této adrese:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Tento proces může trvat několik minut</translation>
+<translation id="4007898787815310968">Při důkladném vymazání disku došlo k chybě.
+
+Během obnovování došlo k neočekávané chybě. Tipy k odstraňování problémů najdete na této adrese URL: https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Dostupné sítě</translation>
+<translation id="4261250127007881003">Protokol zpráv</translation>
+<translation id="4287891348859705498">Zkopírovat protokoly na externí disk</translation>
+<translation id="4410491068110727276">Pomocí tlačítek hlasitosti se pohybujte nahoru a dolů.</translation>
+<translation id="4412740632134951267">Pokud chcete provést změnu, níže vyberte rozšířené možnosti</translation>
+<translation id="4486160941938493301">Pokud chcete zvolit jinou metodu obnovení, stisknutím kombinace kláves Esc + Obnovit + Vypínač se vraťte</translation>
+<translation id="4503421634496749265">Zkuste to znovu. Zkontroluje, zda je zařízení připojené a nabíjí se.</translation>
+<translation id="4652489998517778111">Restartujte zařízení a zkuste to znovu</translation>
+<translation id="4791159253869531619">Byl zjištěn externí disk s obrazem pro obnovení</translation>
+<translation id="4851795211104228792">Nyní bude provedena aktualizace na nejnovější stabilní verzi (doporučeno)</translation>
+<translation id="4905949142713655149">Došlo k neočekávané chybě. Tipy k odstraňování problémů
+naleznete na této adrese:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Obnovení systému je dokončeno.
+
+Médium pro obnovení teď lze bezpečně odebrat. Počítač se za chvíli automaticky restartuje.</translation>
+<translation id="5080881219404532322">Chystáte se obnovit počítač. Zkontrolujte, zda je počítač připojen ke zdroji napájení.
+
+Chcete-li obnovení zrušit, stiskněte a podržte tlačítko napájení, dokud se počítač nevypne. (Trvá to asi 8 sekund.)
+Můžete to bezpečně udělat kdykoli, dokud nebude dokončeno ověření.</translation>
+<translation id="51254621993922230">Obnovení bylo dokončeno</translation>
+<translation id="537291066186627789">Obnovení systému je dokončeno.
+
+Odeberte prosím médium pro obnovení.
+Počítač se automaticky restartuje.</translation>
+<translation id="5512602676102820748">Aktualizaci nelze spustit, protože je baterie příliš vybitá.
+
+Nabíjení...
+
+Jakmile bude baterie dostatečně nabitá, aktualizace se automaticky
+spustí.</translation>
+<translation id="5592705604979238266">Centrum nápovědy:</translation>
+<translation id="6185696379715117369">O stránku nahoru</translation>
+<translation id="635783852215913562">Pomocí kláves se šipkami se pohybujte nahoru a dolů.</translation>
+<translation id="6363786367719063276">Zobrazit protokoly</translation>
+<translation id="6374469231428023295">Zkusit znovu</translation>
+<translation id="6388429950346313390">Je nám líto, něco se pokazilo</translation>
+<translation id="6408757960874122684">Zdá se, že tento počítač nepoužívá systém ChromeOS.
+
+Tato operace smaže všechny jiné operační systémy, které můžete mít
+nainstalované, a všechna data. Nebude možné vytvořit zálohu.
+Pokud v tomto počítači máte data, která chcete zachovat, měli byste
+obnovení zrušit.</translation>
+<translation id="6451786478565057499">Probíhá důkladné vymazání disku…
+
+Může to trvat hodně dlouho.</translation>
+<translation id="64764858283438323">Obraz na médiu pro obnovení pochází od neověřeného vývojáře.
+
+Obnovení bude pokračovat, protože ověření při startu je vypnuto. Pokud ověření
+později znovu zapnete, budete muset obnovení zopakovat s oficiálním obrazem
+systému ChromeOS.</translation>
+<translation id="6566947361877177265">Pokud chcete zahájit obnovení, připojte se k síti</translation>
+<translation id="6582194100503356658">Může to trvat několik minut. Nevypínejte zařízení a neodpojujte ho od zdroje napájení.</translation>
+<translation id="662657262312410525">Používáte zastaralý obraz pro obnovení systému ChromeOS.
+
+Pokyny k vytvoření nového média pro obnovení naleznete
+na této adrese:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Odpojte externí disk, abyste mohli provést restart.</translation>
+<translation id="6691307183503218714">Používáte zastaralý oficiální obraz pro obnovení systému ChromeOS.
+
+Obnovení bude pokračovat, protože ověření systému je vypnuto.
+Pokud ověření později znovu zapnete, budete muset obnovení
+zopakovat s aktuálním obrazem systému ChromeOS.</translation>
+<translation id="6868586188416530903">Protokol tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Zadejte heslo. Stisknutím tabulátoru můžete heslo zobrazit nebo skrýt. Stisknutím klávesy Enter ho odešlete.</translation>
+<translation id="7126032376876878896">Pomocí vypínače vyberte možnost.</translation>
+<translation id="7159548186721854353">Pokud se zařízení automaticky nerestartuje, restartujte ho ručně</translation>
+<translation id="7684530127758861598">Protokol obnovení</translation>
+<translation id="7709095358410921767">Důkladné vymazání disku proběhlo úspěšně.
+
+Během obnovování došlo k neočekávané chybě. Tipy k odstraňování problémů najdete na této adrese URL: https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Zadejte heslo znovu. Jsou podporovány pouze znaky ASCII.</translation>
+<translation id="7939062555109487992">Upřesnit možnosti</translation>
+<translation id="8048927549246926523">Obnovení pomocí připojení k internetu</translation>
+<translation id="8114187014283095781">Důkladné vymazání disku proběhlo úspěšně.
+
+Obnovení systému je dokončeno.
+Odeberte prosím médium pro obnovení. Počítač se automaticky restartuje.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">Probíhá připojování k síti. Může to trvat až minutu.</translation>
+<translation id="8433773763660502318">Proces obnovení se nepodařilo dokončit</translation>
+<translation id="8473826843543665828">Vyberte novou síť nebo to zkuste znovu</translation>
+<translation id="8474679199432944250">Ověření systému ChromeOS je vypnuto.
+
+Pokud to není úmyslné, zrušte obnovení a zakažte režim pro vývojáře,
+čímž ověření systému zapnete. Další informace najdete na této adrese:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Dokončuje se obnovení</translation>
+<translation id="8596190965261846034">Probíhá instalace aktualizace...
+
+Zařízení prosím nevypínejte.
+Po dokončení aktualizace se automaticky restartuje.</translation>
+<translation id="8728458033228603970">Probíhá obnovení systému...
+
+Tato operace může trvat několik minut. Nevypínejte počítač
+ani jej neodpojujte od zdroje napájení.</translation>
+<translation id="88986195241502842">O stránku dolů</translation>
+<translation id="8911667951938758302">Nelze se připojit k síti.</translation>
+<translation id="9146946647152579011">Obnovení je dokončené</translation>
+<translation id="9156766649956178343">Při obnovování zařízení došlo k chybě</translation>
+</translationbundle>

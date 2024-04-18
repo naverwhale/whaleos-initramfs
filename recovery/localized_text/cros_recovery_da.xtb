@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="da">
+<translation id="1201402288615127009">Næste</translation>
+<translation id="1207194515919037363">Sikkerhedsmodulet på denne enhed virker ikke.
+
+Få flere oplysninger på webadressen nedenfor:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Det lykkedes ikke at hente de tilgængelige netværk. Prøv igen</translation>
+<translation id="1483971085438511843">Brug Enter-tasten til at vælge en mulighed.</translation>
+<translation id="1486534340494484631">Der opstod en fejl under den udvidede sletning af disken.
+
+Systemgendannelsen er fuldført.
+Fjern gendannelsesmediet, så genstarter din computer automatisk.</translation>
+<translation id="1638626287317244115">Kopiér logs</translation>
+<translation id="175933110504178679">Denne handling rydder dine personoplysninger. Dette tager flere minutter. Undlad at slukke enheden.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Sluk</translation>
+<translation id="2160704550417277456">Avancerede valgmuligheder</translation>
+<translation id="2161775569013928937">Vil du starte gendannelsen?</translation>
+<translation id="2238107357612570504">Valgmuligheder for fejlretning ved gendannelse</translation>
+<translation id="2249183435483068136">Forkerte loginoplysninger</translation>
+<translation id="2367943141906694421">Der blev ikke fundet nogen netværk</translation>
+<translation id="2437368373459239842">Dette tager et par minutter</translation>
+<translation id="2704439832119932045">Vælg OS-kanal og -version for at fortsætte gendannelsen</translation>
+<translation id="2731700343119398978">Vent et øjeblik...</translation>
+<translation id="2904079386864173492">Model:</translation>
+<translation id="3029977119648083072">Angiv adgangskoden til netværket</translation>
+<translation id="3243756202241744259">Bekræfter integriteten af dit gendannelsesmedie...</translation>
+<translation id="3377484800447890197">Der opstod en fejl under gendannelsen af fabriksindstillingerne på din enhed. Gå til https://google.com/chromeos/recovery for at se mulige løsninger, eller prøv igen.</translation>
+<translation id="33938768013536853">Batteriniveauet er for lavt til at opdatere.
+
+Slut din Chromebook til en strømkilde. Opdateringen
+starter automatisk, så snart batteriet er tilstrækkeligt opladet.</translation>
+<translation id="3554552348994984455">Start gendannelsen</translation>
+<translation id="3723985428118783104">Gendannelsen er i gang</translation>
+<translation id="385051799172605136">Tilbage</translation>
+<translation id="3928994486545789273">Vælg netværk</translation>
+<translation id="3942420633017001071">Diagnostik</translation>
+<translation id="3946632524220974380">For at fortsætte skal du ændre din udviklernøgle. Processen tager 5 minutter.</translation>
+<translation id="3986180833426451964">Enhedsejeren kræver, at ChromeOS-verificering er aktiveret
+på denne enhed. Du forsøger at installere et uofficielt systembillede
+til gendannelse for ChromeOS, som ikke opfylder kravene til verificering.
+
+Få flere oplysninger på webadressen nedenfor:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Dette kan tage et par minutter</translation>
+<translation id="4007898787815310968">Der opstod en fejl under den udvidede sletning af disken.
+
+Der opstod en uventet fejl under gendannelsen. Få tips til fejlretning ved at gå til:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Tilgængelige netværk</translation>
+<translation id="4261250127007881003">Beskedlog</translation>
+<translation id="4287891348859705498">Kopiér logs til din eksterne disk</translation>
+<translation id="4410491068110727276">Brug lydstyrkeknapperne til at navigere op eller ned.</translation>
+<translation id="4412740632134951267">Vælg avancerede muligheder nedenfor for at foretage ændringer</translation>
+<translation id="4486160941938493301">Hvis du vil vælge en anden gendannelsesmetode, skal du gå tilbage ved at trykke på Esc + Opdater + Afbryderknappen</translation>
+<translation id="4503421634496749265">Prøv igen. Sørg for, at enheden er tilsluttet og oplader.</translation>
+<translation id="4652489998517778111">Genstart, og prøv igen</translation>
+<translation id="4791159253869531619">Der blev registreret en ekstern disk med et gendannelsesbillede</translation>
+<translation id="4851795211104228792">Enheden opdateres nu til den seneste stabile version (anbefales)</translation>
+<translation id="4905949142713655149">Der opstod en uventet fejl. Få tips til fejlfinding på webadressen nedenfor:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Systemgendannelsen blev fuldført.
+
+Det er nu sikkert at fjerne gendannelsesmediet. Din computer
+genstartes automatisk om et øjeblik.</translation>
+<translation id="5080881219404532322">Du er ved at gendanne din computer. Sørg for, at den er
+ tilsluttet en strømkilde.
+
+Hvis du vil annullere gendannelsen, skal du holde afbryderknappen nede,
+indtil computeren slukker (dette kan tage op til 8 sekunder).
+Du kan gøre dette til enhver tid under verificeringen.</translation>
+<translation id="51254621993922230">Gendannelsen er udført</translation>
+<translation id="537291066186627789">Systemgendannelsen blev fuldført.
+
+Din computer genstartes automatisk, når du fjerner gendannelsesmediet.</translation>
+<translation id="5512602676102820748">Batteriniveauet er for lavt til at opdatere.
+
+Oplader...
+
+Opdateringen starter automatisk, så snart batteriet er tilstrækkeligt opladet.</translation>
+<translation id="5592705604979238266">Hjælp:</translation>
+<translation id="6185696379715117369">Gå en side op</translation>
+<translation id="635783852215913562">Brug piletasterne til at navigere op eller ned.</translation>
+<translation id="6363786367719063276">Se logfiler</translation>
+<translation id="6374469231428023295">Prøv igen</translation>
+<translation id="6388429950346313390">Der gik noget galt</translation>
+<translation id="6408757960874122684">Det lader til, at din computer ikke er et ChromeOS-system.
+
+Denne handling sletter ethvert andet operativsystem, som du har installeret,
+samt dine data. Du har ikke mulighed for at tage en sikkerhedskopi.
+Hvis du har data på computeren, som du vil gemme, skal du annullere
+genoprettelsen.</translation>
+<translation id="6451786478565057499">Udvidet sletning af disk er i gang...
+
+Dette kan tage lang tid.</translation>
+<translation id="64764858283438323">Billedet på dit gendannelsesmedie er et uverificeret udviklerbillede.
+
+Gendannelsen fortsætter, da verificeret opstart er deaktiveret.
+Hvis du aktiverer verificering igen senere, skal du gentage
+gendannelsen med et officielt billede for ChromeOS.</translation>
+<translation id="6566947361877177265">Opret forbindelse til et netværk for at starte gendannelsen</translation>
+<translation id="6582194100503356658">Dette kan tage et par minutter. Undlad at slukke enheden eller afbryde strømmen.</translation>
+<translation id="662657262312410525">Du bruger et forældet systembillede til gendannelse for ChromeOS.
+
+Få hjælp til at oprette et nyt gendannelsesmedie på webadressen nedenfor:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Fjern din eksterne disk for at genstarte.</translation>
+<translation id="6691307183503218714">Du bruger et forældet systembillede til gendannelse for ChromeOS.
+
+Gendannelsen fortsætter, da verificering er deaktiveret.
+Hvis du aktiverer verificering igen senere, skal du gentage
+gendannelsen med et opdateret billede for ChromeOS.</translation>
+<translation id="6868586188416530903">Loggen tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Angiv din adgangskode. Tryk på Tab-tasten for at få vist eller skjult adgangskoden. Tryk på Enter for at sende.</translation>
+<translation id="7126032376876878896">Brug afbryderknappen til at vælge en mulighed.</translation>
+<translation id="7159548186721854353">Genstart enheden manuelt, hvis den ikke gør det automatisk</translation>
+<translation id="7684530127758861598">Gendannelseslog</translation>
+<translation id="7709095358410921767">Den udvidede sletning af disken blev gennemført.
+
+Der opstod en uventet fejl under gendannelsen. Få tips til fejlretning ved at gå til:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Angiv adgangskoden igen. Kun ASCII-tegn understøttes.</translation>
+<translation id="7939062555109487992">Avancerede valgmuligheder</translation>
+<translation id="8048927549246926523">Gendan ved hjælp af en internetforbindelse</translation>
+<translation id="8114187014283095781">Den udvidede sletning af disken blev gennemført.
+
+Systemgendannelsen er fuldført.
+Fjern gendannelsesmediet, så genstarter din computer automatisk.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">Opretter forbindelse til netværket. Dette kan tage op til et minut.</translation>
+<translation id="8433773763660502318">Gendannelsen kunne ikke udføres</translation>
+<translation id="8473826843543665828">Vælg et nyt netværk, eller prøv igen</translation>
+<translation id="8474679199432944250">ChromeOS-verificering er deaktiveret.
+
+Hvis dette er en fejl, bør du annullere gendannelsen og deaktivere udviklertilstand for at kunne aktivere verificering. Få flere oplysninger på webadressen nedenfor:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Gendannelsen udføres</translation>
+<translation id="8596190965261846034">Installerer opdatering...
+
+Enheden må ikke slukkes.
+Den genstarter automatisk, når opdateringen er færdig.</translation>
+<translation id="8728458033228603970">Systemgendannelse er i gang...
+
+Dette kan tage nogle minutter. Undlad at slukke for computeren eller
+afbryde strømforbindelsen.</translation>
+<translation id="88986195241502842">Gå en side ned</translation>
+<translation id="8911667951938758302">Der kunne ikke oprettes forbindelse til netværket</translation>
+<translation id="9146946647152579011">Gendannelsen er nu fuldført</translation>
+<translation id="9156766649956178343">Din enhed kunne ikke gendannes</translation>
+</translationbundle>

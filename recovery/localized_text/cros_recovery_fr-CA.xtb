@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="fr-CA">
+<translation id="1201402288615127009">Suivant</translation>
+<translation id="1207194515919037363">Le module de sécurité sur cet appareil ne fonctionne pas.
+
+Pour en savoir plus, veuillez consulter la page dont l'URL figure ci-dessous :
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Un problème est survenu lors de la recherche de réseaux accessibles, veuillez réessayer</translation>
+<translation id="1483971085438511843">Utilisez la touche Entrée pour sélectionner une option.</translation>
+<translation id="1486534340494484631">Une erreur s'est produite durant la suppression avancée du disque.
+
+La récupération système est terminée.
+Veuillez retirer le support de récupération. Votre ordinateur redémarrera automatiquement.</translation>
+<translation id="1638626287317244115">Copier les journaux</translation>
+<translation id="175933110504178679">Ce processus effacera vos données personnelles. Cette opération prendra plusieurs minutes. N'éteignez pas l'appareil.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Éteindre</translation>
+<translation id="2160704550417277456">Options avancées</translation>
+<translation id="2161775569013928937">Commencer la récupération?</translation>
+<translation id="2238107357612570504">Options de débogage de la récupération</translation>
+<translation id="2249183435483068136">Authentifiant incorrect</translation>
+<translation id="2367943141906694421">Impossible de trouver des réseaux</translation>
+<translation id="2437368373459239842">Cette opération prendra quelques minutes</translation>
+<translation id="2704439832119932045">Sélectionner le canal et la version du SE pour poursuivre la récupération</translation>
+<translation id="2731700343119398978">Veuillez patienter...</translation>
+<translation id="2904079386864173492">Modèle :</translation>
+<translation id="3029977119648083072">Entrez le mot de passe du réseau</translation>
+<translation id="3243756202241744259">Vérification en cours de l'intégrité de votre support de récupération...</translation>
+<translation id="3377484800447890197">Une erreur s'est produite lors de la récupération de votre appareil. Consultez la page https://google.com/chromeos/recovery pour obtenir des conseils ou réessayez.</translation>
+<translation id="33938768013536853">Pile trop faible pour la mise à jour.
+
+Veuillez brancher votre Chromebook sur une source d'alimentation. La mise à jour
+démarrera automatiquement dès que la pile sera suffisamment chargée.</translation>
+<translation id="3554552348994984455">Commencer la récupération</translation>
+<translation id="3723985428118783104">Récupération en cours…</translation>
+<translation id="385051799172605136">Retour</translation>
+<translation id="3928994486545789273">Choisir un réseau</translation>
+<translation id="3942420633017001071">Diagnostics</translation>
+<translation id="3946632524220974380">Un changement de clé de développeur est nécessaire pour poursuivre;
+ce processus prend cinq minutes.</translation>
+<translation id="3986180833426451964">Le propriétaire de cet appareil souhaite que la vérification de ChromeOS soit activée. L'image de récupération non officielle de ChromeOS que vous essayez d'installer est bloquée par le processus de vérification.
+
+Pour en savoir plus, consultez la page ci-dessous :
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Ce processus peut prendre quelques minutes</translation>
+<translation id="4007898787815310968">Une erreur s'est produite durant la suppression avancée du disque.
+
+Une erreur inattendue s'est produite durant la récupération. Pour obtenir des conseils de dépannage, veuillez consulter cette URL :
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Réseaux accessibles</translation>
+<translation id="4261250127007881003">Journal des messages</translation>
+<translation id="4287891348859705498">Copier les journaux vers votre disque externe</translation>
+<translation id="4410491068110727276">Utilisez les boutons de volume pour naviguer vers le haut ou le bas.</translation>
+<translation id="4412740632134951267">Sélectionnez les options avancées ci-dessous pour effectuer une modification</translation>
+<translation id="4486160941938493301">Si vous voulez choisir un autre mode de récupération, revenez en arrière en appuyant sur Échapp.+Actualiser+Bouton d'alimentation</translation>
+<translation id="4503421634496749265">Veuillez réessayer. Assurez-vous que l'appareil est branché et en charge.</translation>
+<translation id="4652489998517778111">Veuillez redémarrer l'appareil et réessayer</translation>
+<translation id="4791159253869531619">Un disque externe contenant une image de récupération a été détecté</translation>
+<translation id="4851795211104228792">La dernière version stable sera maintenant installée (recommandé)</translation>
+<translation id="4905949142713655149">Une erreur inattendue s'est produite. Pour obtenir des conseils de dépannage,
+veuillez consulter la page dont l'URL figure ci-dessous  :
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Le processus de récupération du système est terminé.
+
+Vous pouvez maintenant retirer le support de récupération en toute sécurité. Votre ordinateur
+redémarrera automatiquement dans un instant.</translation>
+<translation id="5080881219404532322">Vous êtes sur le point de procéder à la récupération de votre ordinateur.
+Veuillez vous assurer qu'il est bien relié à une source d'alimentation.
+
+Si vous souhaitez annuler ce processus, appuyez sur l'interrupteur et maintenez-le enfoncé jusqu'à ce que l'ordinateur s'éteigne (cela peut prendre jusqu'à huit secondes).
+Vous pouvez effectuer cette procédure sans danger à tout moment durant la vérification.</translation>
+<translation id="51254621993922230">Récupération terminée</translation>
+<translation id="537291066186627789">Le processus de récupération du système est terminé.
+
+Veuillez retirer le support de récupération; votre ordinateur redémarrera
+automatiquement.</translation>
+<translation id="5512602676102820748">Pile trop faible pour la mise à jour.
+
+Chargement en cours…
+
+La mise à jour démarrera automatiquement dès que la pile sera suffisamment chargée.</translation>
+<translation id="5592705604979238266">Centre d'aide :</translation>
+<translation id="6185696379715117369">Page précédente</translation>
+<translation id="635783852215913562">Utilisez les touches fléchées pour naviguer vers le haut ou vers le bas.</translation>
+<translation id="6363786367719063276">Afficher les journaux</translation>
+<translation id="6374469231428023295">Réessayer</translation>
+<translation id="6388429950346313390">Malheureusement, un problème est survenu</translation>
+<translation id="6408757960874122684">Votre ordinateur ne semble pas être un système ChromeOS!
+
+Cette opération va supprimer le système d'exploitation installé,
+ainsi que toutes les données présentes sur celui-ci.
+Aucune solution de sauvegarde ne sera proposée.
+Si vous souhaitez préserver certaines données de votre ordinateur,
+veuillez annuler le processus de récupération.</translation>
+<translation id="6451786478565057499">La suppression avancée de disque est en cours…
+
+Cela peut prendre beaucoup de temps.</translation>
+<translation id="64764858283438323">L'image stockée sur votre support de récupération est une image de développeur non vérifiée.
+
+Le processus de récupération va se poursuivre, car l'option de démarrage vérifié est désactivée.
+Si vous activez à nouveau la vérification, vous devrez répéter
+ce processus de récupération avec une image officielle de ChromeOS.</translation>
+<translation id="6566947361877177265">Se connecter à un réseau pour commencer la récupération</translation>
+<translation id="6582194100503356658">Cette opération peut prendre quelques minutes. N'éteignez pas l'appareil et ne débranchez pas l'alimentation.</translation>
+<translation id="662657262312410525">Vous utilisez une image de récupération de ChromeOS obsolète.
+
+Pour obtenir des instructions sur la façon de créer un nouveau support de récupération, veuillez consulter la page ci-dessous :
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Débranchez votre disque externe pour redémarrer.</translation>
+<translation id="6691307183503218714">Vous utilisez une image de récupération de ChromeOS obsolète.
+
+Le processus de récupération va se poursuivre, car la vérification est désactivée.
+Si vous activez à nouveau la vérification, vous devrez répéter ce processus de récupération avec une image de ChromeOS à jour.</translation>
+<translation id="6868586188416530903">Journal tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Entrez votre mot de passe. Appuyez sur la touche Tabulation pour afficher ou masquer le mot de passe. Appuyez sur la touche Entrée pour l'envoyer.</translation>
+<translation id="7126032376876878896">Servez-vous de l'interrupteur pour sélectionner une option.</translation>
+<translation id="7159548186721854353">Redémarrez l'appareil manuellement s'il ne redémarre pas automatiquement</translation>
+<translation id="7684530127758861598">Journal de récupération</translation>
+<translation id="7709095358410921767">La suppression avancée de disque a réussi.
+
+Une erreur inattendue s'est produite durant la récupération. Pour obtenir des conseils de dépannage, veuillez consulter cette URL :
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Veuillez entrer de nouveau votre mot de passe. Seuls les caractères ASCII sont pris en charge.</translation>
+<translation id="7939062555109487992">Options avancées</translation>
+<translation id="8048927549246926523">Procéder à une récupération en utilisant une connexion Internet</translation>
+<translation id="8114187014283095781">La suppression avancée de disque a réussi.
+
+La récupération système est terminée.
+Veuillez retirer le support de récupération. Votre ordinateur redémarrera automatiquement.</translation>
+<translation id="8179976553408161302">Entrée</translation>
+<translation id="8420829064199266609">Connexion au réseau en cours… Cette opération peut prendre jusqu'à une minute.</translation>
+<translation id="8433773763660502318">Impossible de terminer le processus de récupération</translation>
+<translation id="8473826843543665828">Veuillez sélectionner un nouveau réseau ou réessayer</translation>
+<translation id="8474679199432944250">La vérification de ChromeOS est désactivée.
+
+Si ceci n'est pas intentionnel, vous devez annuler la récupération et désactiver
+le mode Développeur pour réactiver la vérification. Pour en savoir plus,
+consultez la page ci-dessous :
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Achèvement de la récupération en cours…</translation>
+<translation id="8596190965261846034">Installation de la mise à jour en cours…
+
+Veuillez ne pas éteindre l'appareil.
+Celui-ci redémarrera automatiquement une fois la mise à jour terminée.</translation>
+<translation id="8728458033228603970">La récupération du système est en cours...
+
+Ce processus prend quelques minutes. Veuillez ne pas éteindre l'ordinateur ou
+débrancher l'alimentation.</translation>
+<translation id="88986195241502842">Page suivante</translation>
+<translation id="8911667951938758302">Impossible de se connecter au réseau</translation>
+<translation id="9146946647152579011">La récupération est maintenant terminée</translation>
+<translation id="9156766649956178343">Une erreur s'est produite lors de la récupération de votre appareil</translation>
+</translationbundle>

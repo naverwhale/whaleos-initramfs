@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="ja">
+<translation id="1201402288615127009">次へ</translation>
+<translation id="1207194515919037363">このデバイスのセキュリティ モジュールが動作していません。
+
+詳しくは以下の URL をご覧ください。
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">利用可能なネットワークの取得中に問題が発生しました。もう一度お試しください</translation>
+<translation id="1483971085438511843">Enter キーを使用して、オプションを選択します。</translation>
+<translation id="1486534340494484631">拡張ディスクの削除中にエラーが発生しました。
+
+システムの復元が完了しました。
+リカバリ メディアを取り外してください。パソコンは自動的に再起動します。</translation>
+<translation id="1638626287317244115">ログをコピー</translation>
+<translation id="175933110504178679">この処理を行うと個人データが消去されます。これには数分かかります。デバイスの電源をオフにしないでください。</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">電源を切る</translation>
+<translation id="2160704550417277456">詳細オプション</translation>
+<translation id="2161775569013928937">復元を開始</translation>
+<translation id="2238107357612570504">復元デバッグ オプション</translation>
+<translation id="2249183435483068136">認証情報が正しくありません</translation>
+<translation id="2367943141906694421">ネットワークが見つかりませんでした</translation>
+<translation id="2437368373459239842">数分お待ちください</translation>
+<translation id="2704439832119932045">復元を続行するには、OS のチャンネルとバージョンを選択してください</translation>
+<translation id="2731700343119398978">お待ちください...</translation>
+<translation id="2904079386864173492">モデル:</translation>
+<translation id="3029977119648083072">ネットワークのパスワードを入力してください</translation>
+<translation id="3243756202241744259">リカバリ メディアの完全性を確認しています...</translation>
+<translation id="3377484800447890197">デバイスの復元中にエラーが発生しました。考えられる解決策については、https://google.com/chromeos/recovery をご覧になるか、もう一度お試しください。</translation>
+<translation id="33938768013536853">バッテリーの残量が少ないためアップデートを実行できません。
+
+Chromebook を電源に接続してください。バッテリーがある程度まで
+充電されると、自動的にアップデートが始まります。</translation>
+<translation id="3554552348994984455">復元を開始します</translation>
+<translation id="3723985428118783104">復元処理中です</translation>
+<translation id="385051799172605136">戻る</translation>
+<translation id="3928994486545789273">ネットワークを選択</translation>
+<translation id="3942420633017001071">診断</translation>
+<translation id="3946632524220974380">続行するためにデベロッパー キーの変更が必要です。
+この処理には 5 分ほどかかります。</translation>
+<translation id="3986180833426451964">このデバイスの所有者は、ChromeOS の確認機能をオンにして
+デバイスを実行する必要があります。現在、確認に失敗する
+非公式な ChromeOS リカバリ イメージをインストールしようとしています。
+
+詳しくは以下の URL をご覧ください。
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">この処理には数分かかる場合があります</translation>
+<translation id="4007898787815310968">拡張ディスクの削除中にエラーが発生しました。
+
+復元中に予期しないエラーが発生しました。以下の URL で問題の解決方法をご確認ください。
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">利用可能なネットワーク</translation>
+<translation id="4261250127007881003">メッセージログ</translation>
+<translation id="4287891348859705498">外部ディスクにログをコピー</translation>
+<translation id="4410491068110727276">音量ボタンを使用して、上または下に移動します。</translation>
+<translation id="4412740632134951267">変更するには、下の詳細オプションを選択します</translation>
+<translation id="4486160941938493301">別の復元方法を選択する場合は、Esc キー、更新ボタン、電源ボタンを同時に押して前に戻ります</translation>
+<translation id="4503421634496749265">もう一度お試しください。デバイスが電源に接続され、充電されていることを確認してください。</translation>
+<translation id="4652489998517778111">再起動して、もう一度お試しください</translation>
+<translation id="4791159253869531619">リカバリ イメージのある外部ディスクが検出されました</translation>
+<translation id="4851795211104228792">最新の安定板に更新します（推奨）</translation>
+<translation id="4905949142713655149">予期しないエラーが発生しました。
+以下の URL で解決方法をご覧ください。
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">システムの復元が完了しました。
+
+リカバリ メディアを安全に取り出すことができます。
+まもなくパソコンが自動的に再起動します。</translation>
+<translation id="5080881219404532322">パソコンを復元しようとしています。電源に接続されていることを
+確認してください。
+
+復元をキャンセルする場合は、パソコンの電源が切れるまで
+電源ボタンを押し続けてください（約 8 秒間）。
+確認時であれば、いつでもこの操作を安全に行うことができます。</translation>
+<translation id="51254621993922230">復元を完了しました</translation>
+<translation id="537291066186627789">システムの復元が完了しました。
+
+リカバリ メディアを取り出してください。
+パソコンが自動的に再起動します。</translation>
+<translation id="5512602676102820748">バッテリーの残量が少ないためアップデートを実行できません。
+
+充電しています...
+
+バッテリーがある程度まで充電されると、自動的にアップデートが始まります。</translation>
+<translation id="5592705604979238266">ヘルプセンター:</translation>
+<translation id="6185696379715117369">ページ内を上に移動</translation>
+<translation id="635783852215913562">上下に移動するには矢印キーを使用します。</translation>
+<translation id="6363786367719063276">ログを表示</translation>
+<translation id="6374469231428023295">再試行</translation>
+<translation id="6388429950346313390">エラーが発生しました</translation>
+<translation id="6408757960874122684">お使いのパソコンは ChromeOS システムではないようです。
+
+この操作を行うと、インストールされている他のオペレーティング システムと
+すべてのデータが削除されます。バックアップする機会はありません。
+保存したいデータがこのパソコンにある場合は、復元をキャンセル
+してください。</translation>
+<translation id="6451786478565057499">拡張ディスクを削除しています...
+
+この処理には時間がかかることがあります。</translation>
+<translation id="64764858283438323">リカバリ メディア上のイメージが、未確認のデベロッパー イメージです。
+
+確認付きブートがオフになっているため、復元を続行します。
+後で確認機能をオンにする場合は、
+公式 ChromeOS イメージでもう一度復元する必要があります。</translation>
+<translation id="6566947361877177265">ネットワークに接続して復元を開始します</translation>
+<translation id="6582194100503356658">この処理には数分かかることがあります。デバイスの電源をオフにしたり、電源コードを抜いたりしないでください。</translation>
+<translation id="662657262312410525">お使いの ChromeOS リカバリ イメージが最新ではありません。
+
+以下の URL で新しいリカバリ メディアの作成方法を
+ご覧ください。
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">再起動するには外部ディスクを取り外します。</translation>
+<translation id="6691307183503218714">お使いの公式 ChromeOS リカバリ イメージが最新ではありません。
+
+確認機能がオフのため、復元を続行します。
+後で確認機能をオンにする場合は、最新の ChromeOS イメージで
+もう一度復元する必要があります。</translation>
+<translation id="6868586188416530903">tpm-firmware-updater のログ</translation>
+<translation id="6895131867077828321">パスワードを入力します。パスワードを表示または非表示にするには、Tab キーを押します。送信するには、Enter キーを押します。</translation>
+<translation id="7126032376876878896">電源ボタンを使用して、オプションを選択します。</translation>
+<translation id="7159548186721854353">デバイスが自動的に再起動しない場合は、手動で再起動します</translation>
+<translation id="7684530127758861598">リカバリログ</translation>
+<translation id="7709095358410921767">拡張ディスクの削除が完了しました。
+
+復元中に予期しないエラーが発生しました。以下の URL で問題の解決方法をご確認ください。
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">パスワードをもう一度入力してください。サポートされているのは ASCII 文字のみです。</translation>
+<translation id="7939062555109487992">詳細オプション</translation>
+<translation id="8048927549246926523">インターネット接続を使用して復元します</translation>
+<translation id="8114187014283095781">拡張ディスクの削除が完了しました。
+
+システムの復元が完了しました。
+リカバリ メディアを取り外してください。パソコンは自動的に再起動します。</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">ネットワークに接続しています。これには 1 分ほどかかる場合があります。</translation>
+<translation id="8433773763660502318">復元プロセスを完了できませんでした</translation>
+<translation id="8473826843543665828">新しいネットワークを選択するか、もう一度お試しください</translation>
+<translation id="8474679199432944250">ChromeOS の確認機能がオフになっています。
+
+意図的にオフにしたのではない場合は、復元をキャンセルして
+デベロッパー モードを無効にすることで、確認機能をオンにする必要があります。
+詳しくは以下の URL をご覧ください。
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">復元を完了します</translation>
+<translation id="8596190965261846034">アップデートをインストールしています...
+
+デバイスの電源を切らないでください。
+アップデートが完了するとデバイスは自動的に再起動します。</translation>
+<translation id="8728458033228603970">システムを復元しています...
+
+この処理には数分かかることがあります。パソコンの電源をオフにしたり、
+電源コードを抜いたりしないでください。</translation>
+<translation id="88986195241502842">ページ内を下に移動</translation>
+<translation id="8911667951938758302">ネットワークに接続できませんでした</translation>
+<translation id="9146946647152579011">復元が完了しました</translation>
+<translation id="9156766649956178343">デバイスの復元中にエラーが発生しました</translation>
+</translationbundle>

@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="fi">
+<translation id="1201402288615127009">Seuraava</translation>
+<translation id="1207194515919037363">Laitteen suojausmoduuli ei toimi.
+
+Saat lisätietoja tästä URL-osoitteesta:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Käytettävissä olevien verkkojen noutamisessa oli ongelma, yritä uudelleen</translation>
+<translation id="1483971085438511843">Valitse vaihtoehto Enter-painikkeella.</translation>
+<translation id="1486534340494484631">Tehostetun levyntyhjennyksen aikana tapahtui virhe.
+
+Järjestelmän palautus onnistui.
+Poista palautustietoväline, niin tietokone käynnistyy uudelleen automaattisesti.</translation>
+<translation id="1638626287317244115">Kopioi lokit</translation>
+<translation id="175933110504178679">Tämä prosessi poistaa henkilökohtaisen datasi. Tämä kestää useita minuutteja. Älä sammuta laitetta.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Virta pois</translation>
+<translation id="2160704550417277456">Lisäasetukset</translation>
+<translation id="2161775569013928937">Aloitetaanko palautus?</translation>
+<translation id="2238107357612570504">Palautuksen virheenkorjausvaihtoehdot</translation>
+<translation id="2249183435483068136">Väärät kirjautumistiedot</translation>
+<translation id="2367943141906694421">Verkkoja ei löytynyt</translation>
+<translation id="2437368373459239842">Tämä kestää muutaman minuutin</translation>
+<translation id="2704439832119932045">Valitse käyttöjärjestelmän kanava ja versio jatkaaksesi palautusta</translation>
+<translation id="2731700343119398978">Odota...</translation>
+<translation id="2904079386864173492">Malli:</translation>
+<translation id="3029977119648083072">Lisää verkon salasana.</translation>
+<translation id="3243756202241744259">Vahvistetaan palautustietovälineen eheyttä…</translation>
+<translation id="3377484800447890197">Laitteesi palautuksessa tapahtui virhe. Katso mahdolliset
+ratkaisut osoitteesta https://google.com/chromeos/recovery tai yritä uudelleen.</translation>
+<translation id="33938768013536853">Akun varaus ei riitä päivittämiseen.
+
+Yhdistä Chromebook virtalähteeseen. Päivitys alkaa automaattisesti heti, kun akussa on tarpeeksi virtaa.</translation>
+<translation id="3554552348994984455">Aloita palautus</translation>
+<translation id="3723985428118783104">Palautus käynnissä</translation>
+<translation id="385051799172605136">Takaisin</translation>
+<translation id="3928994486545789273">Valitse verkko</translation>
+<translation id="3942420633017001071">Diagnostiikka</translation>
+<translation id="3946632524220974380">Jatkamiseen tarvitaan kehittäjäavaimen vaihto. Prosessi kestää
+5 minuuttia.</translation>
+<translation id="3986180833426451964">Laitteen omistaja edellyttää, että ChromeOS:n vahvistus laitetaan päälle laitteella.  Yrität asentaa epävirallista ChromeOS:n palautusnäköistiedostoa, jonka vahvistaminen ei onnistu.
+
+Lisätietoa löytyy tästä osoitteesta:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Tämä voi kestää muutaman minuutin</translation>
+<translation id="4007898787815310968">Tehostetun levyntyhjennyksen aikana tapahtui virhe.
+
+Palautuksen aikana tapahtui odottamaton virhe. Katso vinkkejä ongelman ratkaisemiseksi tästä osoitteesta:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Käytettävissä olevat verkot</translation>
+<translation id="4261250127007881003">Viestiloki</translation>
+<translation id="4287891348859705498">Kopioi lokit ulkoiselle levylle</translation>
+<translation id="4410491068110727276">Siirry ylös tai alas äänenvoimakkuuspainikkeilla.</translation>
+<translation id="4412740632134951267">Vaihda valitsemalla alta lisäasetukset</translation>
+<translation id="4486160941938493301">Jos haluat valita eri palautustavan, palaa taaksepäin painamalla Esc + Päivitä + Virta</translation>
+<translation id="4503421634496749265">Yritä uudelleen. Varmista, että laite on kytketty verkkovirtaan ja se latautuu.</translation>
+<translation id="4652489998517778111">Käynnistä uudelleen ja yritä uudestaan</translation>
+<translation id="4791159253869531619">Ulkoinen levy, jossa palautuskuva, havaittu</translation>
+<translation id="4851795211104228792">Laite päivitetään viimeisimpään vakaaseen versioon (Suositus)</translation>
+<translation id="4905949142713655149">Tapahtui odottamaton virhe. Saat vianetsintäohjeita tässä osoitteessa:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Järjestelmän palautus on valmis.
+
+Voit nyt poistaa palautustietovälineen. Tietokoneesi käynnistyy
+pian automaattisesti uudelleen.</translation>
+<translation id="5080881219404532322">Olet palauttamassa tietokoneesi. Varmista, että tietokone
+ on kytketty virtalähteeseen.
+
+Jos haluat peruuttaa palauttamisen, pidä virtapainiketta painettuna, kunnes
+tietokone sammuu. Tämä kestää noin kahdeksan sekuntia.
+Voit peruuttaa palauttamisen milloin tahansa vahvistuksen aikana.</translation>
+<translation id="51254621993922230">Palauttaminen suoritettu</translation>
+<translation id="537291066186627789">Järjestelmän palautus on valmis.
+
+Poista palautustietoväline, niin tietokoneesi käynnistyy uudelleen.</translation>
+<translation id="5512602676102820748">Akun varaus ei riitä päivittämiseen.
+
+Ladataan…
+
+Päivitys alkaa automaattisesti heti, kun akussa on tarpeeksi virtaa.</translation>
+<translation id="5592705604979238266">Ohjekeskus:</translation>
+<translation id="6185696379715117369">Sivu ylös</translation>
+<translation id="635783852215913562">Siirry ylös tai alas nuolinäppäimillä.</translation>
+<translation id="6363786367719063276">Katso lokit</translation>
+<translation id="6374469231428023295">Yritä uudelleen</translation>
+<translation id="6388429950346313390">Jotain meni pieleen</translation>
+<translation id="6408757960874122684">Näyttää siltä, että tietokoneesi ei käytä ChromeOS:ää.
+
+Tämä prosessi poistaa muut käyttöjärjestelmät ja kaiken tietokoneella olevan
+datan. Varmuuskopiota ei voi luoda.
+Jos tietokoneella on dataa, jonka haluat säilyttää, peruuta
+järjestelmän palautus.</translation>
+<translation id="6451786478565057499">Tehostettu levyntyhjennys on käynnissä…
+
+Tämä voi kestää pitkään.</translation>
+<translation id="64764858283438323">Palautusvälineesi sisältää vahvistamattoman kehittäjänäköistiedoston.
+
+Palautusta jatketaan, koska vahvistettu käynnistys ei ole käytössä.
+Jos otat vahvistuksen myöhemmin käyttöön, sinun täytyy suorittaa
+palautus uudelleen virallisen ChromeOS:n näköistiedoston avulla.</translation>
+<translation id="6566947361877177265">Aloita palautus muodostamalla verkkoyhteys</translation>
+<translation id="6582194100503356658">Tämä voi kestää muutaman minuutin. Älä sammuta laitetta tai irrota virtalähdettä.</translation>
+<translation id="662657262312410525">Käytät vanhentunutta ChromeOS:n palautusnäköistiedostoa.
+
+Lisätietoa uuden palautusvälineen luomisesta löytyy tästä osoitteesta:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Irrota ulkoinen levy uudelleenkäynnistystä varten.</translation>
+<translation id="6691307183503218714">Käytät vanhentunutta ChromeOS:n virallista palautustiedostoa.
+
+Palautusta jatketaan, koska vahvistus ei ole käytössä.
+Jos otat vahvistuksen myöhemmin käyttöön, sinun täytyy suorittaa palautus uudelleen ChromeOS:n ajantasaisen näköistiedoston avulla.</translation>
+<translation id="6868586188416530903">tpm-firmware-updater-loki</translation>
+<translation id="6895131867077828321">Kirjoita salasanasi. Näytä tai piilota salasana painamalla sarkainta. Lähetä painamalla Enter.</translation>
+<translation id="7126032376876878896">Valitse vaihtoehto virtapainikkeella.</translation>
+<translation id="7159548186721854353">Tee uudelleenkäynnistys manuaalisesti, jos laite ei tee sitä automaattisesti</translation>
+<translation id="7684530127758861598">Palautusloki</translation>
+<translation id="7709095358410921767">Tehostettu levyntyhjennys onnistui.
+
+Palautuksen aikana tapahtui odottamaton virhe. Katso vinkkejä ongelman ratkaisemiseksi tästä osoitteesta:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Kirjoita salasanasi uudelleen. Vain ASCII-merkkejä tuetaan.</translation>
+<translation id="7939062555109487992">Lisäasetukset</translation>
+<translation id="8048927549246926523">Palauta internetyhteyden avulla</translation>
+<translation id="8114187014283095781">Tehostettu levyntyhjennys onnistui.
+
+Järjestelmän palautus onnistui.
+Poista palautustietoväline, niin tietokone käynnistyy uudelleen automaattisesti.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">Yhdistetään verkkoon. Tämä kestää noin minuutin.</translation>
+<translation id="8433773763660502318">Palautusprosessia ei voitu suorittaa loppuun</translation>
+<translation id="8473826843543665828">Valitse toinen verkko tai yritä uudelleen</translation>
+<translation id="8474679199432944250">ChromeOS:n vahvistus on laitettu pois päältä.
+
+Jos tämä ei ollut tarkoitus, peru palautus ja poista kehittäjätila käytöstä, niin voit laittaa vahvistuksen päälle. Lisätietoa löytyy tästä osoitteesta:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Palautusta viimeistellään</translation>
+<translation id="8596190965261846034">Asennetaan päivitystä…
+
+Älä sammuta laitetta.
+Se käynnistyy automaattisesti, kun päivitys päättyy.</translation>
+<translation id="8728458033228603970">Järjestelmän palautus on käynnissä…
+
+Tämä kestää muutaman minuutin. Älä sammuta tietokonetta tai irrota virtalähdettä.</translation>
+<translation id="88986195241502842">Sivu alas</translation>
+<translation id="8911667951938758302">Verkkoyhteyttä ei voi muodostaa.</translation>
+<translation id="9146946647152579011">Palautus on nyt valmis</translation>
+<translation id="9156766649956178343">Virhe laitteen palautuksessa</translation>
+</translationbundle>

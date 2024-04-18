@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="sv">
+<translation id="1201402288615127009">Nästa</translation>
+<translation id="1207194515919037363">Säkerhetsmodulen på den här enheten fungerar inte.
+
+Mer information finns på den här webbadressen:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Det gick inte att hämta tillgängliga nätverk – försök igen</translation>
+<translation id="1483971085438511843">Använd returtangenten till tv:n och välj ett alternativ.</translation>
+<translation id="1486534340494484631">Ett fel uppstod under den utökade raderingen av disken.
+
+Systemåterställningen är klar.
+Ta bort återställningsmediet. Datorn startas om automatiskt.</translation>
+<translation id="1638626287317244115">Kopiera loggar</translation>
+<translation id="175933110504178679">Den här processen rensar din personliga data. Det här tar flera minuter. Stäng inte av enheten.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Stäng av</translation>
+<translation id="2160704550417277456">Avancerade alternativ</translation>
+<translation id="2161775569013928937">Vill du starta återställningen?</translation>
+<translation id="2238107357612570504">Felsökningsalternativ för återställning</translation>
+<translation id="2249183435483068136">Felaktiga användaruppgifter</translation>
+<translation id="2367943141906694421">Det gick inte att hitta några nätverk</translation>
+<translation id="2437368373459239842">Detta tar några minuter</translation>
+<translation id="2704439832119932045">Välj kanal och version för operativsystemet för att fortsätta med återställningen</translation>
+<translation id="2731700343119398978">Vänta ...</translation>
+<translation id="2904079386864173492">Modell:</translation>
+<translation id="3029977119648083072">Ange lösenordet för nätverket</translation>
+<translation id="3243756202241744259">Återställningsmediets säkerhetsstatus verifieras …</translation>
+<translation id="3377484800447890197">Ett fel uppstod när enheten skulle återställas. Besök
+https://google.com/chromeos/recovery för möjliga lösningar eller försök igen.</translation>
+<translation id="33938768013536853">Batterinivån är för låg för uppdateringen.
+
+Anslut Chromebook till en strömkälla. Uppdateringen startar automatiskt
+när batteriet har laddats upp tillräckligt.</translation>
+<translation id="3554552348994984455">Starta återställning</translation>
+<translation id="3723985428118783104">Återställning pågår</translation>
+<translation id="385051799172605136">Föregående</translation>
+<translation id="3928994486545789273">Välj nätverk</translation>
+<translation id="3942420633017001071">Diagnostik</translation>
+<translation id="3946632524220974380">Du måste ange en utvecklarnyckel innan proceduren kan fortsätta.
+Den tar fem minuter</translation>
+<translation id="3986180833426451964">Enhetens ägare kräver att enheten körs med verifiering av ChromeOS
+aktiverat. Du försöker installera en inofficiell återställningsavbildning
+av ChromeOS som inte godkänns vid verifieringen.
+
+Du hittar mer information på den här webbadressen:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Detta kan ta några minuter</translation>
+<translation id="4007898787815310968">Ett fel uppstod under den utökade raderingen av disken.
+
+Ett oväntat fel har uppstått under återställningen. Du hittar felsökningstips på den här webbadressen:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Tillgängliga nätverk</translation>
+<translation id="4261250127007881003">Meddelandelogg</translation>
+<translation id="4287891348859705498">Kopiera till din externa disk</translation>
+<translation id="4410491068110727276">Navigera uppåt eller nedåt med volymknapparna.</translation>
+<translation id="4412740632134951267">Välj avancerade alternativ nedan</translation>
+<translation id="4486160941938493301">Om du vill välja en annan återställningsmetod går du tillbaka genom att trycka på Esc + Uppdatera + av/på-knappen</translation>
+<translation id="4503421634496749265">Försök igen. Kontrollera att enheten är ansluten och laddas.</translation>
+<translation id="4652489998517778111">Starta om och försök igen</translation>
+<translation id="4791159253869531619">Extern disk med återställningsavbildning upptäcktes</translation>
+<translation id="4851795211104228792">Nu uppdateras till den senaste stabila versionen (rekommenderas)</translation>
+<translation id="4905949142713655149">Ett oväntat fel har uppstått. Du hittar felsökningstips på
+den här webbadressen:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Systemåterställningen är klar.
+
+Nu kan du ta bort återställningsmediet. Datorn startas om automatiskt.</translation>
+<translation id="5080881219404532322">Datorn kommer att startas om. Kontrollera att datorn
+ är ansluten till ett eluttag.
+
+Om du vill avbryta återställningen håller du av/på-knappen nedtryckt
+tills datorn stängs av (detta tar upp till åtta sekunder).
+Du kan göra detta när som helst medan verifieringen genomförs.</translation>
+<translation id="51254621993922230">Återställningen är klar</translation>
+<translation id="537291066186627789">Systemåterställningen är klar.
+
+Ta bort återställningsmediet. Datorn startas om automatiskt.</translation>
+<translation id="5512602676102820748">Batterinivån är för låg för uppdateringen.
+
+Laddar …
+
+Uppdateringen startar automatiskt när batteriet har laddats upp tillräckligt.</translation>
+<translation id="5592705604979238266">Hjälpcenter:</translation>
+<translation id="6185696379715117369">Uppåt en sida</translation>
+<translation id="635783852215913562">Navigera uppåt eller nedåt med piltangenterna.</translation>
+<translation id="6363786367719063276">Visa loggar</translation>
+<translation id="6374469231428023295">Försök igen</translation>
+<translation id="6388429950346313390">Ett fel uppstod</translation>
+<translation id="6408757960874122684">Det verkar som om datorn inte använder ChromeOS-systemet.
+
+Den här åtgärden tar bort andra eventuella operativsystem som är
+installerade samt all data. Du kan inte göra någon säkerhetskopia.
+Om du har information på datorn som du vill spara bör du
+avbryta återställningen.</translation>
+<translation id="6451786478565057499">Utökad radering av disk pågår …
+
+Detta kan ta lång tid.</translation>
+<translation id="64764858283438323">Avbildningen på återställningsmediet är en overifierad
+utvecklaravbildning.
+
+Återställningen fortsätter eftersom verifierad uppstart har inaktiverats.
+Om du aktiverar verifieringen igen senare måste du göra om
+återställningen med en officiell avbildning av ChromeOS.</translation>
+<translation id="6566947361877177265">Anslut till ett nätverk för att påbörja återställningen</translation>
+<translation id="6582194100503356658">Det kan ta några minuter. Stäng inte av enheten eller dra ur strömkabeln.</translation>
+<translation id="662657262312410525">Du använder en inaktuell återställningsavbildning av ChromeOS.
+
+På den här webbadressen hittar du anvisningar om hur du skapar
+nya återställningsmedia:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Starta om genom att dra ur kontakten till den externa disken.</translation>
+<translation id="6691307183503218714">Du använder en officiell med inaktuell återställningsavbildning av ChromeOS.
+
+Återställningen fortsätter eftersom verifieringen har inaktiverats.
+Om du aktiverar verifieringen igen senare måste du göra om
+återställningen med en aktuell avbildning av ChromeOS.</translation>
+<translation id="6868586188416530903">Loggfilen tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Ange ditt lösenord. Tryck på Tabb för att visa eller dölja lösenordet. Tryck på Retur för att skicka.</translation>
+<translation id="7126032376876878896">Välj ett alternativ genom att trycka på av/på-knappen.</translation>
+<translation id="7159548186721854353">Starta om enheten manuellt om det inte görs automatiskt</translation>
+<translation id="7684530127758861598">Återställningslogg</translation>
+<translation id="7709095358410921767">Den utökade raderingen av disk har genomförts.
+
+Ett oväntat fel har uppstått under återställningen. Du hittar felsökningstips på den här webbadressen:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Ange ditt lösenord igen. Endast ASCII-tecken stöds.</translation>
+<translation id="7939062555109487992">Avancerade alternativ</translation>
+<translation id="8048927549246926523">Återställ med internetanslutning</translation>
+<translation id="8114187014283095781">Den utökade raderingen av disk har genomförts.
+
+Systemåterställningen är klar.
+Ta bort återställningsmediet. Datorn startas om automatiskt.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">Ansluter till nätverket. Det kan ta upp till en minut.</translation>
+<translation id="8433773763660502318">Det gick inte att slutföra återställningsprocessen</translation>
+<translation id="8473826843543665828">Välj ett nytt nätverk eller försök igen</translation>
+<translation id="8474679199432944250">Verifiering av ChromeOS är inaktiverat.
+
+Om detta inte är avsiktligt bör du avbryta återställningen och inaktivera
+utvecklarläget för att aktivera verifieringen. Du hittar mer information på
+den här webbadressen:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Återställningen slutförs</translation>
+<translation id="8596190965261846034">Uppdateringen installeras …
+
+Stäng inte av enheten.
+Den startas om automatiskt när uppdateringen är klar.</translation>
+<translation id="8728458033228603970">Systemåterställningen pågår …
+
+Detta tar en stund. Stäng inte av datorn och koppla inte från
+strömsladden.</translation>
+<translation id="88986195241502842">Nedåt en sida</translation>
+<translation id="8911667951938758302">Det gick inte att ansluta till nätverket</translation>
+<translation id="9146946647152579011">Återställningen har nu slutförts</translation>
+<translation id="9156766649956178343">Ett fel uppstod när enheten skulle återställas</translation>
+</translationbundle>

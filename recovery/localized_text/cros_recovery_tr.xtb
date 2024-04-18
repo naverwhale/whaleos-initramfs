@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="tr">
+<translation id="1201402288615127009">İleri</translation>
+<translation id="1207194515919037363">Bu cihazdaki güvenlik modülü çalışmıyor.
+
+Daha fazla bilgi edinmek için lütfen bu URL'ye bakın:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Kullanılabilir ağlar belirlenirken bir sorun oluştu, lütfen yeniden deneyin</translation>
+<translation id="1483971085438511843">Seçim yapmak için enter tuşunu kullanın.</translation>
+<translation id="1486534340494484631">Gelişmiş disk silme işlemi sırasında bir hata oluştu.
+
+Sistem kurtarma işlemi tamamlandı.
+Lütfen kurtarma ortamını çıkarın, bilgisayarınız otomatik olarak yeniden başlatılacaktır.</translation>
+<translation id="1638626287317244115">Günlükleri kopyala</translation>
+<translation id="175933110504178679">Bu işlem kişisel verilerinizi siler. Bu işlem birkaç dakika sürer. Cihazı kapatmayın.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Kapat</translation>
+<translation id="2160704550417277456">Gelişmiş Seçenekler</translation>
+<translation id="2161775569013928937">Kurtarma işlemi başlatılsın mı?</translation>
+<translation id="2238107357612570504">Kurtarma işlemi hata ayıklama seçenekleri</translation>
+<translation id="2249183435483068136">Kimlik Bilgileri Yanlış</translation>
+<translation id="2367943141906694421">Herhangi bir ağ bulunamadı</translation>
+<translation id="2437368373459239842">Bu işlem birkaç dakika sürer</translation>
+<translation id="2704439832119932045">Kurtarma işlemine devam etmek için OS kanalını ve sürümünü seçin</translation>
+<translation id="2731700343119398978">Lütfen bekleyin...</translation>
+<translation id="2904079386864173492">Model:</translation>
+<translation id="3029977119648083072">Ağ şifresini girin</translation>
+<translation id="3243756202241744259">Kurtarma medyanızın bütünlüğü doğrulanıyor...</translation>
+<translation id="3377484800447890197">Cihazınız kurtarılırken hata oluştu. Olası çözümler için
+https://google.com/chromeos/recovery adresine göz atın veya tekrar deneyin.</translation>
+<translation id="33938768013536853">Pil gücü güncelleme için yeterli değil.
+
+Chromebook'unuzu lütfen bir güç kaynağına takın. Pilin gücü
+yeterli olduğunda güncelleme otomatik olarak başlar.</translation>
+<translation id="3554552348994984455">Kurtarma işlemini başlat</translation>
+<translation id="3723985428118783104">Kurtarma işlemi devam ediyor</translation>
+<translation id="385051799172605136">Geri</translation>
+<translation id="3928994486545789273">Ağ seçin</translation>
+<translation id="3942420633017001071">Teşhis</translation>
+<translation id="3946632524220974380">Devam etmek için geliştirici anahtarında geçiş yapılması gerekir.
+Bu işlem 5 dakika sürer.</translation>
+<translation id="3986180833426451964">Cihazın sahibi, bu cihazın ChromeOS doğrulama işlevi açık olarak
+çalıştırılmasını istiyor. Resmi olmayan ve doğrulama işleminden
+geçmeyen bir ChromeOS kurtarma görüntüsü yüklemeye çalışıyorsunuz.
+
+Daha fazla bilgi için şu URL'ye bakın:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Bu işlem birkaç dakika sürebilir</translation>
+<translation id="4007898787815310968">Gelişmiş disk silme işlemi sırasında bir hata oluştu.
+
+Kurtarma işlemi sırasında beklenmeyen bir hata oluştu. Sorun giderme ipuçları için lütfen şu URL'ye bakın: https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Kullanılabilir Ağlar</translation>
+<translation id="4261250127007881003">Mesaj günlüğü</translation>
+<translation id="4287891348859705498">Günlükleri harici diskinize kopyalayın</translation>
+<translation id="4410491068110727276">Yukarı veya aşağı gitmek için ses düğmelerini kullanın.</translation>
+<translation id="4412740632134951267">Değiştirmek için aşağıdaki gelişmiş seçenekleri belirleyin</translation>
+<translation id="4486160941938493301">Farklı bir kurtarma yöntemi seçmek istiyorsanız Esc + Yenile + Güç düğmelerine basarak geri dönün</translation>
+<translation id="4503421634496749265">Lütfen tekrar deneyin. Cihazın fişe takıldığından ve şarj olduğundan emin olun.</translation>
+<translation id="4652489998517778111">Lütfen yeniden başlatıp tekrar deneyin</translation>
+<translation id="4791159253869531619">Harici diskte kurtarma işlemi görüntüsü algılandı</translation>
+<translation id="4851795211104228792">Kurtarma sürümü, son kararlı sürüme güncelleniyor (Önerilen)</translation>
+<translation id="4905949142713655149">Beklenmeyen bir hata oluştu. Sorun giderme ipuçları için lütfen
+şu URL'ye bakın:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Sistem kurtarma işlemi tamamlandı.
+
+Kurtarma ortamını şimdi güvenle kaldırabilirsiniz. Bilgisayarınız kısa bir süre içinde otomatik olarak yeniden başlatılacak.</translation>
+<translation id="5080881219404532322">Bilgisayarınızı kurtarma işlemini başlatmak üzeresiniz. Lütfen bilgisayarınızın bir güç
+ kaynağına takılı olduğundan emin olun.
+
+Kurtarma işlemini iptal etmek isterseniz güç düğmesine basın ve
+bilgisayar kapanana kadar düğmeyi basılı tutun (8 saniye kadar sürer).
+Doğrulama sırasında istediğiniz zaman bu işlemi güvenli bir şekilde yapabilirsiniz.</translation>
+<translation id="51254621993922230">Kurtarma işlemi tamamlandı</translation>
+<translation id="537291066186627789">Sistem kurtarma işlemi tamamlandı.
+
+Lütfen kurtarma medyasını çıkarın. Bilgisayarınız otomatik olarak
+yeniden başlayacaktır.</translation>
+<translation id="5512602676102820748">Pil gücü güncelleme için yeterli değil.
+
+Şarj ediliyor...
+
+Pilin gücü yeterli olduğunda güncelleme otomatik olarak başlar.</translation>
+<translation id="5592705604979238266">Yardım merkezi:</translation>
+<translation id="6185696379715117369">Bir sayfa yukarı</translation>
+<translation id="635783852215913562">Yukarı veya aşağı gitmek için ok tuşlarını kullanın</translation>
+<translation id="6363786367719063276">Günlükleri göster</translation>
+<translation id="6374469231428023295">Tekrar Dene</translation>
+<translation id="6388429950346313390">Maalesef bir sorun oldu</translation>
+<translation id="6408757960874122684">Bilgisayarınızın sistemi ChromeOS gibi görünmüyor.
+
+Bu işlem, bilgisayarınızda yüklü diğer tüm işletim sistemlerini ve verileri silecektir. Yedekleme için herhangi bir fırsat sunulmayacaktır.
+
+Bu bilgisayarda, korumak istediğiniz veriler varsa, kurtarma işlemini iptal etmelisiniz.</translation>
+<translation id="6451786478565057499">Gelişmiş disk silme işlemi devam ediyor...
+
+Bu işlem çok zaman alabilir.</translation>
+<translation id="64764858283438323">Kurtarma medyanızdaki görüntü, doğrulanmamış bir geliştirici görüntüsüdür.
+
+Doğrulanmış önyükleme özelliği kapalı olduğundan kurtarma işlemi devam
+edecek. Doğrulamayı daha sonra tekrar etkinleştirirseniz kurtarma işlemini
+resmi bir ChromeOS görüntüsünü kullanarak tekrarlamanız gerekecektir.</translation>
+<translation id="6566947361877177265">Kurtarma işlemine başlamak için bir ağa bağlanın</translation>
+<translation id="6582194100503356658">Bu işlem birkaç dakika sürebilir. Cihazı kapatmayın veya güç bağlantısını kesmeyin.</translation>
+<translation id="662657262312410525">Eski bir ChromeOS kurtarma imajı kullanıyorsunuz.
+
+Yeni kurtarma medyasının nasıl oluşturulacağına ilişkin talimatlar
+için lütfen şu URL'ye bakın:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Yeniden başlatmak için harici diskinizi çıkarın.</translation>
+<translation id="6691307183503218714">Eski bir resmi ChromeOS kurtarma görüntüsü kullanıyorsunuz.
+
+Doğrulama işlevi kapalı olduğundan kurtarma işlemi devam edecek.
+Doğrulama işlevini daha sonra yeniden etkinleştirirseniz kurtarma
+işlemini güncel bir ChromeOS görüntüsüyle tekrar etmeniz gerekecektir.</translation>
+<translation id="6868586188416530903">tpm-firmware-updater günlüğü</translation>
+<translation id="6895131867077828321">Şifrenizi yazın. Şifreyi göstermek veya gizlemek için Sekme'ye basın. Göndermek için Enter'a basın.</translation>
+<translation id="7126032376876878896">Bir seçeneği belirlemek için güç düğmesini kullanın.</translation>
+<translation id="7159548186721854353">Cihaz otomatik olarak yeniden başlatılmazsa manuel olarak yeniden başlatın</translation>
+<translation id="7684530127758861598">Kurtarma işlemi günlüğü</translation>
+<translation id="7709095358410921767">Gelişmiş disk silme işlemi başarıyla tamamlandı.
+
+Kurtarma işlemi sırasında beklenmeyen bir hata oluştu. Sorun giderme ipuçları için lütfen şu URL'ye bakın: https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Lütfen şifrenizi tekrar girin. Yalnızca ASCII karakterler desteklenir.</translation>
+<translation id="7939062555109487992">Gelişmiş seçenekler</translation>
+<translation id="8048927549246926523">İnternet bağlantısı kullanarak kurtarma</translation>
+<translation id="8114187014283095781">Gelişmiş disk silme işlemi başarıyla tamamlandı.
+
+Sistem kurtarma işlemi tamamlandı.
+Lütfen kurtarma ortamını çıkarın, bilgisayarınız otomatik olarak yeniden başlatılacaktır.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">Ağa bağlanılıyor. Bu işlem bir dakika kadar sürebilir.</translation>
+<translation id="8433773763660502318">Kurtarma işlemi tamamlanamadı</translation>
+<translation id="8473826843543665828">Lütfen başka bir ağ seçin veya tekrar deneyin</translation>
+<translation id="8474679199432944250">ChromeOS doğrulama işlevi kapalı.
+
+Bu istemeden olduysa, doğrulamayı etkinleştirmek için kurtarma işlemini
+iptal etmeli ve geliştirici modunu devre dışı bırakmalısınız. Daha fazla
+bilgi için şu URL'ye bakın:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Kurtarma işlemi tamamlanıyor</translation>
+<translation id="8596190965261846034">Güncelleme yükleniyor...
+
+Lütfen cihazı kapatmayın.
+Güncelleme tamamlandığında cihaz otomatik olarak yeniden başlar.</translation>
+<translation id="8728458033228603970">Sistemi kurtarma işlemi devam ediyor...
+
+Bu işlem birkaç dakika sürecektir. Lütfen bilgisayarı kapatmayın
+veya güç bağlantısını kesmeyin.</translation>
+<translation id="88986195241502842">Bir sayfa aşağı gider</translation>
+<translation id="8911667951938758302">Ağa bağlanılamadı</translation>
+<translation id="9146946647152579011">Kurtarma işlemi tamamlandı</translation>
+<translation id="9156766649956178343">Cihazınızı kurtarma işlemi hatası</translation>
+</translationbundle>

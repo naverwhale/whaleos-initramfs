@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     width="32" height="32" viewbox="0 0 32 32"
+     style="background-color: #202124">
+  <desc>Left half of unfocused primary button</desc>
+  <rect x="0.5" y="0.5" width="63" height="31" rx="4" ry="4"
+      style="fill: #202124; stroke: #9AA0A6; stroke-width: 1"
+  />
+</svg>

@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="it">
+<translation id="1201402288615127009">Avanti</translation>
+<translation id="1207194515919037363">Il modulo di sicurezza su questo dispositivo non funziona.
+
+Per ulteriori informazioni consulta la pagina all'indirizzo:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Si è verificato un errore durante il recupero delle reti disponibili. Riprova.</translation>
+<translation id="1483971085438511843">Utilizza il tasto Invio per selezionare un'opzione.</translation>
+<translation id="1486534340494484631">Si è verificato un errore durante la pulizia avanzata del disco.
+
+Ripristino del sistema completato.
+Rimuovi il supporto di ripristino e il computer si riavvierà automaticamente.</translation>
+<translation id="1638626287317244115">Copia log</translation>
+<translation id="175933110504178679">Questa procedura cancellerà i tuoi dati personali. L'operazione richiederà diversi minuti. Non spegnere il dispositivo.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Spegni</translation>
+<translation id="2160704550417277456">Opzioni avanzate</translation>
+<translation id="2161775569013928937">Vuoi avviare il ripristino?</translation>
+<translation id="2238107357612570504">Opzioni di debug di ripristino</translation>
+<translation id="2249183435483068136">Credenziali non corrette</translation>
+<translation id="2367943141906694421">Impossibile trovare reti</translation>
+<translation id="2437368373459239842">Questa operazione richiederà alcuni minuti</translation>
+<translation id="2704439832119932045">Per continuare il ripristino, seleziona la versione e il canale del sistema operativo</translation>
+<translation id="2731700343119398978">Attendi...</translation>
+<translation id="2904079386864173492">Modello:</translation>
+<translation id="3029977119648083072">Inserisci la password di rete</translation>
+<translation id="3243756202241744259">Verifica dell'integrità del supporto di ripristino...</translation>
+<translation id="3377484800447890197">Si è verificato un errore durante il ripristino del dispositivo. Visita la pagina https://google.com/chromeos/recovery per trovare possibili soluzioni oppure riprova.</translation>
+<translation id="33938768013536853">Livello della batteria troppo basso per eseguire l'aggiornamento.
+
+Collega il tuo Chromebook a una fonte di alimentazione. L'aggiornamento avrà inizio non appena la batteria avrà carica sufficiente.</translation>
+<translation id="3554552348994984455">Avvia ripristino</translation>
+<translation id="3723985428118783104">Ripristino in corso…</translation>
+<translation id="385051799172605136">Indietro</translation>
+<translation id="3928994486545789273">Scegli la rete</translation>
+<translation id="3942420633017001071">Diagnostica</translation>
+<translation id="3946632524220974380">Per continuare è necessaria una modifica al codice sviluppatore; la procedura richiede cinque minuti.</translation>
+<translation id="3986180833426451964">Il proprietario richiede che questo dispositivo venga utilizzato con la verifica di ChromeOS attiva. Stai cercando di installare un'immagine di ripristino di ChromeOS non ufficiale che non supera la verifica.
+
+Per ulteriori informazioni, visita la pagina all'indirizzo:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Questa procedura potrebbe richiedere alcuni minuti</translation>
+<translation id="4007898787815310968">Si è verificato un errore durante la pulizia avanzata del disco.
+
+Si è verificato un errore imprevisto durante il ripristino. Per suggerimenti sulla risoluzione dei problemi, fai riferimento a questo URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Reti disponibili</translation>
+<translation id="4261250127007881003">Log dei messaggi</translation>
+<translation id="4287891348859705498">Copia i log sul disco esterno</translation>
+<translation id="4410491068110727276">Utilizza i pulsanti del volume per spostarti verso l'alto o verso il basso.</translation>
+<translation id="4412740632134951267">Per cambiare, seleziona le opzioni avanzate desiderate qui sotto</translation>
+<translation id="4486160941938493301">Se vuoi scegliere un altro metodo di ripristino, torna indietro premendo Esc + Aggiorna + tasto di accensione</translation>
+<translation id="4503421634496749265">Riprova. Assicurati che il dispositivo sia collegato alla corrente e in carica.</translation>
+<translation id="4652489998517778111">Riavvia e riprova</translation>
+<translation id="4791159253869531619">Disco esterno con immagine di ripristino rilevato</translation>
+<translation id="4851795211104228792">Verrà eseguito l'aggiornamento alla versione stabile più recente (opzione consigliata)</translation>
+<translation id="4905949142713655149">Si è verificato un errore imprevisto. Visita la pagina al seguente indirizzo per avere suggerimenti per la risoluzione dei problemi:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Ripristino del sistema completato.
+
+È ora possibile rimuovere il supporto di ripristino. Tra poco il computer si
+riavvierà automaticamente.</translation>
+<translation id="5080881219404532322">Stai per ripristinare il computer. Verifica che sia
+ collegato a una fonte di alimentazione.
+
+Se vuoi annullare il ripristino, tieni premuto
+il tasto di accensione fino allo spegnimento del computer, che può richiedere fino a 8 secondi.
+Puoi svolgere questa operazione in qualsiasi momento durante la verifica.</translation>
+<translation id="51254621993922230">Ripristino completato</translation>
+<translation id="537291066186627789">Ripristino del sistema completato.
+
+Rimuovi il supporto di ripristino; il computer si riavvierà automaticamente.</translation>
+<translation id="5512602676102820748">Livello della batteria troppo basso per eseguire l'aggiornamento.
+
+Caricamento in corso…
+
+L'aggiornamento avrà inizio non appena la batteria avrà carica sufficiente.</translation>
+<translation id="5592705604979238266">Centro assistenza:</translation>
+<translation id="6185696379715117369">Pagina su</translation>
+<translation id="635783852215913562">Usa i tasti Freccia per spostarti verso l'alto o verso il basso.</translation>
+<translation id="6363786367719063276">Visualizza log</translation>
+<translation id="6374469231428023295">Riprova</translation>
+<translation id="6388429950346313390">Spiacenti, si è verificato un errore</translation>
+<translation id="6408757960874122684">Il tuo computer non risulta essere un sistema ChromeOS.
+
+Questa operazione comporterà l'eliminazione di qualsiasi altro sistema operativo installato e di tutti i dati; non sarà possibile eseguire il backup.
+Se sul computer hai memorizzato dei dati che vorresti conservare, devi annullare il ripristino.</translation>
+<translation id="6451786478565057499">Pulizia avanzata del disco in corso…
+
+L'operazione potrebbe richiedere molto tempo.</translation>
+<translation id="64764858283438323">L'immagine sul supporto di ripristino è un'immagine sviluppatore non verificata.
+
+Il ripristino continuerà perché l'avvio verificato è disattivato.
+Se in un secondo momento riattiverai la verifica, dovrai ripetere il ripristino con un'immagine di ChromeOS ufficiale.</translation>
+<translation id="6566947361877177265">Connettiti a una rete per iniziare il ripristino</translation>
+<translation id="6582194100503356658">Questa operazione può richiedere alcuni minuti. Non spegnere il dispositivo e non staccare la corrente.</translation>
+<translation id="662657262312410525">Stai usando un'immagine di ripristino di ChromeOS obsoleta.
+
+Visita la pagina al seguente indirizzo per avere istruzioni su come creare nuovi supporti di ripristino:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Per eseguire il riavvio, scollega il disco esterno.</translation>
+<translation id="6691307183503218714">Stai usando un'immagine di ripristino di ChromeOS ufficiale obsoleta.
+
+Il ripristino continuerà perché la verifica è disattivata.
+Se in un secondo momento riattiverai la verifica, dovrai ripetere il ripristino con un'immagine di ChromeOS aggiornata.</translation>
+<translation id="6868586188416530903">Log tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Digita la password. Premi Tab per mostrare o nascondere la password. Premi Invio per inviare.</translation>
+<translation id="7126032376876878896">Utilizza il tasto di accensione per selezionare un'opzione.</translation>
+<translation id="7159548186721854353">Riavvia manualmente il dispositivo se non viene riavviato automaticamente</translation>
+<translation id="7684530127758861598">Log di ripristino</translation>
+<translation id="7709095358410921767">Pulizia avanzata del disco effettuata correttamente.
+
+Si è verificato un errore imprevisto durante il ripristino. Per suggerimenti sulla risoluzione dei problemi, fai riferimento a questo URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Inserisci di nuovo la password. Sono supportati soltanto i caratteri ASCII.</translation>
+<translation id="7939062555109487992">Opzioni avanzate</translation>
+<translation id="8048927549246926523">Esegui il ripristino usando una connessione a Internet</translation>
+<translation id="8114187014283095781">Pulizia avanzata del disco effettuata correttamente.
+
+Ripristino del sistema completato.
+Rimuovi il supporto di ripristino e il computer si riavvierà automaticamente.</translation>
+<translation id="8179976553408161302">Invio</translation>
+<translation id="8420829064199266609">Connessione alla rete in corso. L'operazione potrebbe richiedere fino a un minuto.</translation>
+<translation id="8433773763660502318">Impossibile completare la procedura di ripristino</translation>
+<translation id="8473826843543665828">Seleziona una nuova rete o riprova</translation>
+<translation id="8474679199432944250">La verifica di ChromeOS è disattivata.
+
+Se la disattivazione non era intenzionale e vuoi attivare la verifica, devi annullare il ripristino e disattivare la modalità sviluppatore. Per ulteriori informazioni, visita la pagina all'indirizzo:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Completamento del ripristino in corso…</translation>
+<translation id="8596190965261846034">Installazione dell'aggiornamento in corso…
+
+Non spegnere il dispositivo.
+Si riavvierà automaticamente al termine dell'aggiornamento.</translation>
+<translation id="8728458033228603970">Ripristino del sistema in corso...
+
+L'operazione richiederà alcuni minuti. Non spegnere il computer e non staccarlo dalla corrente.</translation>
+<translation id="88986195241502842">Pagina giù</translation>
+<translation id="8911667951938758302">Impossibile connettersi alla rete</translation>
+<translation id="9146946647152579011">Ripristino completato</translation>
+<translation id="9156766649956178343">Errore durante il ripristino del dispositivo</translation>
+</translationbundle>

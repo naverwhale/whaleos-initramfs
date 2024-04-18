@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="sl">
+<translation id="1201402288615127009">Naprej</translation>
+<translation id="1207194515919037363">Varnostni modul v tej napravi ne deluje.
+
+Če želite več informacij, obiščite ta URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Pri pridobivanju razpoložljivih omrežij je prišlo do težave. Poskusite znova.</translation>
+<translation id="1483971085438511843">Uporabite tipko Enter za izbiro možnosti.</translation>
+<translation id="1486534340494484631">Pri izboljšanem brisanju diska je prišlo do napake.
+
+Obnovitev sistema je končana.
+Odstranite medij za obnovitev in računalnik se bo samodejno znova zagnal.</translation>
+<translation id="1638626287317244115">Kopiraj dnevnike</translation>
+<translation id="175933110504178679">S tem postopkom bodo izbrisani osebni podatki. To bo trajalo več minut. Ne izklopite naprave.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Izklop</translation>
+<translation id="2160704550417277456">Dodatne možnosti</translation>
+<translation id="2161775569013928937">Želite začeti obnovitev?</translation>
+<translation id="2238107357612570504">Možnosti odpravljanja napak pri obnovitvi</translation>
+<translation id="2249183435483068136">Nepravilne poverilnice</translation>
+<translation id="2367943141906694421">Ni bilo mogoče najti omrežij</translation>
+<translation id="2437368373459239842">To bo trajalo nekaj minut</translation>
+<translation id="2704439832119932045">Če želite nadaljevati obnovitev, izberite kanal in različico operacijskega sistema</translation>
+<translation id="2731700343119398978">Počakajte ...</translation>
+<translation id="2904079386864173492">Model:</translation>
+<translation id="3029977119648083072">Vnesite geslo za omrežje</translation>
+<translation id="3243756202241744259">Preverjanje celovitosti medija za obnovitev ...</translation>
+<translation id="3377484800447890197">Med obnovitvijo naprave je prišlo do napake. Morebitne rešitve si oglejte na
+https://google.com/chromeos/recovery ali poskusite znova.</translation>
+<translation id="33938768013536853">Akumulator ima premalo energije za posodobitev.
+
+Chromebook priklopite na vir napajanja. Posodobitev se bo samodejno začela, ko bo akumulator dovolj napolnjen.</translation>
+<translation id="3554552348994984455">Začetek obnovitve</translation>
+<translation id="3723985428118783104">Obnovitev je v teku</translation>
+<translation id="385051799172605136">Nazaj</translation>
+<translation id="3928994486545789273">Izberi omrežje</translation>
+<translation id="3942420633017001071">Diagnostika</translation>
+<translation id="3946632524220974380">Če želite nadaljevati, morate spremeniti ključ razvijalca.
+Postopek traja 5 minut.</translation>
+<translation id="3986180833426451964">Lastnik naprave zahteva, da se ta naprava uporablja z vklopljenim
+preverjanjem sistema ChromeOS. Namestiti poskušate neuradno sliko
+za obnovitev sistema ChromeOS, ki ni prestala preverjanja.
+
+Če želite več informacij, obiščite ta URL:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Postopek lahko traja nekaj minut</translation>
+<translation id="4007898787815310968">Pri izboljšanem brisanju diska je prišlo do napake.
+
+Pri obnavljanju je prišlo do nepričakovane napake. Nasveti glede odpravljanja težav so na voljo na tem URL-ju:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Razpoložljiva omrežja</translation>
+<translation id="4261250127007881003">Dnevnik sporočil</translation>
+<translation id="4287891348859705498">Kopiranje dnevnikov na zunanji disk</translation>
+<translation id="4410491068110727276">Uporabite gumba za glasnost za pomikanje gor ali dol.</translation>
+<translation id="4412740632134951267">Spodaj izberite dodatne možnosti, ki jih želite spremeniti.</translation>
+<translation id="4486160941938493301">Če želite izbrati drug način obnovitve, se vrnite nazaj tako, da pritisnete Esc + tipko za osvežitev + tipko za vklop.</translation>
+<translation id="4503421634496749265">Poskusite znova. Poskrbite, da bo naprava priključena in se bo polnila.</translation>
+<translation id="4652489998517778111">Znova zaženite in poskusite znova.</translation>
+<translation id="4791159253869531619">Zaznan je bil zunanji disk s sliko za obnovitev</translation>
+<translation id="4851795211104228792">Zdaj se bo izvedla posodobitev na najnovejšo stabilno različico (priporočljivo)</translation>
+<translation id="4905949142713655149">Prišlo je do nepričakovane napake. Nasveti glede odpravljanja težav so na voljo na tem URL-ju:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Obnovitev sistema je dokončana.
+
+Zdaj lahko odstranite medij za obnovitev. Računalnik se bo kmalu samodejno zagnal.</translation>
+<translation id="5080881219404532322">Ste pred tem, da obnovite računalnik. Preverite, ali je priključen
+ v vir napajanja.
+
+Če želite obnovitev preklicati, pritisnite gumb za napajanje in ga pridržite,
+dokler se računalnik ne izklopi (to traja do 8 sekund).
+To lahko naredite kadar koli med preverjanjem.</translation>
+<translation id="51254621993922230">Obnovitev je končana</translation>
+<translation id="537291066186627789">Obnovitev sistema je dokončana.
+
+Odstranite medij za obnovitev in računalnik se bo
+samodejno znova zagnal.</translation>
+<translation id="5512602676102820748">Akumulator ima premalo energije za posodobitev.
+
+Polnjenje ...
+
+Posodobitev se bo samodejno začela, ko bo akumulator dovolj napolnjen.</translation>
+<translation id="5592705604979238266">Center za pomoč:</translation>
+<translation id="6185696379715117369">Stran gor</translation>
+<translation id="635783852215913562">Uporabite puščične tipke za pomikanje gor ali dol.</translation>
+<translation id="6363786367719063276">Ogled dnevnikov</translation>
+<translation id="6374469231428023295">Vnovični poskus</translation>
+<translation id="6388429950346313390">Žal je prišlo do napake</translation>
+<translation id="6408757960874122684">V vašem računalniku ni sistema ChromeOS.
+
+Ta postopek izbriše vse druge operacijske sisteme, ki so morda nameščeni, in vse podatke. Varnostne kopije ne boste mogli narediti.
+Če imate v tem računalniku podatke, ki jih želite ohraniti, prekličite obnovitev.</translation>
+<translation id="6451786478565057499">Izboljšano brisanje diska poteka …
+
+Morda bo trajalo dolgo.</translation>
+<translation id="64764858283438323">Slika na mediju za obnovitev je nepreverjena slika za razvijalce.
+
+Obnovitev se bo nadaljevala, ker je preverjanje ob zagonu izklopljeno.
+Če pozneje znova vklopite preverjanje, boste morali ponoviti
+obnovitev z uradno sliko sistema ChromeOS.</translation>
+<translation id="6566947361877177265">Če želite začeti obnovitev, se povežite z omrežjem</translation>
+<translation id="6582194100503356658">To lahko traja nekaj minut. Ne izklopite naprave ali je ne odklopite iz vira napajanja.</translation>
+<translation id="662657262312410525">Uporabljate zastarelo sliko za obnovitev sistema ChromeOS.
+
+Navodila za ustvarjanje novega medija za obnovitev so na voljo na tem URL-ju:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Odklopite zunanji disk, če želite znova zagnati.</translation>
+<translation id="6691307183503218714">Uporabljate zastarelo uradno sliko za obnovitev ChromeOS.
+
+Obnovitev se bo nadaljevala, ker je preverjanje izklopljeno.
+Če pozneje znova vklopite preverjanje, boste morali ponoviti
+obnovitev s posodobljeno sliko sistema ChromeOS.</translation>
+<translation id="6868586188416530903">Dnevnik orodja za posodobitev vdelane programske opreme modula TPM</translation>
+<translation id="6895131867077828321">Vnesite geslo. Pritisnite tabulatorko, če želite prikazati ali skriti geslo. Pritisnite Enter, da ga pošljete.</translation>
+<translation id="7126032376876878896">Z gumbom za vklop izberite možnost.</translation>
+<translation id="7159548186721854353">Znova zaženite ročno, če se naprava ne zažene znova samodejno.</translation>
+<translation id="7684530127758861598">Dnevnik obnovitve</translation>
+<translation id="7709095358410921767">Izboljšano brisanje diska je uspelo.
+
+Pri obnavljanju je prišlo do nepričakovane napake. Nasveti glede odpravljanja težav so na voljo na tem URL-ju:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Znova vnesite geslo. Podprti so samo znaki ASCII.</translation>
+<translation id="7939062555109487992">Dodatne možnosti</translation>
+<translation id="8048927549246926523">Obnovitev z internetno povezavo</translation>
+<translation id="8114187014283095781">Izboljšano brisanje diska je uspelo.
+
+Obnovitev sistema je končana.
+Odstranite medij za obnovitev in računalnik se bo samodejno znova zagnal.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">Povezovanje z omrežjem. To lahko traja največ minuto.</translation>
+<translation id="8433773763660502318">Postopka obnovitve ni bilo mogoče dokončati</translation>
+<translation id="8473826843543665828">Izberite novo omrežje ali poskusite znova.</translation>
+<translation id="8474679199432944250">Preverjanje sistema ChromeOS je izklopljeno.
+
+Če je izključitev nenamerna, prekličite postopek obnovitve in
+onemogočite razvijalski način, da omogočite preverjanje.
+Če želite več informacij, obiščite ta URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Dokončevanje obnovitve</translation>
+<translation id="8596190965261846034">Nameščanje posodobitve ...
+
+Ne izklopite naprave.
+Po končani posodobitvi se bo samodejno znova zagnala.</translation>
+<translation id="8728458033228603970">Obnovitev sistema poteka ...
+
+Trajalo bo nekaj minut. Ne izklopite računalnika ali ga odklopite z vira napajanja.</translation>
+<translation id="88986195241502842">Page Down</translation>
+<translation id="8911667951938758302">Povezave z omrežjem ni bilo mogoče vzpostaviti</translation>
+<translation id="9146946647152579011">Obnovitev je dokončana</translation>
+<translation id="9156766649956178343">Napaka pri obnavljanju naprave</translation>
+</translationbundle>

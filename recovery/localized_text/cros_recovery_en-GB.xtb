@@ -1,0 +1,166 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="en-GB">
+<translation id="1201402288615127009">Next</translation>
+<translation id="1207194515919037363">The security module on this device is not working.
+
+Please refer to this URL for more information:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">There was an issue getting available networks; please retry</translation>
+<translation id="1483971085438511843">Use the enter key to select an option.</translation>
+<translation id="1486534340494484631">There was an error during enhanced disk deletion.
+
+System recovery is complete.
+Please remove the recovery media and your computer will restart automatically.</translation>
+<translation id="1638626287317244115">Copy logs</translation>
+<translation id="175933110504178679">This process will wipe your personal data. This will take several minutes. Do not turn off the device.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Power off</translation>
+<translation id="2160704550417277456">Advanced Options</translation>
+<translation id="2161775569013928937">Start recovery?</translation>
+<translation id="2238107357612570504">Recovery debug options</translation>
+<translation id="2249183435483068136">Incorrect credentials</translation>
+<translation id="2367943141906694421">Could not find any networks</translation>
+<translation id="2437368373459239842">This will take a few minutes</translation>
+<translation id="2704439832119932045">Select OS channel and version to continue recovery</translation>
+<translation id="2731700343119398978">Please wait…</translation>
+<translation id="2904079386864173492">Model:</translation>
+<translation id="3029977119648083072">Enter the network password</translation>
+<translation id="3243756202241744259">Verifying the integrity of your recovery media…</translation>
+<translation id="3377484800447890197">There was an error while recovering your device. Refer to
+https://google.com/chromeos/recovery for possible solutions, or try again.</translation>
+<translation id="33938768013536853">Battery too low for update.
+
+Please connect your Chromebook to a power socket. The update
+will automatically begin as soon as the battery has enough charge.</translation>
+<translation id="3554552348994984455">Start recovery</translation>
+<translation id="3723985428118783104">Recovery in progress</translation>
+<translation id="385051799172605136">Back</translation>
+<translation id="3928994486545789273">Choose network</translation>
+<translation id="3942420633017001071">Diagnostics</translation>
+<translation id="3946632524220974380">A developer key change is required to proceed; the process takes
+5 minutes.</translation>
+<translation id="3986180833426451964">The device owner requires this device to run with ChromeOS
+verification turned on. You are trying to install an unofficial
+ChromeOS recovery image which does not pass verification.
+
+For more information, refer to this URL:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">This process may take a few minutes</translation>
+<translation id="4007898787815310968">There was an error during enhanced disk deletion.
+
+An unexpected error has occurred during recovery. Please refer to this URL for troubleshooting tips:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Available networks</translation>
+<translation id="4261250127007881003">Messages log</translation>
+<translation id="4287891348859705498">Copy logs to your external disk</translation>
+<translation id="4410491068110727276">Use the volume buttons to navigate up or down.</translation>
+<translation id="4412740632134951267">Select advanced options below to change</translation>
+<translation id="4486160941938493301">If you want to choose a different recovery method, go back by pressing Esc + Refresh + Power</translation>
+<translation id="4503421634496749265">Try again. Make sure that the device is plugged in and charging.</translation>
+<translation id="4652489998517778111">Please reboot and try again</translation>
+<translation id="4791159253869531619">External disk with recovery image detected</translation>
+<translation id="4851795211104228792">You will now be updated to the latest stable version (recommended)</translation>
+<translation id="4905949142713655149">An unexpected error has occurred. Please refer to this URL for
+troubleshooting tips:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">System recovery is complete.
+
+It is now safe to remove the recovery media. Your computer will
+automatically restart shortly.</translation>
+<translation id="5080881219404532322">You are about to recover your computer. Please make sure that it is
+ plugged in to a power source.
+
+If you want to cancel recovery, press the power button and hold it
+down until the computer turns off (this takes up to eight seconds).
+It is safe to do this at any time during verification.</translation>
+<translation id="51254621993922230">Recovery completed</translation>
+<translation id="537291066186627789">System recovery is complete.
+
+Please remove the recovery media and your computer will restart
+automatically.</translation>
+<translation id="5512602676102820748">Battery too low for update.
+
+Charging...
+
+The update will automatically begin as soon as the battery has enough charge.</translation>
+<translation id="5592705604979238266">Help Centre:</translation>
+<translation id="6185696379715117369">Page up</translation>
+<translation id="635783852215913562">Use the arrow keys to navigate up or down.</translation>
+<translation id="6363786367719063276">View logs</translation>
+<translation id="6374469231428023295">Try Again</translation>
+<translation id="6388429950346313390">Sorry, something went wrong</translation>
+<translation id="6408757960874122684">Your computer does not appear to be a ChromeOS system!
+
+This operation will delete any other operating system that you may have
+installed and all the data; there will be no opportunity for backup.
+If you have any data on this computer that you want to preserve, you
+should cancel recovery.</translation>
+<translation id="6451786478565057499">Enhanced disk deletion is in progress…
+
+This may take a lot of time.</translation>
+<translation id="64764858283438323">The image on your recovery media is an unverified developer image.
+
+Recovery will continue because Verified Boot is turned off.
+If you later turn verification back on, you will need to repeat
+recovery with an official ChromeOS image.</translation>
+<translation id="6566947361877177265">Connect to a network to begin recovery</translation>
+<translation id="6582194100503356658">This may take a few minutes. Do not turn off the device or disconnect the power.</translation>
+<translation id="662657262312410525">You are using an out-of-date ChromeOS recovery image.
+
+Please refer to this URL for instructions on how to create new
+recovery media:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Unplug your external disk to restart.</translation>
+<translation id="6691307183503218714">You are using an out-of-date official ChromeOS recovery image.
+
+Recovery will continue because verification is turned off.
+If you later turn verification back on, you will need to repeat
+recovery with an up-to-date ChromeOS image.</translation>
+<translation id="6868586188416530903">tpm-firmware-updater log</translation>
+<translation id="6895131867077828321">Type your password. Press Tab to show or hide the password. Press Enter to submit.</translation>
+<translation id="7126032376876878896">Use the power button to select an option.</translation>
+<translation id="7159548186721854353">Restart manually if the device doesn’t automatically restart</translation>
+<translation id="7684530127758861598">Recovery log</translation>
+<translation id="7709095358410921767">Enhanced disk deletion was successful.
+
+An unexpected error has occurred during recovery. Please refer to this URL for troubleshooting tips:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Please enter your password again. Only ASCII characters are supported.</translation>
+<translation id="7939062555109487992">Advanced options</translation>
+<translation id="8048927549246926523">Recover using an Internet connection</translation>
+<translation id="8114187014283095781">Enhanced disk deletion was successful.
+
+System recovery is complete.
+Please remove the recovery media and your computer will restart automatically.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">Connecting to the network. This may take up to a minute.</translation>
+<translation id="8433773763660502318">Could not finish the recovery process</translation>
+<translation id="8473826843543665828">Please select a new network or try again</translation>
+<translation id="8474679199432944250">ChromeOS verification is turned off.
+
+If this is unintentional, you should cancel recovery and disable
+developer mode to enable verification. For more information,
+refer to this URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Finishing recovery</translation>
+<translation id="8596190965261846034">Installing update...
+
+Please do not turn off the device.
+It will automatically reboot when the update finishes.</translation>
+<translation id="8728458033228603970">System recovery in progress…
+
+This will take a few minutes. Please do not turn off the computer or
+disconnect the power.</translation>
+<translation id="88986195241502842">Page down</translation>
+<translation id="8911667951938758302">Could not connect to the network</translation>
+<translation id="9146946647152579011">Recovery is now complete</translation>
+<translation id="9156766649956178343">Error recovering your device</translation>
+</translationbundle>

@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="ko">
+<translation id="1201402288615127009">다음</translation>
+<translation id="1246412656779440622">이용 가능한 네트워크를 가져오는 중에 문제가 발생했습니다. 다시 시도해 보세요.</translation>
+<translation id="1483971085438511843">Enter 키를 사용하여 옵션을 선택하세요.</translation>
+<translation id="1486534340494484631">고급 디스크 삭제 중에 오류가 발생했습니다.
+
+시스템 복구가 완료되었습니다.
+복구 미디어를 삭제하면 컴퓨터가 자동으로 다시 시작됩니다.</translation>
+<translation id="1585693379481459308">오래된 Whale OS 복구 이미지를 사용하고 있습니다.
+
+새 복구 미디어를 만드는 방법은
+다음 URL을 참고하세요.
+
+https://whalebook.naver.com/en/whaleos</translation>
+<translation id="1638626287317244115">로그 복사</translation>
+<translation id="175933110504178679">이 절차를 진행하면 개인 정보가 완전 삭제됩니다. 몇 분 정도 걸릴 수 있습니다. 기기를 끄지 마세요.</translation>
+<translation id="1995660704900986789">끄기</translation>
+<translation id="2160704550417277456">고급 옵션</translation>
+<translation id="2161775569013928937">복구를 시작하시겠습니까?</translation>
+<translation id="2238107357612570504">복구 디버그 옵션</translation>
+<translation id="2249183435483068136">잘못된 사용자 인증 정보</translation>
+<translation id="2367943141906694421">네트워크를 찾을 수 없음</translation>
+<translation id="2437368373459239842">몇 분 정도 걸릴 수 있습니다</translation>
+<translation id="2485447843253598176">컴퓨터가 Whale OS 시스템이 아닌 것 같습니다.
+
+이 작업을 수행하면 설치한 다른 운영체제 및 모든 데이터가 삭제되며
+백업도 불가능합니다.
+이 컴퓨터에 보존하려는 데이터가 있는 경우
+복구를 취소해야 합니다.</translation>
+<translation id="2704439832119932045">복구를 계속하려면 OS 채널 및 버전 선택</translation>
+<translation id="2731700343119398978">잠시 기다려 주세요...</translation>
+<translation id="2904079386864173492">모델:</translation>
+<translation id="3029977119648083072">네트워크 비밀번호 입력</translation>
+<translation id="3243756202241744259">복구 미디어의 무결성 확인 중...</translation>
+<translation id="3322296072567466517">고급 디스크 삭제가 완료되었습니다.
+
+복구 중 예기치 못한 오류가 발생했습니다. 다음 URL에서 문제해결 도움말을 확인하세요.
+
+https://whalebook.naver.com/en/whaleos</translation>
+<translation id="3554552348994984455">복구 시작</translation>
+<translation id="3723985428118783104">복구 진행 중</translation>
+<translation id="385051799172605136">뒤로</translation>
+<translation id="3928994486545789273">네트워크 선택</translation>
+<translation id="3942420633017001071">진단</translation>
+<translation id="3946632524220974380">계속하려면 개발자 키를 변경해야 합니다. 이 프로세스는
+5분이 소요됩니다.</translation>
+<translation id="4006102694824401878">이 과정은 몇 분 정도 걸릴 수 있습니다.</translation>
+<translation id="4043715662044005268">https://whalebook.naver.com/en/whaleos</translation>
+<translation id="4157577338965464221">사용 가능한 네트워크</translation>
+<translation id="4261250127007881003">메시지 로그</translation>
+<translation id="4287891348859705498">외부 디스크에 로그 복사</translation>
+<translation id="4410491068110727276">볼륨 버튼을 사용하여 위아래로 이동하세요.</translation>
+<translation id="4412740632134951267">아래에서 변경할 고급 옵션을 선택하세요.</translation>
+<translation id="4503421634496749265">다시 시도해 보세요. 기기가 전원에 연결되어 있고 충전 중인지 확인하세요.</translation>
+<translation id="4652489998517778111">재부팅한 후 다시 시도해 보세요.</translation>
+<translation id="4791159253869531619">복구 이미지가 있는 외부 디스크가 감지됨</translation>
+<translation id="4851795211104228792">최신 정식 버전으로 업데이트됩니다(권장)</translation>
+<translation id="496201662522655493">시스템 복구가 완료되었습니다.
+
+이제 안전하게 복구 미디어를 제거할 수 있습니다.
+곧 컴퓨터가 자동으로 다시 시작됩니다.</translation>
+<translation id="5080881219404532322">컴퓨터를 복구하려고 합니다. 컴퓨터가 전원에 연결되어 있는지
+ 확인해 주세요.
+
+복구를 취소하려면 컴퓨터가 꺼질 때까지 전원 버튼을 길게 누르세요.
+전원이 꺼질 때까지 8초 정도 소요됩니다.
+확인 중에는 언제든지 전원 버튼을 눌러 복구를 취소할 수 있습니다.</translation>
+<translation id="51254621993922230">복구 완료됨</translation>
+<translation id="537291066186627789">시스템 복구가 완료되었습니다.
+
+복구 미디어를 제거하면 컴퓨터가 자동으로 다시 시작됩니다.</translation>
+<translation id="549127781478612221">다음 버튼을 눌러 복구를 시작하세요. 이 작업은 몇 분 정도 걸릴 수 있습니다.</translation>
+<translation id="5512602676102820748">배터리 잔량이 부족하여 업데이트할 수 없습니다.
+
+충전 중...
+
+배터리가 충분히 충전되면 업데이트가 자동으로 시작됩니다.</translation>
+<translation id="5592705604979238266">고객센터:</translation>
+<translation id="6185696379715117369">페이지 위로</translation>
+<translation id="6230999502562889805">오래된 공식 Whale OS 복구 이미지를 사용하고 있습니다.
+
+인증이 사용 중지되어 있으므로 복구는 계속 진행됩니다.
+나중에 인증을 사용하도록 다시 설정하면 최신 Whale OS 이미지를
+사용하여 복구 작업을 다시 수행해야 합니다.</translation>
+<translation id="631258542492242828">예기치 않은 오류가 발생했습니다. 문제해결 도움말을 보려면
+다음 URL을 참조하세요.
+
+https://whalebook.naver.com/en/whaleos</translation>
+<translation id="635783852215913562">화살표 키를 사용하여 위아래로 이동하세요.</translation>
+<translation id="6363786367719063276">로그 보기</translation>
+<translation id="6374469231428023295">다시 시도</translation>
+<translation id="6388429950346313390">문제가 발생했습니다</translation>
+<translation id="6451786478565057499">고급 디스크 삭제를 진행 중입니다.
+
+시간이 오래 걸릴 수 있습니다.</translation>
+<translation id="6555535594012997594">기기를 복구하는 동안 오류가 발생했습니다. 링크(https://whalebook.naver.com/en/whaleos)를 참고하여 가능한 해결책을 확인하거나 다시 시도해 보세요.</translation>
+<translation id="6566947361877177265">복구를 시작하려면 네트워크에 연결</translation>
+<translation id="6582194100503356658">몇 분 정도 걸릴 수 있으니 기기를 끄거나 전원 연결을 해제하지 마세요</translation>
+<translation id="6630033970080307657">외부 디스크 연결을 해제하여 다시 시작하세요.</translation>
+<translation id="6868586188416530903">tpm-firmware-updater 로그</translation>
+<translation id="6895131867077828321">비밀번호를 입력합니다. Tab을 눌러 비밀번호를 표시하거나 숨깁니다. Enter를 눌러 제출합니다.</translation>
+<translation id="7126032376876878896">전원 버튼을 사용하여 옵션을 선택하세요.</translation>
+<translation id="7159548186721854353">기기가 자동으로 다시 시작되지 않으면 직접 다시 시작하세요.</translation>
+<translation id="7270564597630475037">복구 미디어의 이미지가 인증되지 않은 개발자 이미지입니다.
+
+자체 검사 부팅이 사용 중지되어 있으므로 복구는 계속 진행됩니다.
+나중에 인증을 사용하도록 다시 설정하면 공식 Whale OS 이미지를
+사용하여 복구 작업을 다시 수행해야 합니다.</translation>
+<translation id="7409272251877498108">Whale OS 인증이 사용 중지되어 있습니다.
+
+의도치 않게 사용 중지한 경우, 인증 기능을 사용하기 위해
+복구를 취소하고 개발자 모드를 사용 중지해야 합니다.  자세한 정보는
+다음 URL을 참고하세요.
+
+https://whalebook.naver.com/en/whaleos</translation>
+<translation id="7684530127758861598">복구 로그</translation>
+<translation id="77159243231245687">비밀번호를 다시 입력하세요. ASCII 문자만 지원됩니다.</translation>
+<translation id="7939062555109487992">고급 옵션</translation>
+<translation id="7956008911575591193">이 기기의 보안 모듈이 작동하지 않습니다.
+
+자세한 내용은 다음 URL을 참조하세요.
+
+https://whalebook.naver.com/en/whaleos</translation>
+<translation id="8048927549246926523">인터넷 연결을 사용하여 복구</translation>
+<translation id="8072823844093830031">기기 소유자가 Whale OS 인증이 사용 설정된 상태에서 이 기기를 실행하도록 설정했는데, 현재 인증을 통과하지 않은 비공식적인 Whale OS 복구 이미지를 설치하려고 합니다.
+
+자세한 정보는 다음 URL을 참고하세요.
+
+https://whalebook.naver.com/en/whaleos</translation>
+<translation id="8114187014283095781">고급 디스크 삭제가 완료되었습니다.
+
+시스템 복구가 완료되었습니다.
+복구 미디어를 삭제하면 컴퓨터가 자동으로 다시 시작됩니다.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">네트워크에 연결 중이며 1분 정도 걸릴 수 있습니다</translation>
+<translation id="8433773763660502318">복구 절차를 완료할 수 없음</translation>
+<translation id="8473826843543665828">새로운 네트워크를 선택하거나 다시 시도해 보세요.</translation>
+<translation id="8523174215108794127">복구 완료 중</translation>
+<translation id="852540438146872206">고급 디스크 삭제 중에 오류가 발생했습니다.
+
+복구 중 예기치 못한 오류가 발생했습니다. 다음 URL에서 문제해결 도움말을 확인하세요.
+
+https://whalebook.naver.com/en/whaleos</translation>
+<translation id="857211934084138731">배터리 잔량이 부족하여 업데이트할 수 없습니다.
+
+Whalebook을 전원에 연결해 주세요. 배터리가
+충분히 충전되면 업데이트가 자동으로 시작됩니다.</translation>
+<translation id="8596190965261846034">업데이트 설치 중...
+
+기기의 전원을 끄지 마세요.
+업데이트가 완료되면 자동으로 재부팅됩니다.</translation>
+<translation id="8728458033228603970">시스템 복구를 진행 중입니다...
+
+이 작업은 몇 분 정도 소요됩니다. 컴퓨터를 끄거나
+전원 연결을 해제하지 마세요.</translation>
+<translation id="88986195241502842">페이지 아래로</translation>
+<translation id="8911667951938758302">네트워크에 연결할 수 없음</translation>
+<translation id="9146946647152579011">복구 완료됨</translation>
+<translation id="9156766649956178343">기기 복구 중 문제 발생</translation>
+</translationbundle>

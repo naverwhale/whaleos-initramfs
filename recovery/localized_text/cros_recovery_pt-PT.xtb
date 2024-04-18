@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="pt-PT">
+<translation id="1201402288615127009">Seguinte</translation>
+<translation id="1207194515919037363">O módulo de segurança neste dispositivo não está a funcionar.
+
+Consulte este URL para obter mais informações:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Ocorreu um problema ao obter as redes disponíveis, tente novamente</translation>
+<translation id="1483971085438511843">Utilize a tecla Enter para selecionar uma opção.</translation>
+<translation id="1486534340494484631">Ocorreu um erro durante a eliminação do disco otimizada.
+
+A recuperação do sistema está concluída.
+Remova o suporte de dados de recuperação e o computador reiniciará automaticamente.</translation>
+<translation id="1638626287317244115">Copiar registos</translation>
+<translation id="175933110504178679">Este processo irá limpar os seus dados pessoais. Esta ação irá demorar vários minutos. Não desligue o dispositivo.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Desligar</translation>
+<translation id="2160704550417277456">Opções avançadas</translation>
+<translation id="2161775569013928937">Pretende iniciar a recuperação?</translation>
+<translation id="2238107357612570504">Opções de depuração de recuperação</translation>
+<translation id="2249183435483068136">Credenciais incorretas</translation>
+<translation id="2367943141906694421">Não encontrámos quaisquer redes</translation>
+<translation id="2437368373459239842">Esta ação pode demorar alguns minutos</translation>
+<translation id="2704439832119932045">Selecione a versão e o canal do SO para continuar a recuperação</translation>
+<translation id="2731700343119398978">Aguarde...</translation>
+<translation id="2904079386864173492">Modelo:</translation>
+<translation id="3029977119648083072">Introduza a palavra-passe da rede</translation>
+<translation id="3243756202241744259">A validar a integridade do suporte de dados de recuperação...</translation>
+<translation id="3377484800447890197">Ocorreu um erro durante a recuperação do seu dispositivo. Consulte
+https://google.com/chromeos/recovery para obter possíveis soluções ou tente novamente.</translation>
+<translation id="33938768013536853">Bateria demasiado fraca para atualizar.
+
+Ligue o Chromebook a uma fonte de alimentação. A atualização começará automaticamente quando a bateria tiver carga suficiente.</translation>
+<translation id="3554552348994984455">Inicie a recuperação</translation>
+<translation id="3723985428118783104">A recuperação está em curso</translation>
+<translation id="385051799172605136">Anterior</translation>
+<translation id="3928994486545789273">Escolher rede</translation>
+<translation id="3942420633017001071">Diagnósticos</translation>
+<translation id="3946632524220974380">Para prosseguir, é necessário alterar a chave de programador. O processo demora 5 minutos.</translation>
+<translation id="3986180833426451964">O proprietário do dispositivo exige que este dispositivo seja executado com a validação do ChromeOS
+ativada. Está a tentar instalar uma imagem de recuperação do ChromeOS
+não oficial que não passa na validação.
+
+Para mais informações, consulte este URL:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Este processo pode demorar alguns minutos.</translation>
+<translation id="4007898787815310968">Ocorreu um erro durante a eliminação do disco otimizada.
+
+Ocorreu um erro inesperado durante a recuperação. Consulte este URL para obter sugestões de resolução de problemas:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Redes disponíveis</translation>
+<translation id="4261250127007881003">Registo de mensagens</translation>
+<translation id="4287891348859705498">Copie registos para o seu disco externo</translation>
+<translation id="4410491068110727276">Utilize os botões de volume para navegar para cima ou para baixo.</translation>
+<translation id="4412740632134951267">Selecione as opções avançadas abaixo para alterar</translation>
+<translation id="4486160941938493301">Se pretender escolher um método de recuperação diferente, retroceda ao premir Esc + Atualizar + Botão ligar/desligar</translation>
+<translation id="4503421634496749265">Tente novamente. Certifique-se de que o dispositivo está ligado à corrente e a carregar.</translation>
+<translation id="4652489998517778111">Reinicie e tente novamente</translation>
+<translation id="4791159253869531619">Disco externo com imagem de recuperação detetado</translation>
+<translation id="4851795211104228792">Será efetuada a atualização para a versão estável mais recente (recomendado)</translation>
+<translation id="4905949142713655149">Ocorreu um erro inesperado. Consulte este URL para obter sugestões de resolução de problemas:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">A recuperação do sistema está concluída.
+
+Já pode remover o suporte de dados de recuperação em segurança. O
+computador reiniciará automaticamente dentro de momentos.</translation>
+<translation id="5080881219404532322">Está prestes a recuperar o seu computador. Certifique-se de que está ligado
+a uma fonte de alimentação.
+
+Se pretender cancelar a recuperação, mantenha premido o botão ligar/desligar
+até que o computador se desligue (esta ação demora cerca de 8 segundos).
+É seguro fazê-lo em qualquer altura durante a validação.</translation>
+<translation id="51254621993922230">Recuperação concluída</translation>
+<translation id="537291066186627789">A recuperação do sistema está concluída.
+
+Remova o suporte de dados de recuperação e o computador reiniciará automaticamente.</translation>
+<translation id="5512602676102820748">Bateria demasiado fraca para atualizar.
+
+A carregar...
+
+A atualização começará automaticamente quando a bateria tiver carga suficiente.</translation>
+<translation id="5592705604979238266">Centro de Ajuda:</translation>
+<translation id="6185696379715117369">Página para cima</translation>
+<translation id="635783852215913562">Utilize as teclas de seta para navegar para cima ou para baixo.</translation>
+<translation id="6363786367719063276">Veja registos</translation>
+<translation id="6374469231428023295">Tentar novamente</translation>
+<translation id="6388429950346313390">Lamentamos, mas algo correu mal</translation>
+<translation id="6408757960874122684">O computador não parece ser um sistema com o ChromeOS!
+
+Esta operação vai apagar qualquer outro sistema operativo que tenha
+instalado e todos os dados. Não vai ter oportunidade para fazer uma cópia de segurança.
+Se tem dados neste computador que quer preservar,
+deve cancelar a recuperação.</translation>
+<translation id="6451786478565057499">A eliminação otimizada do disco está em curso…
+
+Esta ação pode demorar bastante tempo.</translation>
+<translation id="64764858283438323">A imagem no seu suporte de dados de recuperação é uma imagem de programador não validada.
+
+A recuperação vai continuar porque o Arranque validado está desativado.
+Se ativar a validação mais tarde, tem de repetir
+a recuperação com uma imagem do ChromeOS oficial.</translation>
+<translation id="6566947361877177265">Estabeleça ligação a uma rede para iniciar a recuperação</translation>
+<translation id="6582194100503356658">Esta ação pode demorar alguns minutos. Não desligue o dispositivo nem o desligue da tomada.</translation>
+<translation id="662657262312410525">Está a usar uma imagem de recuperação do ChromeOS desatualizada.
+
+Consulte este URL para obter instruções sobre como criar um novo suporte de dados de recuperação:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Desligue o disco externo para reiniciar.</translation>
+<translation id="6691307183503218714">Está a usar uma imagem de recuperação do ChromeOS oficial desatualizada.
+
+A recuperação vai continuar porque a validação está desativada.
+Se ativar a validação mais tarde, tem de repetir
+a recuperação com uma imagem do ChromeOS atualizada.</translation>
+<translation id="6868586188416530903">Registo tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Introduza a sua palavra-passe. Prima Tab para apresentar ou ocultar a palavra-passe. Prima Enter para enviar.</translation>
+<translation id="7126032376876878896">Utilize o botão ligar/desligar para selecionar uma opção.</translation>
+<translation id="7159548186721854353">Reinicie manualmente se o dispositivo não reiniciar automaticamente</translation>
+<translation id="7684530127758861598">Registo de recuperação</translation>
+<translation id="7709095358410921767">A eliminação otimizada do disco foi efetuada com êxito.
+
+Ocorreu um erro inesperado durante a recuperação. Consulte este URL para obter sugestões de resolução de problemas:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Introduza a sua palavra-passe novamente. Apenas são suportados carateres ASCII.</translation>
+<translation id="7939062555109487992">Opções avançadas</translation>
+<translation id="8048927549246926523">Efetue a recuperação através de uma ligação à Internet</translation>
+<translation id="8114187014283095781">A eliminação otimizada do disco foi efetuada com êxito.
+
+A recuperação do sistema está concluída.
+Remova o suporte de dados de recuperação e o computador reiniciará automaticamente.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">A ligar à rede. Esta ação pode demorar, no máximo, um minuto.</translation>
+<translation id="8433773763660502318">Não foi possível concluir o processo de recuperação</translation>
+<translation id="8473826843543665828">Selecione uma nova rede ou tente novamente</translation>
+<translation id="8474679199432944250">A validação do ChromeOS está desativada.
+
+Se isto não for intencional, deve cancelar a recuperação e desativar
+o modo de programador para ativar a validação. Para mais informações,
+consulte este URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">A concluir a recuperação</translation>
+<translation id="8596190965261846034">A instalar a atualização...
+
+Não desligue o dispositivo.
+Este será reiniciado automaticamente quando a atualização terminar.</translation>
+<translation id="8728458033228603970">A recuperação do sistema está em curso...
+
+Esta ação demora alguns minutos. Não desligue o computador nem o desligue da tomada.</translation>
+<translation id="88986195241502842">Página para baixo</translation>
+<translation id="8911667951938758302">Não foi possível ligar à rede</translation>
+<translation id="9146946647152579011">A recuperação está agora concluída</translation>
+<translation id="9156766649956178343">Ocorreu um erro ao recuperar o seu dispositivo</translation>
+</translationbundle>

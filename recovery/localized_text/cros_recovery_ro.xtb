@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="ro">
+<translation id="1201402288615127009">Înainte</translation>
+<translation id="1207194515919037363">Modulul de securitate de pe acest dispozitiv nu funcționează.
+
+Consultă această adresă URL pentru mai multe informații:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">A apărut o problemă la detectarea rețelelor disponibile. Încearcă din nou.</translation>
+<translation id="1483971085438511843">Folosește tasta Enter pentru a selecta o opțiune.</translation>
+<translation id="1486534340494484631">A apărut o eroare în timpul ștergerii avansate a discurilor.
+
+Recuperarea sistemului s-a finalizat.
+Scoate suportul de recuperare, iar computerul va reporni automat.</translation>
+<translation id="1638626287317244115">Copiază jurnalele</translation>
+<translation id="175933110504178679">Acest proces îți va șterge datele cu caracter personal. Va dura câteva minute. Nu opri dispozitivul.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Oprește alimentarea</translation>
+<translation id="2160704550417277456">Opțiuni avansate</translation>
+<translation id="2161775569013928937">Pornești recuperarea?</translation>
+<translation id="2238107357612570504">Opțiuni de remediere a erorilor legate de recuperare</translation>
+<translation id="2249183435483068136">Date de conectare incorecte</translation>
+<translation id="2367943141906694421">Nu s-au găsit rețele</translation>
+<translation id="2437368373459239842">Va dura câteva minute</translation>
+<translation id="2704439832119932045">Selectează canalul și versiunea SO pentru a continua recuperarea</translation>
+<translation id="2731700343119398978">Așteptați...</translation>
+<translation id="2904079386864173492">Model:</translation>
+<translation id="3029977119648083072">Introdu parola rețelei</translation>
+<translation id="3243756202241744259">Se verifică integritatea suportului de recuperare...</translation>
+<translation id="3377484800447890197">A apărut o eroare la recuperarea dispozitivului. Consultă https://google.com/chromeos/recovery pentru soluții posibile sau încearcă din nou.</translation>
+<translation id="33938768013536853">Bateria este prea descărcată pentru actualizare.
+
+Conectează Chromebookul la o sursă de alimentare. Actualizarea
+va începe automat de îndată ce bateria este încărcată suficient.</translation>
+<translation id="3554552348994984455">Pornește recuperarea</translation>
+<translation id="3723985428118783104">Se recuperează</translation>
+<translation id="385051799172605136">Înapoi</translation>
+<translation id="3928994486545789273">Alege o rețea</translation>
+<translation id="3942420633017001071">Diagnosticare</translation>
+<translation id="3946632524220974380">Pentru a continua, este necesară modificarea cheii de dezvoltator;
+procesul necesită 5 minute.</translation>
+<translation id="3986180833426451964">Proprietarul dispozitivului solicită ca dispozitivul să ruleze cu
+verificarea pentru ChromeOS activată. Tu încerci
+să instalezi o imagine de recuperare neoficială a ChromeOS, care nu trece de faza de verificare.
+
+Pentru mai multe informații, consultă următoarea adresă URL:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Acest proces poate dura câteva minute</translation>
+<translation id="4007898787815310968">A apărut o eroare în timpul ștergerii avansate a discurilor.
+
+A apărut o eroare neașteptată în timpul recuperării. Consultă această adresă URL pentru sfaturi de remediere a erorilor:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Rețele disponibile</translation>
+<translation id="4261250127007881003">Jurnalul de mesaje</translation>
+<translation id="4287891348859705498">Copiază jurnalele pe discul extern</translation>
+<translation id="4410491068110727276">Folosește butoanele de volum pentru a naviga în sus sau în jos.</translation>
+<translation id="4412740632134951267">Selectează una dintre opțiunile avansate de mai jos pentru a schimba</translation>
+<translation id="4486160941938493301">Dacă vrei să alegi altă metodă de recuperare, revino apăsând pe Esc + tasta de actualizare + tasta de pornire</translation>
+<translation id="4503421634496749265">Încearcă din nou. Asigură-te că dispozitivul este conectat și se încarcă.</translation>
+<translation id="4652489998517778111">Repornește și încearcă din nou</translation>
+<translation id="4791159253869531619">A fost detectat discul extern cu imaginea de recuperare</translation>
+<translation id="4851795211104228792">Acum vei trece la cea mai recentă versiune stabilă (recomandat)</translation>
+<translation id="4905949142713655149">A apărut o eroare neașteptată. Pentru sfaturi de remediere
+a problemelor, consultă această adresă URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Recuperarea sistemului s-a încheiat.
+
+Acum poți scoate suportul de recuperare. Computerul va reporni automat în curând.</translation>
+<translation id="5080881219404532322">Urmează să îți recuperezi datele de pe computer. Asigură-te că acesta este conectat la o sursă de alimentare.
+
+Dacă vrei să anulezi recuperarea, apasă pe butonul de alimentare și ține-l apăsat până când computerul se oprește (procesul durează aproximativ 8 secunde).
+Poți face în siguranță acest lucru oricând în timpul verificării.</translation>
+<translation id="51254621993922230">Recuperarea s-a finalizat</translation>
+<translation id="537291066186627789">Recuperarea sistemului este finalizată.
+
+Scoate suportul de recuperare, iar computerul va reporni automat.</translation>
+<translation id="5512602676102820748">Bateria este prea descărcată pentru actualizare.
+
+Se încarcă...
+
+Actualizarea va începe automat de îndată ce bateria este încărcată suficient.</translation>
+<translation id="5592705604979238266">Centrul de ajutor:</translation>
+<translation id="6185696379715117369">O pagină mai sus</translation>
+<translation id="635783852215913562">Folosește tastele săgeată pentru a naviga în sus sau în jos.</translation>
+<translation id="6363786367719063276">Consultă jurnalele</translation>
+<translation id="6374469231428023295">Încearcă din nou</translation>
+<translation id="6388429950346313390">A apărut o eroare</translation>
+<translation id="6408757960874122684">Computerul tău nu pare să ruleze ChromeOS!
+
+Această operațiune va șterge orice alt sistem de operare pe care îl ai
+instalat, împreună cu toate datele sale; nu va exista opțiunea de a face backup.
+Dacă ai date pe acest computer pe care dorești să le păstrezi, anulează recuperarea.</translation>
+<translation id="6451786478565057499">Are loc ștergerea avansată a discurilor...
+
+Procesul poate dura mult.</translation>
+<translation id="64764858283438323">Imaginea de pe suportul de recuperare este o imagine de dezvoltare neverificată.
+
+Recuperarea va continua, deoarece pornirea verificată este dezactivată.
+Dacă ulterior activezi verificarea, va fi necesar să repeți recuperarea
+folosind o imagine a ChromeOS oficială.</translation>
+<translation id="6566947361877177265">Conectează-te la o rețea pentru a începe recuperarea</translation>
+<translation id="6582194100503356658">Poate dura câteva minute. Nu opri dispozitivul sau alimentarea.</translation>
+<translation id="662657262312410525">Folosești o imagine de recuperare a ChromeOS neactualizată.
+
+Pentru instrucțiuni privind modul în care poți să creezi un
+nou suport de recuperare, accesează următoarea adresă URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Pentru a reporni, deconectează discul extern.</translation>
+<translation id="6691307183503218714">Folosești o imagine de recuperare a ChromeOS neactualizată.
+
+Recuperarea va continua, deoarece verificarea este dezactivată.
+Dacă ulterior activezi verificarea, va fi necesar să repeți recuperarea
+folosind o imagine a ChromeOS actualizată.</translation>
+<translation id="6868586188416530903">Jurnalul tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Introdu parola. Apasă pe Tab pentru a afișa sau a ascunde parola. Apasă pe Enter pentru a trimite.</translation>
+<translation id="7126032376876878896">Folosește butonul de pornire pentru a selecta o opțiune.</translation>
+<translation id="7159548186721854353">Repornește manual dacă dispozitivul nu pornește automat</translation>
+<translation id="7684530127758861598">Jurnalul de recuperare</translation>
+<translation id="7709095358410921767">Ștergerea avansată a discurilor s-a încheiat.
+
+A apărut o eroare neașteptată în timpul recuperării. Consultă această adresă URL pentru sfaturi de remediere a erorilor:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Introdu din nou parola. Sunt acceptate numai caracterele ASCII.</translation>
+<translation id="7939062555109487992">Opțiuni avansate</translation>
+<translation id="8048927549246926523">Realizează recuperarea folosind o conexiune la internet</translation>
+<translation id="8114187014283095781">Ștergerea avansată a discurilor s-a încheiat.
+
+Recuperarea sistemului s-a finalizat.
+Scoate suportul de recuperare, iar computerul va reporni automat.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">Se conectează la rețea. Poate dura până la un minut.</translation>
+<translation id="8433773763660502318">Nu s-a putut finaliza procesul de recuperare</translation>
+<translation id="8473826843543665828">Selectează o rețea nouă sau încearcă din nou</translation>
+<translation id="8474679199432944250">Verificarea ChromeOS este dezactivată.
+
+Dacă nu ai intenționat acest lucru, anulează recuperarea și
+dezactivează modul pentru dezvoltatori, pentru a activa verificarea.
+Pentru mai multe informații, consultă următoarea adresă URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Se finalizează recuperarea</translation>
+<translation id="8596190965261846034">Se instalează actualizarea...
+
+Nu opri dispozitivul.
+Acesta va reporni automat când actualizarea se finalizează.</translation>
+<translation id="8728458033228603970">Recuperarea sistemului este în desfășurare...
+
+Procesul va dura câteva minute. Nu închide computerul
+și nu-l deconecta de la sursa de alimentare.</translation>
+<translation id="88986195241502842">O pagină mai jos</translation>
+<translation id="8911667951938758302">Conectarea la rețea nu a reușit</translation>
+<translation id="9146946647152579011">Recuperarea s-a finalizat</translation>
+<translation id="9156766649956178343">Eroare la recuperarea dispozitivului</translation>
+</translationbundle>

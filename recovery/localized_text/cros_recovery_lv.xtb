@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="lv">
+<translation id="1201402288615127009">Tālāk</translation>
+<translation id="1207194515919037363">Drošības modulis šajā ierīcē nedarbojas.
+
+Plašāku informāciju skatiet šeit:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Mēģinot iegūt pieejamos tīklus, radās problēma. Lūdzu, mēģiniet vēlreiz.</translation>
+<translation id="1483971085438511843">Opcijas atlasīšanai izmantojiet ievadīšanas taustiņu.</translation>
+<translation id="1486534340494484631">Diska uzlabotās dzēšanas laikā radās kļūda.
+
+Sistēmas atkopšana ir pabeigta.
+Lūdzu, noņemiet atkopšanas datu nesēju, un dators automātiski tiks restartēts.</translation>
+<translation id="1638626287317244115">Kopēt žurnālus</translation>
+<translation id="175933110504178679">Šajā procesā tiks notīrīti jūsu personas dati. Tas var ilgt vairākas minūtes. Neizslēdziet ierīci.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Izslēgt</translation>
+<translation id="2160704550417277456">Izvērstas opcijas</translation>
+<translation id="2161775569013928937">Vai sākt atkopšanu?</translation>
+<translation id="2238107357612570504">Atkopšanas atkļūdošanas opcijas</translation>
+<translation id="2249183435483068136">Nepareizi akreditācijas dati</translation>
+<translation id="2367943141906694421">Nevarēja atrast nevienu tīklu</translation>
+<translation id="2437368373459239842">Tā ilgs dažas minūtes</translation>
+<translation id="2704439832119932045">Atlasiet OS kanālu un versiju, lai turpinātu atkopšanu</translation>
+<translation id="2731700343119398978">Lūdzu, uzgaidiet...</translation>
+<translation id="2904079386864173492">Modelis:</translation>
+<translation id="3029977119648083072">Tīkla paroles ievade</translation>
+<translation id="3243756202241744259">Tiek pārbaudīta datu nesēja integritāte...</translation>
+<translation id="3377484800447890197">Mēģinot atkopt jūsu ierīci, radās kļūda. Skatiet iespējamos risinājumus vietnē
+https://google.com/chromeos/recovery vai mēģiniet vēlreiz.</translation>
+<translation id="33938768013536853">Nepietiek akumulatora jaudas, lai veiktu atjauninājumu.
+
+Pievienojiet Chromebook datoru strāvas avotam. Atjauninājums tiks sākts automātiski, tiklīdz akumulatorā būs pietiekami daudz jaudas.</translation>
+<translation id="3554552348994984455">Atkopšanas sākšana</translation>
+<translation id="3723985428118783104">Notiek atkopšana</translation>
+<translation id="385051799172605136">Atpakaļ</translation>
+<translation id="3928994486545789273">Izvēlēties tīklu</translation>
+<translation id="3942420633017001071">Diagnostika</translation>
+<translation id="3946632524220974380">Lai turpinātu, ir nepieciešama izstrādātāja atslēga; process aizņems 5 minūtes.</translation>
+<translation id="3986180833426451964">Ierīces īpašnieks ir noteicis, ka šajā ierīcē jābūt ieslēgtai ChromeOS verifikācijai. Jūs mēģināt instalēt neoficiālu ChromeOS atkopšanas attēlu, kuru nevar verificēt.
+
+Plašāku informāciju skatiet šeit:
+
+https://www.google.com/chromeos/devmode.</translation>
+<translation id="4006102694824401878">Šis process var ilgt dažas minūtes.</translation>
+<translation id="4007898787815310968">Diska uzlabotās dzēšanas laikā radās kļūda.
+
+Atkopšanas laikā radās neparedzēta kļūda. Problēmu novēršanas padomus varat skatīt, izmantojot šo vietrādi URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Pieejamie tīkli</translation>
+<translation id="4261250127007881003">Ziņojumu žurnāls</translation>
+<translation id="4287891348859705498">Kopējiet žurnālus uz ārējo disku</translation>
+<translation id="4410491068110727276">Izmantojiet skaļuma pogas, lai pārietu uz augšu vai uz leju.</translation>
+<translation id="4412740632134951267">Lai mainītu, tālāk atlasiet papildu opcijas.</translation>
+<translation id="4486160941938493301">Ja vēlaties izmantot citu atkopšanas metodi, pārejiet atpakaļ, nospiežot un turot atsoļa taustiņu, atsvaidzināšanas taustiņu un barošanas pogu.</translation>
+<translation id="4503421634496749265">Lūdzu, mēģiniet vēlreiz. Pārliecinieties, ka ierīce ir pievienota barošanas avotam un notiek uzlāde.</translation>
+<translation id="4652489998517778111">Lūdzu, palaidiet atkārtoti un mēģiniet vēlreiz.</translation>
+<translation id="4791159253869531619">Tika atrasts ārējais disks ar atkopšanas attēlu</translation>
+<translation id="4851795211104228792">Notiks atjaunināšana uz visjaunāko stabilo versiju (ieteicams)</translation>
+<translation id="4905949142713655149">Radās neparedzēta kļūda. Skatiet problēmu novēršanas padomus šeit:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Sistēmas atkopšana ir pabeigta.
+
+Tagad varat noņemt atkopšanas datu nesēju. Pēc brīža dators tiks automātiski tiks restartēts.</translation>
+<translation id="5080881219404532322">Jūs gatavojaties veikt datora atkopšanu. Gādājiet, lai tas
+būtu pievienots strāvas avotam.
+
+Lai atceltu atkopšanu, nospiediet barošanas pogu un turiet to nospiestu,
+līdz dators izslēdzas (var ilgt līdz 8 sekundēm).
+To var droši darīt jebkurā laikā, kamēr tiek veikta verifikācija.</translation>
+<translation id="51254621993922230">Atkopšana pabeigta</translation>
+<translation id="537291066186627789">Sistēmas atkopšana ir pabeigta.
+
+Lūdzu, noņemiet atkopšanas datu nesēju. Dators tiks automātiski restartēts.</translation>
+<translation id="5512602676102820748">Nepietiek akumulatora jaudas, lai veiktu atjauninājumu.
+
+Notiek uzlāde...
+
+Atjauninājums tiks sākts automātiski, tiklīdz akumulatorā būs pietiekami daudz jaudas.</translation>
+<translation id="5592705604979238266">Palīdzības centrs:</translation>
+<translation id="6185696379715117369">Augšup</translation>
+<translation id="635783852215913562">Lai pārietu uz augšu vai leju, izmantojiet bulttaustiņus.</translation>
+<translation id="6363786367719063276">Skatīt žurnālus</translation>
+<translation id="6374469231428023295">Mēģināt vēlreiz</translation>
+<translation id="6388429950346313390">Diemžēl radās kļūda</translation>
+<translation id="6408757960874122684">Šķiet, ka jūsu datorā netiek izmantota sistēma ChromeOS.
+
+Izpildot šo darbību, tiks dzēsta instalētā operētājsistēma un visi dati. Dublējumu nevarēs izveidot.
+Ja šajā datorā glabājat kādus datus, kurus nevēlaties dzēst, atceliet sistēmas atkopšanu.</translation>
+<translation id="6451786478565057499">Notiek diska uzlabotā dzēšana...
+
+Tā var būt ilgstoša.</translation>
+<translation id="64764858283438323">Atkopšanas datu nesējā esošais attēls nav verificēts izstrādātāja attēls.
+
+Atkopšana tiks turpināta, jo verificētā palaišana ir izslēgta.
+Ja vēlāk atkal ieslēgsiet verifikāciju, atkopšana būs jāatkārto, izmantojot oficiālu ChromeOS attēlu.</translation>
+<translation id="6566947361877177265">Lai sāktu atkopšanu, izveidojiet savienojumu ar tīklu</translation>
+<translation id="6582194100503356658">Tā var ilgt dažas minūtes. Neizslēdziet ierīci un neatvienojiet to no barošanas avota.</translation>
+<translation id="662657262312410525">Jūs izmantojat novecojušu ChromeOS atkopšanas attēlu.
+
+Norādījumus par jauna atkopšanas datu nesēja izveidi skatiet šeit:
+
+https://www.google.com/chromeos/recovery.</translation>
+<translation id="6630033970080307657">Lai restartētu ierīci, atvienojiet ārējo disku.</translation>
+<translation id="6691307183503218714">Jūs izmantojat novecojušu oficiālo ChromeOS atkopšanas attēlu.
+
+Atkopšana tiks turpināta, jo verifikācija ir izslēgta.
+Ja vēlāk atkal ieslēgsiet verifikāciju, atkopšana būs jāatkārto, izmantojot atjauninātu ChromeOS attēlu.</translation>
+<translation id="6868586188416530903">tpm-firmware-updater žurnāls</translation>
+<translation id="6895131867077828321">Ierakstiet paroli. Nospiediet tabulēšanas taustiņu, lai rādītu vai paslēptu paroli. Nospiediet ievadīšanas taustiņu, lai iesniegtu.</translation>
+<translation id="7126032376876878896">Izmantojiet barošanas pogu, lai atlasītu kādu no opcijām.</translation>
+<translation id="7159548186721854353">Manuāli restartējiet ierīci, ja tā netiek restartēta automātiski.</translation>
+<translation id="7684530127758861598">Atkopšanas žurnāls</translation>
+<translation id="7709095358410921767">Diska uzlabotā dzēšana bija sekmīga.
+
+Atkopšanas laikā radās neparedzēta kļūda. Problēmu novēršanas padomus varat skatīt, izmantojot šo vietrādi URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Lūdzu, vēlreiz ievadiet paroli. Tiek atbalstītas tikai ASCII rakstzīmes.</translation>
+<translation id="7939062555109487992">Papildopcijas</translation>
+<translation id="8048927549246926523">Atkopšana, izmantojot interneta savienojumu</translation>
+<translation id="8114187014283095781">Diska uzlabotā dzēšana bija sekmīga.
+
+Sistēmas atkopšana ir pabeigta.
+Lūdzu, noņemiet atkopšanas datu nesēju, un dators automātiski tiks restartēts.</translation>
+<translation id="8179976553408161302">Ievadīt</translation>
+<translation id="8420829064199266609">Notiek savienojuma izveide ar tīklu. Tas var ilgt kādu minūti.</translation>
+<translation id="8433773763660502318">Nevarēja pabeigt atkopšanas procesu</translation>
+<translation id="8473826843543665828">Lūdzu, atlasiet jaunu tīklu vai mēģiniet vēlreiz.</translation>
+<translation id="8474679199432944250">ChromeOS verifikācija ir izslēgta.
+
+Ja verifikācija ir izslēgta bez nolūka, atceliet atkopšanu un atspējojiet izstrādātāja režīmu, lai iespējotu verifikāciju. Plašāku informāciju skatiet šeit:
+
+https://www.google.com/chromeos/recovery.</translation>
+<translation id="8523174215108794127">Atkopšanas pabeigšana</translation>
+<translation id="8596190965261846034">Notiek atjauninājuma instalēšana...
+
+Lūdzu, neizslēdziet ierīci.
+Kad atjaunināšana būs pabeigta, ierīce tiks automātiski atkārtoti palaista.</translation>
+<translation id="8728458033228603970">Notiek sistēmas atkopšana...
+
+Tas aizņems dažas minūtes. Lūdzu, neizslēdziet datoru un neatvienojiet to no barošanas avota.</translation>
+<translation id="88986195241502842">Lejup</translation>
+<translation id="8911667951938758302">Nevarēja izveidot savienojumu ar tīklu</translation>
+<translation id="9146946647152579011">Atkopšana pabeigta</translation>
+<translation id="9156766649956178343">Atkopjot jūsu ierīci, radās kļūda</translation>
+</translationbundle>

@@ -1,0 +1,146 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="ca">
+<translation id="1201402288615127009">Següent</translation>
+<translation id="1207194515919037363">El mòdul de seguretat d'aquest dispositiu no funciona.
+
+Consulta aquest URL per obtenir més informació:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">S'ha produït un problema en obtenir les xarxes disponibles. Torna-ho a provar.</translation>
+<translation id="1483971085438511843">Utilitza la tecla Retorn per seleccionar una opció.</translation>
+<translation id="1486534340494484631">S'ha produït un error durant la supressió millorada de les dades del disc.
+
+La recuperació del sistema s'ha completat.
+Extreu el mitjà de recuperació i l'ordinador es reiniciarà automàticament.</translation>
+<translation id="1638626287317244115">Copia els registres</translation>
+<translation id="175933110504178679">Aquest procés netejarà les teves dades personals. Tardarà uns quants minuts. No apaguis el dispositiu.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Apaga</translation>
+<translation id="2160704550417277456">Opcions avançades</translation>
+<translation id="2161775569013928937">Vols iniciar la recuperació?</translation>
+<translation id="2238107357612570504">Opcions de depuració de la recuperació</translation>
+<translation id="2249183435483068136">Credencials incorrectes</translation>
+<translation id="2367943141906694421">No s'ha trobat cap xarxa</translation>
+<translation id="2437368373459239842">Aquest procés tardarà uns quants minuts</translation>
+<translation id="2704439832119932045">Selecciona el canal i la versió de l'SO per continuar amb la recuperació</translation>
+<translation id="2731700343119398978">Espereu...</translation>
+<translation id="2904079386864173492">Model:</translation>
+<translation id="3029977119648083072">Introdueix la contrasenya de la xarxa</translation>
+<translation id="3243756202241744259">S'està verificant la integritat del mitjà de recuperació...</translation>
+<translation id="3377484800447890197">S'ha produït un error en recuperar el dispositiu. Consulta https://google.com/chromeos/recovery per veure possibles solucions, o bé torna-ho a provar.</translation>
+<translation id="33938768013536853">No hi ha prou bateria per fer l'actualització.
+
+Connecta Chromebook a una font d'alimentació. L'actualització començarà automàticament quan la bateria estigui prou carregada.</translation>
+<translation id="3554552348994984455">Inicia la recuperació</translation>
+<translation id="3723985428118783104">Recuperació en curs</translation>
+<translation id="385051799172605136">Enrere</translation>
+<translation id="3928994486545789273">Tria la xarxa</translation>
+<translation id="3942420633017001071">Diagnòstic</translation>
+<translation id="3946632524220974380">Cal canviar la clau de desenvolupador per continuar. Aquest procés tarda 5 minuts.</translation>
+<translation id="3986180833426451964">El propietari del dispositiu requereix que aquest dispositiu s'executi amb la verificació de ChromeOS activada. Estàs provant d'instal·lar una imatge de recuperació de ChromeOS no oficial, la qual no supera la verificació.
+
+Per obtenir més informació, consulta aquest URL:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Aquest procés pot tardar uns quants minuts</translation>
+<translation id="4007898787815310968">S'ha produït un error durant la supressió millorada de les dades del disc.
+
+S'ha produït un error inesperat durant la recuperació. Consulta aquest URL per obtenir consells per resoldre problemes:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Xarxes disponibles</translation>
+<translation id="4261250127007881003">Registre de missatges</translation>
+<translation id="4287891348859705498">Copia els registres al disc extern</translation>
+<translation id="4410491068110727276">Utilitza els botons de volum per navegar cap amunt o cap avall.</translation>
+<translation id="4412740632134951267">Selecciona les opcions avançades següents per canviar</translation>
+<translation id="4486160941938493301">Si vols triar un mètode de recuperació diferent, prem Esc+Actualitza+el botó d'engegada per tornar enrere</translation>
+<translation id="4503421634496749265">Torna-ho a provar. Comprova que el dispositiu estigui endollat i carregant-se.</translation>
+<translation id="4652489998517778111">Reinicia i torna-ho a provar</translation>
+<translation id="4791159253869531619">S'ha detectat un disc extern amb una imatge de recuperació</translation>
+<translation id="4851795211104228792">Ara se't redirigirà a la versió estable més recent (opció recomanada)</translation>
+<translation id="4905949142713655149">S'ha produït un error inesperat. Consulteu l'URL següent per obtenir consells de resolució de problemes:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">La recuperació del sistema s'ha completat.
+
+Ja pots extreure el mitjà de recuperació de manera segura. L'ordinador es reiniciarà automàticament en breu.</translation>
+<translation id="5080881219404532322">Estàs a punt de recuperar l'ordinador. Comprova que estigui endollat a una font d'alimentació.
+
+Si vols cancel·lar la recuperació, mantén premut el botó d'engegada fins que l'ordinador s'apagui (pot tardar fins a 8 segons).
+Es pot fer de manera segura en qualsevol moment durant la verificació.</translation>
+<translation id="51254621993922230">S'ha completat la recuperació</translation>
+<translation id="537291066186627789">La recuperació del sistema s'ha completat.
+
+Extraieu el mitjà de recuperació i l'ordinador es reiniciarà automàticament.</translation>
+<translation id="5512602676102820748">No hi ha prou bateria per fer l'actualització.
+
+S'està carregant...
+
+L'actualització començarà automàticament quan la bateria estigui prou carregada.</translation>
+<translation id="5592705604979238266">Centre d’ajuda:</translation>
+<translation id="6185696379715117369">Re Pàg</translation>
+<translation id="635783852215913562">Fes servir les tecles de fletxa per navegar cap amunt o cap avall.</translation>
+<translation id="6363786367719063276">Mostra els registres</translation>
+<translation id="6374469231428023295">Torna-ho a provar</translation>
+<translation id="6388429950346313390">S'ha produït un error</translation>
+<translation id="6408757960874122684">No sembla que el teu ordinador sigui un sistema ChromeOS.
+
+Aquesta operació suprimirà qualsevol altre sistema operatiu que tinguis instal·lat i totes les dades. No podràs crear cap còpia de seguretat.
+Si en aquest ordinador tens dades que vols conservar, cancel·la la recuperació.</translation>
+<translation id="6451786478565057499">La supressió millorada de les dades del disc està en curs...
+
+Aquest procés pot tardar molta estona.</translation>
+<translation id="64764858283438323">La imatge del mitjà de recuperació és una imatge de desenvolupador no verificada.
+
+La recuperació continuarà perquè l'inici verificat està desactivat. Si, més endavant, tornes a activar la verificació, hauràs de repetir la recuperació amb una imatge de ChromeOS oficial.</translation>
+<translation id="6566947361877177265">Connecta't a una xarxa per començar la recuperació</translation>
+<translation id="6582194100503356658">Aquest procés pot tardar uns minuts. No apaguis el dispositiu ni desconnectis la font d'alimentació.</translation>
+<translation id="662657262312410525">Utilitzes una imatge de recuperació de ChromeOS obsoleta.
+
+Consulta aquest URL per obtenir instruccions sobre com es poden crear mitjans de recuperació nous:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Desendolla el disc extern perquè comenci el reinici.</translation>
+<translation id="6691307183503218714">Utilitzes una imatge de recuperació de ChromeOS oficial obsoleta.
+
+La recuperació continuarà perquè la verificació està desactivada. Si, més endavant, tornes a activar la verificació, hauràs de repetir la recuperació amb una imatge de ChromeOS actualitzada.</translation>
+<translation id="6868586188416530903">Registre de tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Escriu la contrasenya. Prem Tab per mostrar o amagar la contrasenya. Prem Retorn per enviar-la.</translation>
+<translation id="7126032376876878896">Utilitza el botó d'engegada per seleccionar una opció.</translation>
+<translation id="7159548186721854353">Fes un reinici manual si el dispositiu no es reinicia automàticament</translation>
+<translation id="7684530127758861598">Registre de recuperació</translation>
+<translation id="7709095358410921767">La supressió millorada de les dades del disc s'ha dut a terme correctament.
+
+S'ha produït un error inesperat durant la recuperació. Consulta aquest URL per obtenir consells per resoldre problemes:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Torna a introduir la contrasenya. Només s'admeten caràcters ASCII.</translation>
+<translation id="7939062555109487992">Opcions avançades</translation>
+<translation id="8048927549246926523">Recupera mitjançant una connexió a Internet</translation>
+<translation id="8114187014283095781">La supressió millorada de les dades del disc s'ha dut a terme correctament.
+
+La recuperació del sistema s'ha completat.
+Extreu el mitjà de recuperació i l'ordinador es reiniciarà automàticament.</translation>
+<translation id="8179976553408161302">Retorn</translation>
+<translation id="8420829064199266609">S'està connectant a la xarxa. Aquesta acció pot tardar fins a un minut.</translation>
+<translation id="8433773763660502318">No s'ha pogut finalitzar el procés de recuperació</translation>
+<translation id="8473826843543665828">Selecciona una xarxa nova o torna-ho a provar</translation>
+<translation id="8474679199432944250">La verificació de ChromeOS està desactivada.
+
+Si s’ha desactivat sense voler, cancel·la la recuperació i desactiva el mode de desenvolupador per poder activar la verificació. Per obtenir més informació, consulta aquest URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">S'està finalitzant la recuperació</translation>
+<translation id="8596190965261846034">S'està instal·lant l'actualització...
+
+No apaguis el dispositiu.
+Es reiniciarà automàticament un cop finalitzi l'actualització.</translation>
+<translation id="8728458033228603970">Recuperació del sistema en curs...
+
+Aquesta tasca pot tardar uns quants minuts. No apagueu l'ordinador ni el desconnecteu de la font d'alimentació.</translation>
+<translation id="88986195241502842">Av Pàg</translation>
+<translation id="8911667951938758302">No s'ha pogut connectar a la xarxa</translation>
+<translation id="9146946647152579011">La recuperació ja ha finalitzat</translation>
+<translation id="9156766649956178343">S'ha produït un error en recuperar el dispositiu</translation>
+</translationbundle>

@@ -1,0 +1,40 @@
+#!/bin/sh
+# Copyright 2023 The ChromiumOS Authors
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+LOG_FILE=/dev/kmsg
+
+# Kernel log-levels.
+LOG_INFO="<6>"
+LOG_ERROR="<3>"
+
+# Tag for log messages.
+TAG="flexor-init"
+
+flexor_info() {
+  echo "${LOG_INFO}${TAG}: $*" | tee "${LOG_FILE}" 1>&2
+}
+
+flexor_err() {
+  echo "${LOG_ERROR}${TAG}: $*" | tee "${LOG_FILE}" 1>&2
+}
+
+main() {
+  # shellcheck source=/dev/null
+  . /lib/init.sh
+  initialize
+
+  flexor_info "Welcome from Flexor"
+
+  while true; do
+    flexor_info "Starting a shell for you to explore Flexor!"
+    /bin/sh
+  done
+}
+
+if [ "$0" = "/init" ]; then
+  main "$@"
+  # Should never reach here.
+  exit 1
+fi

@@ -1,0 +1,137 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="pl">
+<translation id="1201402288615127009">Dalej</translation>
+<translation id="1207194515919037363">Moduł zabezpieczeń na tym urządzeniu nie działa.
+
+Otwórz ten adres URL, by uzyskać więcej informacji:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Podczas wyszukiwania dostępnych sieci wystąpił błąd – spróbuj ponownie</translation>
+<translation id="1483971085438511843">Aby wybrać opcję, naciśnij Enter.</translation>
+<translation id="1486534340494484631">Podczas rozszerzonego usuwania dysku wystąpił błąd.
+
+System został przywrócony.
+Wyjmij nośnik przywracania. Komputer automatycznie uruchomi się ponownie.</translation>
+<translation id="1638626287317244115">Kopiuj dzienniki</translation>
+<translation id="175933110504178679">Ten proces spowoduje usunięcie wszystkich danych osobowych. Potrwa to kilka minut. Nie wyłączaj urządzenia.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Wyłącz</translation>
+<translation id="2160704550417277456">Opcje zaawansowane</translation>
+<translation id="2161775569013928937">Czy chcesz rozpocząć odzyskiwanie?</translation>
+<translation id="2238107357612570504">Opcje debugowania dotyczące przywracania</translation>
+<translation id="2249183435483068136">Nieprawidłowe dane logowania</translation>
+<translation id="2367943141906694421">Nie udało się znaleźć żadnej sieci</translation>
+<translation id="2437368373459239842">Potrwa to kilka minut</translation>
+<translation id="2704439832119932045">Aby kontynuować odzyskiwanie, wybierz kanał i wersję systemu operacyjnego</translation>
+<translation id="2731700343119398978">Czekaj...</translation>
+<translation id="2904079386864173492">Model:</translation>
+<translation id="3029977119648083072">Wpisz hasło dostępu do sieci</translation>
+<translation id="3243756202241744259">Trwa sprawdzanie poprawności nośnika przywracania...</translation>
+<translation id="3377484800447890197">Podczas przywracania urządzenia wystąpił błąd. Sprawdź dostępne rozwiązania na stronie https://google.com/chromeos/recovery lub spróbuj jeszcze raz.</translation>
+<translation id="33938768013536853">Poziom naładowania baterii jest zbyt niski, by zainstalować aktualizację.
+
+Podłącz Chromebooka do źródła zasilania. Instalacja aktualizacji rozpocznie się automatycznie, gdy tylko bateria zostanie wystarczająco naładowana.</translation>
+<translation id="3554552348994984455">Rozpocznij odzyskiwanie</translation>
+<translation id="3723985428118783104">Trwa odzyskiwanie</translation>
+<translation id="385051799172605136">Wstecz</translation>
+<translation id="3928994486545789273">Wybierz sieć</translation>
+<translation id="3942420633017001071">Diagnostyka</translation>
+<translation id="3946632524220974380">Aby kontynuować, konieczna jest zmiana klucza dewelopera.
+Ten proces zajmuje 5 minut.</translation>
+<translation id="3986180833426451964">Właściciel tego urządzenia wymaga, aby działało ono z włączoną weryfikacją ChromeOS. Próbujesz zainstalować nieoficjalny obraz przywracania systemu ChromeOS, którego działanie blokuje weryfikacja. Więcej informacji znajdziesz na https://www.google.com/chromeos/devmode.</translation>
+<translation id="4006102694824401878">Może to potrwać kilka minut</translation>
+<translation id="4007898787815310968">Podczas rozszerzonego usuwania dysku wystąpił błąd.
+
+Podczas przywracania wystąpił nieoczekiwany błąd. Poszukaj na tej stronie wskazówek, jak rozwiązać problem:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Dostępne sieci</translation>
+<translation id="4261250127007881003">Dziennik wiadomości</translation>
+<translation id="4287891348859705498">Skopiuj dzienniki na dysk zewnętrzny</translation>
+<translation id="4410491068110727276">Aby przejść w górę lub w dół, użyj przycisków głośności.</translation>
+<translation id="4412740632134951267">Wybierz poniżej zaawansowane opcje, aby je zmienić</translation>
+<translation id="4486160941938493301">Jeśli chcesz wybrać inną metodę odzyskiwania, naciśnij Esc + Odśwież + Zasilanie, aby wrócić</translation>
+<translation id="4503421634496749265">Spróbuj ponownie. Sprawdź, czy urządzenie jest podłączone do zasilania i się ładuje.</translation>
+<translation id="4652489998517778111">Uruchom ponownie i spróbuj jeszcze raz</translation>
+<translation id="4791159253869531619">Wykryto zewnętrzny dysk z obrazem odzyskiwania</translation>
+<translation id="4851795211104228792">Zaktualizujemy oprogramowanie do najnowszej wersji stabilnej (zalecane)</translation>
+<translation id="4905949142713655149">Wystąpił nieoczekiwany błąd. Poszukaj na tej stronie wskazówek,
+jak rozwiązać problem:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Ukończono odzyskiwanie systemu.
+
+Możesz teraz wyjąć nośnik. Za chwilę komputer
+automatycznie uruchomi się ponownie.</translation>
+<translation id="5080881219404532322">Za chwilę rozpocznie się przywracanie systemu.  Upewnij się,
+że komputer jest podłączony do zasilania.
+
+Aby anulować przywracanie systemu, naciśnij i przytrzymaj
+przycisk zasilania (przez ok. 8 sekund), aż komputer się wyłączy.
+
+Możesz to bezpiecznie zrobić w dowolnej chwili podczas sprawdzania systemu.</translation>
+<translation id="51254621993922230">Odzyskiwanie ukończone</translation>
+<translation id="537291066186627789">Ukończono odzyskiwanie systemu.
+
+Wyjmij nośnik odzyskiwania, a komputer automatycznie
+uruchomi się ponownie.</translation>
+<translation id="5512602676102820748">Poziom naładowania baterii jest zbyt niski, by zainstalować aktualizację.
+
+Ładuję…
+
+Instalacja aktualizacji rozpocznie się automatycznie, gdy tylko bateria zostanie wystarczająco naładowana.</translation>
+<translation id="5592705604979238266">Centrum pomocy:</translation>
+<translation id="6185696379715117369">Strona do góry</translation>
+<translation id="635783852215913562">Użyj klawiszy strzałek, by przechodzić w górę lub w dół.</translation>
+<translation id="6363786367719063276">Wyświetl logi</translation>
+<translation id="6374469231428023295">Spróbuj jeszcze raz</translation>
+<translation id="6388429950346313390">Coś poszło nie tak</translation>
+<translation id="6408757960874122684">Twój komputer prawdopodobnie nie ma systemu ChromeOS.
+
+Ta operacja spowoduje usunięcie zainstalowanego obecnie systemu operacyjnego i wszystkich danych. Nie będzie możliwości utworzenia kopii zapasowej.
+Jeśli masz na tym komputerze jakiekolwiek dane, które chcesz zachować, anuluj przywracanie systemu.</translation>
+<translation id="6451786478565057499">Trwa rozszerzone usuwanie dysku…
+
+Może to zająć sporo czasu.</translation>
+<translation id="64764858283438323">Na nośniku przywracania znajduje się niezweryfikowany obraz dla trybu programisty. Przywracanie zostanie przeprowadzone, bo weryfikacja podczas uruchamiania jest wyłączona. Jeśli później z powrotem ją włączysz, musisz powtórzyć przywracanie z użyciem oficjalnego obrazu ChromeOS.</translation>
+<translation id="6566947361877177265">Połącz się z siecią, aby rozpocząć odzyskiwanie</translation>
+<translation id="6582194100503356658">Może to potrwać kilka minut. Nie wyłączaj urządzenia i nie odłączaj zasilania.</translation>
+<translation id="662657262312410525">Używasz przestarzałego obrazu przywracania systemu ChromeOS. Na tej stronie znajdziesz instrukcje, jak utworzyć nowy nośnik przywracania: https://www.google.com/chromeos/recovery.</translation>
+<translation id="6630033970080307657">Aby uruchomić ponownie, odłącz dysk zewnętrzny.</translation>
+<translation id="6691307183503218714">Używasz przestarzałego oficjalnego obrazu przywracania ChromeOS. Przywracanie zostanie przeprowadzone, bo weryfikacja jest wyłączona. Jeśli później z powrotem ją włączysz, musisz powtórzyć przywracanie z użyciem aktualnego obrazu ChromeOS.</translation>
+<translation id="6868586188416530903">dziennik tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Wpisz hasło. Aby pokazać lub ukryć hasło, naciśnij Tab. Aby przesłać, naciśnij Enter.</translation>
+<translation id="7126032376876878896">Naciśnij przycisk zasilania, by wybrać opcję.</translation>
+<translation id="7159548186721854353">Jeśli urządzenie nie uruchomi się ponownie automatycznie, zrób to ręcznie</translation>
+<translation id="7684530127758861598">Dziennik przywracania</translation>
+<translation id="7709095358410921767">Rozszerzone usuwanie dysku zostało ukończone.
+
+Podczas przywracania wystąpił nieoczekiwany błąd. Poszukaj na tej stronie wskazówek, jak rozwiązać problem:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Wpisz ponownie hasło. Obsługiwane są tylko znaki ASCII.</translation>
+<translation id="7939062555109487992">Opcje zaawansowane</translation>
+<translation id="8048927549246926523">Do odzyskiwania użyj połączenia z internetem</translation>
+<translation id="8114187014283095781">Rozszerzone usuwanie dysku zostało ukończone.
+
+System został przywrócony.
+Wyjmij nośnik przywracania. Komputer automatycznie uruchomi się ponownie.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">Łączę się z siecią. Może to potrwać około minuty.</translation>
+<translation id="8433773763660502318">Nie udało się ukończyć procesu odzyskiwania</translation>
+<translation id="8473826843543665828">Wybierz nową sieć lub spróbuj ponownie</translation>
+<translation id="8474679199432944250">Weryfikacja Chrome OS jest wyłączona. Jeśli jest to niezamierzone, anuluj przywracanie i wyłącz tryb programisty, aby włączyć weryfikację. Więcej informacji znajdziesz na https://www.google.com/chromeos/recovery.</translation>
+<translation id="8523174215108794127">Kończę odzyskiwanie</translation>
+<translation id="8596190965261846034">Instaluję aktualizację…
+
+Nie wyłączaj urządzenia.
+Po zakończeniu instalacji urządzenie automatycznie uruchomi się ponownie.</translation>
+<translation id="8728458033228603970">Trwa odzyskiwanie systemu...
+
+Może to potrwać kilka minut. Nie wyłączaj komputera ani nie odłączaj zasilania.</translation>
+<translation id="88986195241502842">Strona w dół</translation>
+<translation id="8911667951938758302">Nie udało się połączyć z siecią</translation>
+<translation id="9146946647152579011">Zakończono przywracanie</translation>
+<translation id="9156766649956178343">Podczas przywracania systemu na urządzeniu wystąpił błąd</translation>
+</translationbundle>

@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="es">
+<translation id="1201402288615127009">Siguiente</translation>
+<translation id="1207194515919037363">El módulo de seguridad de este dispositivo no funciona.
+
+Consulta esta URL para obtener más información:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Se ha producido un error al intentar obtener las redes disponibles. Inténtalo de nuevo.</translation>
+<translation id="1483971085438511843">Usa la tecla Intro para seleccionar una opción.</translation>
+<translation id="1486534340494484631">No se ha podido realizar el borrado mejorado del disco.
+
+Se ha completado la recuperación del sistema.
+Retira el medio de recuperación para que el ordenador se reinicie automáticamente.</translation>
+<translation id="1638626287317244115">Copiar registros</translation>
+<translation id="175933110504178679">Este proceso borrará tus datos personales. Tardará unos minutos. No apagues el dispositivo.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Apagar</translation>
+<translation id="2160704550417277456">Opciones avanzadas</translation>
+<translation id="2161775569013928937">¿Iniciar recuperación?</translation>
+<translation id="2238107357612570504">Opciones de depuración para la recuperación</translation>
+<translation id="2249183435483068136">Credenciales incorrectas</translation>
+<translation id="2367943141906694421">No se ha encontrado ninguna red</translation>
+<translation id="2437368373459239842">Este proceso tardará unos minutos</translation>
+<translation id="2704439832119932045">Selecciona el canal y la versión del SO para continuar con la recuperación</translation>
+<translation id="2731700343119398978">Espera...</translation>
+<translation id="2904079386864173492">Modelo:</translation>
+<translation id="3029977119648083072">Escribe la contraseña de red</translation>
+<translation id="3243756202241744259">Se está verificando la integridad del medio de recuperación...</translation>
+<translation id="3377484800447890197">Se ha producido un error al recuperar tu dispositivo. Consulta la página https://google.com/chromeos/recovery para obtener posibles soluciones o inténtalo de nuevo.</translation>
+<translation id="33938768013536853">No tienes batería suficiente para instalar la actualización.
+
+Conecta tu Chromebook a una fuente de alimentación. La actualización se iniciará automáticamente cuando la batería tenga suficiente carga.</translation>
+<translation id="3554552348994984455">Iniciar recuperación</translation>
+<translation id="3723985428118783104">Recuperación en curso</translation>
+<translation id="385051799172605136">Volver</translation>
+<translation id="3928994486545789273">Seleccionar red</translation>
+<translation id="3942420633017001071">Diagnósticos</translation>
+<translation id="3946632524220974380">Para continuar, hay que cambiar la clave de desarrollador. Este proceso tarda cinco minutos.</translation>
+<translation id="3986180833426451964">El propietario del dispositivo requiere que este dispositivo funcione con la verificación de ChromeOS activada. Estás intentando instalar una imagen de recuperación de ChromeOS no oficial que no ha superado el proceso de verificación.
+
+Para consultar más información, visita esta URL:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Este proceso puede tardar unos minutos</translation>
+<translation id="4007898787815310968">No se ha podido realizar el borrado mejorado del disco.
+
+Se ha producido un error inesperado durante la recuperación. Consulta esta URL para ver consejos sobre cómo solucionar problemas:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Redes disponibles</translation>
+<translation id="4261250127007881003">Registro de mensajes</translation>
+<translation id="4287891348859705498">Copiar registros a tu disco externo</translation>
+<translation id="4410491068110727276">Usa los botones de volumen para desplazarte hacia arriba o hacia abajo.</translation>
+<translation id="4412740632134951267">Selecciona las opciones avanzadas que quieras cambiar a continuación</translation>
+<translation id="4486160941938493301">Si quieres usar un método de recuperación diferente, vuelve atrás pulsando Esc + Actualizar + Botón de encendido</translation>
+<translation id="4503421634496749265">Inténtalo de nuevo. Comprueba que el dispositivo esté enchufado y esté cargándose.</translation>
+<translation id="4652489998517778111">Reinicia el dispositivo e inténtalo de nuevo</translation>
+<translation id="4791159253869531619">Se ha detectado un disco externo con una imagen de recuperación</translation>
+<translation id="4851795211104228792">Ahora se realizará la actualización a la versión estable más reciente (recomendado)</translation>
+<translation id="4905949142713655149">Se ha producido un error inesperado. Para obtener consejos sobre la solución de problemas, consulta la URL siguiente:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Se ha completado la recuperación del sistema.
+
+Es seguro retirar el medio de recuperación. En breve,
+tu ordenador se reiniciará automáticamente.</translation>
+<translation id="5080881219404532322">Estás a punto de recuperar tu ordenador. Asegúrate de que esté
+ enchufado a una fuente de alimentación.
+
+Si quieres cancelar la recuperación, mantén pulsado el botón de encendido hasta que se apague el ordenador (tarda un máximo de 8 segundos).
+Puedes realizar esta acción en cualquier momento durante el proceso de verificación.</translation>
+<translation id="51254621993922230">Recuperación completada</translation>
+<translation id="537291066186627789">Se ha completado la recuperación del sistema.
+
+Elimina el medio de recuperación para que el equipo se reinicie automáticamente.</translation>
+<translation id="5512602676102820748">No tienes batería suficiente para instalar la actualización.
+
+Cargando...
+
+La actualización se iniciará automáticamente cuando la batería tenga suficiente carga.</translation>
+<translation id="5592705604979238266">Centro de Ayuda:</translation>
+<translation id="6185696379715117369">Retroceder página</translation>
+<translation id="635783852215913562">Usa las teclas de flecha para desplazarte hacia arriba o hacia abajo.</translation>
+<translation id="6363786367719063276">Ver registros</translation>
+<translation id="6374469231428023295">Reintentar</translation>
+<translation id="6388429950346313390">Se ha producido un error</translation>
+<translation id="6408757960874122684">Parece que tu ordenador no es un sistema ChromeOS.
+
+Esta operación eliminará cualquier otro sistema operativo que tengas instalado, así como todos los datos, y no podrás realizar una copia de seguridad.
+Si tienes datos almacenados en este ordenador que quieras conservar, debes cancelar la recuperación.</translation>
+<translation id="6451786478565057499">Borrado mejorado del disco en curso...
+
+Este proceso puede tardar mucho tiempo.</translation>
+<translation id="64764858283438323">La imagen del medio de recuperación es una imagen de desarrollador que no se ha verificado.
+
+La recuperación continuará, ya que el inicio verificado está desactivado. Si vuelves a activar la verificación, deberás repetir la recuperación con una imagen oficial de ChromeOS.</translation>
+<translation id="6566947361877177265">Conéctate a una red para iniciar la recuperación</translation>
+<translation id="6582194100503356658">Este proceso puede tardar unos minutos. No apagues el dispositivo ni desconectes el cable de alimentación.</translation>
+<translation id="662657262312410525">Estás usando una imagen de recuperación de ChromeOS obsoleta.
+
+Para obtener instrucciones sobre cómo crear nuevos medios de recuperación, visita esta URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Desconecta tu disco externo para reiniciar.</translation>
+<translation id="6691307183503218714">Estás usando una imagen de recuperación oficial de ChromeOS obsoleta.
+
+La recuperación continuará, ya que la verificación está desactivada. Si vuelves a activar la verificación, deberás repetir la recuperación con una imagen de ChromeOS actualizada.</translation>
+<translation id="6868586188416530903">Registro de tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Escribe tu contraseña. Pulsa Tabulador para mostrar u ocultar la contraseña. Pulsa Intro para enviarla.</translation>
+<translation id="7126032376876878896">Usa el botón de encendido para seleccionar una opción.</translation>
+<translation id="7159548186721854353">Reinicia el dispositivo de forma manual si no lo hace automáticamente</translation>
+<translation id="7684530127758861598">Registro de recuperación</translation>
+<translation id="7709095358410921767">El borrado mejorado del disco se ha realizado correctamente.
+
+Se ha producido un error inesperado durante la recuperación. Consulta esta URL para ver consejos sobre cómo solucionar problemas:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Vuelve a escribir tu contraseña. Solo se admiten caracteres ASCII.</translation>
+<translation id="7939062555109487992">Opciones avanzadas</translation>
+<translation id="8048927549246926523">Realiza la recuperación usando una conexión a Internet</translation>
+<translation id="8114187014283095781">El borrado mejorado del disco se ha realizado correctamente.
+
+Se ha completado la recuperación del sistema.
+Retira el medio de recuperación para que el ordenador se reinicie automáticamente.</translation>
+<translation id="8179976553408161302">Intro</translation>
+<translation id="8420829064199266609">Conectando a la red. Este proceso puede tardar hasta un minuto.</translation>
+<translation id="8433773763660502318">No se ha podido terminar el proceso de recuperación</translation>
+<translation id="8473826843543665828">Selecciona otra red o inténtalo de nuevo</translation>
+<translation id="8474679199432944250">La verificación de ChromeOS está desactivada.
+
+Si este modo se ha seleccionado por error, debes cancelar la recuperación e inhabilitar el modo Desarrollador para habilitar la verificación. Para consultar más información, visita esta URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Finalizando recuperación</translation>
+<translation id="8596190965261846034">Instalando actualización...
+
+No apagues el dispositivo.
+Se reiniciará automáticamente cuando finalice la actualización.</translation>
+<translation id="8728458033228603970">Recuperando el sistema...
+
+Esta tarea tardará algunos minutos. No apagues el equipo ni desconectes el cable de alimentación.</translation>
+<translation id="88986195241502842">Avanzar página</translation>
+<translation id="8911667951938758302">No se ha podido establecer la conexión a la red</translation>
+<translation id="9146946647152579011">La recuperación se ha completado</translation>
+<translation id="9156766649956178343">No se ha podido recuperar tu dispositivo</translation>
+</translationbundle>

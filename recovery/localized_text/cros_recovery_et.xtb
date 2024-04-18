@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="et">
+<translation id="1201402288615127009">Järgmine</translation>
+<translation id="1207194515919037363">Selles seadmes olev turvamoodul ei tööta.
+
+Lisateavet leiate sellelt URL-ilt:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Saadaolevate võrkude toomisel esines probleem, proovige uuesti</translation>
+<translation id="1483971085438511843">Kasutage valiku tegemiseks sisestusklahvi.</translation>
+<translation id="1486534340494484631">Ketta täiustatud kustutamisel ilmnes viga.
+
+Süsteemitaaste on lõpetatud.
+Eemaldage taastekandja ja teie arvuti taaskäivitub automaatselt.</translation>
+<translation id="1638626287317244115">Kopeeri logid</translation>
+<translation id="175933110504178679">Selle protsessi käigus kustutatakse teie isiklikud andmed. Selleks kulub mitu minutit. Ärge lülitage seadet välja.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Lülita välja</translation>
+<translation id="2160704550417277456">Täpsemad valikud</translation>
+<translation id="2161775569013928937">Kas alustada taastamist?</translation>
+<translation id="2238107357612570504">Silumise valikud taastamisel</translation>
+<translation id="2249183435483068136">Vale mandaat</translation>
+<translation id="2367943141906694421">Ei leitud ühtegi võrku</translation>
+<translation id="2437368373459239842">Selleks kulub mõni minut</translation>
+<translation id="2704439832119932045">Taastamise jätkamiseks valige OS-i kanal ja versioon</translation>
+<translation id="2731700343119398978">Oodake ...</translation>
+<translation id="2904079386864173492">Mudel:</translation>
+<translation id="3029977119648083072">Sisestage võrgu parool</translation>
+<translation id="3243756202241744259">Teie taastemeediumi terviklikkuse kinnitamine ...</translation>
+<translation id="3377484800447890197">Teie seadme taastamisel ilmnes viga. Vaadake lehelt
+https://google.com/chromeos/recovery võimalikke lahendusi või proovige uuesti.</translation>
+<translation id="33938768013536853">Aku on värskendamiseks liiga tühi.
+
+Ühendage oma Chromebook toiteallikaga. Värskendamine
+algab automaatselt kohe, kui aku on piisavalt laetud.</translation>
+<translation id="3554552348994984455">Taastamise alustamine</translation>
+<translation id="3723985428118783104">Taastamine on pooleli</translation>
+<translation id="385051799172605136">Tagasi</translation>
+<translation id="3928994486545789273">Vali võrk</translation>
+<translation id="3942420633017001071">Diagnostika</translation>
+<translation id="3946632524220974380">Jätkamiseks tuleb muuta arendaja võtit; see protseduur võtab
+5 minutit.</translation>
+<translation id="3986180833426451964">Seadme omanik nõuab, et seadme käitamisel oleks ChromeOS-i
+kinnitamine sisse lülitatud. Üritate installida
+Chrome OS-i mitteametlikku taastekujutist, mida ei saa kinnitada.
+
+Lisateavet leiate sellelt URL-ilt:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">See protsess võib võtta mõne minuti</translation>
+<translation id="4007898787815310968">Ketta täiustatud kustutamisel ilmnes viga.
+
+Taastamisel ilmnes ootamatu viga. Veaotsingu nõuandeid vaadake sellelt URL-ilt:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Saadaolevad võrgud</translation>
+<translation id="4261250127007881003">Sõnumite logi</translation>
+<translation id="4287891348859705498">Kopeerige logid välisele kettale</translation>
+<translation id="4410491068110727276">Kasutage üles või alla liikumiseks helitugevuse nuppe.</translation>
+<translation id="4412740632134951267">Muutmiseks tehke allpool valik Täpsemad valikud</translation>
+<translation id="4486160941938493301">Kui soovite valida muu taastemeetodi, vajutage tagasiminekuks paoklahvi + värskendusklahvi + toiteklahvi</translation>
+<translation id="4503421634496749265">Proovige uuesti. Veenduge, et seade oleks vooluvõrku ühendatud ja laeks.</translation>
+<translation id="4652489998517778111">Taaskäivitage ja proovige uuesti</translation>
+<translation id="4791159253869531619">Tuvastati väline ketas koos taastekujutisega</translation>
+<translation id="4851795211104228792">Tarkvara värskendatakse nüüd uusimale stabiilsele versioonile (soovitatav)</translation>
+<translation id="4905949142713655149">Ilmnes ootamatu viga. Sellelt URL-ilt leiate
+nõuanded vigade otsimiseks:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Süsteemitaaste jõudis lõpule.
+
+Nüüd saate taastemeediumi ohutult eemaldada. Teie arvuti taaskäivitatakse
+peagi automaatselt.</translation>
+<translation id="5080881219404532322">Alustate arvuti taastamist. Veenduge, et seade on
+toiteallikaga ühendatud.
+
+Kui soovite taastamise tühistada, siis vajutage pikalt toitenuppu,
+kuni arvuti välja lülitub (selleks võib kuluda kuni 8 sekundit).
+Võite seda kinnitamise ajal teha millal tahes.</translation>
+<translation id="51254621993922230">Taastamine on lõpetatud</translation>
+<translation id="537291066186627789">Süsteemitaaste on lõpetatud.
+
+Eemaldage taastemeedium ja teie arvuti taaskäivitatakse
+automaatselt.</translation>
+<translation id="5512602676102820748">Aku on värskendamiseks liiga tühi.
+
+Laadimine …
+
+Värskendamine algab automaatselt kohe, kui aku on piisavalt laetud.</translation>
+<translation id="5592705604979238266">Abikeskus:</translation>
+<translation id="6185696379715117369">Lehel üles</translation>
+<translation id="635783852215913562">Kasutage üles või alla liikumiseks nooleklahve.</translation>
+<translation id="6363786367719063276">Kuva logid</translation>
+<translation id="6374469231428023295">Proovi uuesti</translation>
+<translation id="6388429950346313390">Kahjuks läks midagi valesti</translation>
+<translation id="6408757960874122684">Näib, et teie arvuti ei ole ChromeOS-i süsteem.
+
+See toiming kustutab iga muu operatsioonisüsteemi, mis võib installitud olla,
+ja kõik andmed; varundamise võimalust ei ole.
+Kui selles arvutis on andmeid, mille soovite säilitada,
+siis peate taaste tühistama.</translation>
+<translation id="6451786478565057499">Ketta täiustatud kustutamine on pooleli …
+
+See võib kaua aega võtta.</translation>
+<translation id="64764858283438323">Taastemeediumi kujutis on arendaja kinnitamata kujutis.
+
+Taastamist jätkatakse, kuna kinnitatud käivitamine on välja lülitatud.
+Kui hiljem kinnitamise uuesti sisse lülitate, peate taastamist
+kordama ChromeOS-i ametliku kujutisega.</translation>
+<translation id="6566947361877177265">Taastamise alustamiseks looge ühendus võrguga</translation>
+<translation id="6582194100503356658">See võib võtta mõne minuti. Ärge lülitage seadet välja ega eemaldage toidet.</translation>
+<translation id="662657262312410525">Kasutate ChromeOS-i aegunud taastekujutist.
+
+Sellelt URL-ilt leiate juhised uue taastemeediumi loomiseks:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Taaskäivitamiseks eemaldage väline ketas.</translation>
+<translation id="6691307183503218714">Kasutate ChromeOS-i aegunud ametlikku taastekujutist.
+
+Taastamine jätkub, kuna kinnitamine on välja lülitatud.
+Kui lülitate kinnitamise hiljem uuesti sisse, peate taastamist
+kordama Chrome OS-i ajakohase kujutisega.</translation>
+<translation id="6868586188416530903">Logi tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Sisestage parool. Parooli kuvamiseks või peitmiseks vajutage tabulaatorit. Esitamiseks vajutage sisestusklahvi.</translation>
+<translation id="7126032376876878896">Kasutage valiku tegemiseks toitenuppu.</translation>
+<translation id="7159548186721854353">Kui seade ei taaskäivitu automaatselt, tehke seda käsitsi</translation>
+<translation id="7684530127758861598">Taastamise logi</translation>
+<translation id="7709095358410921767">Ketta täiustatud kustutamine õnnestus.
+
+Taastamisel ilmnes ootamatu viga. Veaotsingu nõuandeid vaadake sellelt URL-ilt:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Sisestage parool uuesti. Toetatakse ainult ASCII tähemärke.</translation>
+<translation id="7939062555109487992">Täpsemad valikud</translation>
+<translation id="8048927549246926523">Internetiühenduse kaudu taastamine</translation>
+<translation id="8114187014283095781">Ketta täiustatud kustutamine õnnestus.
+
+Süsteemitaaste on lõpetatud.
+Eemaldage taastekandja ja teie arvuti taaskäivitub automaatselt.</translation>
+<translation id="8179976553408161302">Sisestusklahv</translation>
+<translation id="8420829064199266609">Luuakse võrguühendust. Selleks võib kuluda kuni minut.</translation>
+<translation id="8433773763660502318">Taastamisprotsessi ei õnnestunud lõpetada</translation>
+<translation id="8473826843543665828">Valige uus võrk või proovige uuesti</translation>
+<translation id="8474679199432944250">ChromeOS-i kinnitamine on välja lülitatud.
+
+Kui seda tehti kogemata, peaksite kinnitamise lubamiseks
+tühistama taastamise ja keelama arendajarežiimi. Lisateavet leiate
+sellelt URL-ilt:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Taastamise lõpetamine</translation>
+<translation id="8596190965261846034">Värskenduse installimine …
+
+Ärge lülitage seadet välja.
+See taaskäivitub automaatselt, kui värskendamine lõpetatakse.</translation>
+<translation id="8728458033228603970">Süsteemitaaste on pooleli ...
+
+See võtab mõne minuti. Ärge lülitage arvutit välja ega eemaldage toidet.</translation>
+<translation id="88986195241502842">Lehe lõppu</translation>
+<translation id="8911667951938758302">Võrguga ei saanud ühendust</translation>
+<translation id="9146946647152579011">Taastamine on nüüd lõpetatud</translation>
+<translation id="9156766649956178343">Viga seadme taastamisel</translation>
+</translationbundle>

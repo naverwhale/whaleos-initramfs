@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="de">
+<translation id="1201402288615127009">Weiter</translation>
+<translation id="1207194515919037363">Das Sicherheitsmodul auf diesem Gerät funktioniert nicht.
+
+Weitere Informationen findest du unter dieser URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Beim Abrufen der verfügbaren Netzwerke ist ein Problem aufgetreten, versuche es noch einmal</translation>
+<translation id="1483971085438511843">Drücke die Eingabetaste, um eine Option auszuwählen.</translation>
+<translation id="1486534340494484631">Beim erweiterten Löschen des Laufwerks ist ein Fehler aufgetreten.
+
+Die Systemwiederherstellung ist abgeschlossen.
+Entferne das Wiederherstellungsmedium. Dein Computer wird anschließend automatisch neu gestartet.</translation>
+<translation id="1638626287317244115">Protokolle kopieren</translation>
+<translation id="175933110504178679">Bei diesem Vorgang werden deine persönlichen Daten gelöscht. Das kann einige Minuten dauern. Schalte das Gerät nicht aus.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Ausschalten</translation>
+<translation id="2160704550417277456">Erweiterte Optionen</translation>
+<translation id="2161775569013928937">Wiederherstellung starten?</translation>
+<translation id="2238107357612570504">Fehlerbehebungsoptionen für die Wiederherstellung</translation>
+<translation id="2249183435483068136">Anmeldedaten falsch</translation>
+<translation id="2367943141906694421">Keine Netzwerke gefunden</translation>
+<translation id="2437368373459239842">Das kann einige Minuten dauern</translation>
+<translation id="2704439832119932045">Release-Version und Version des Betriebssystems auswählen, um mit der Wiederherstellung fortzufahren</translation>
+<translation id="2731700343119398978">Bitte warten...</translation>
+<translation id="2904079386864173492">Modell:</translation>
+<translation id="3029977119648083072">Netzwerkpasswort eingeben</translation>
+<translation id="3243756202241744259">Die Integrität deines Wiederherstellungsmediums wird überprüft...</translation>
+<translation id="3377484800447890197">Bei der Wiederherstellung deines Geräts ist ein Fehler aufgetreten. Versuche es noch einmal oder suche unter https://google.com/chromeos/recovery nach einer Lösung.</translation>
+<translation id="33938768013536853">Der Akku ist für ein Update zu schwach.
+
+Bitte schließe dein Chromebook an eine Stromquelle an. Das Update
+beginnt automatisch, sobald der Akku ausreichend geladen ist.</translation>
+<translation id="3554552348994984455">Wiederherstellung starten</translation>
+<translation id="3723985428118783104">Wiederherstellung läuft</translation>
+<translation id="385051799172605136">Zurück</translation>
+<translation id="3928994486545789273">Netzwerk auswählen</translation>
+<translation id="3942420633017001071">Diagnose</translation>
+<translation id="3946632524220974380">Damit der Vorgang fortgesetzt werden kann, muss der Entwicklerschlüssel geändert werden. Dies dauert 5 Minuten.</translation>
+<translation id="3986180833426451964">Der Eigentümer des Geräts hat festgelegt, dass auf diesem Gerät die ChromeOS-Betriebssystemüberprüfung aktiviert sein muss. Du versuchst, ein inoffizielles ChromeOS-Wiederherstellungsimage zu installieren, das die Überprüfung nicht besteht.
+
+Weitere Informationen findest du unter der folgenden URL:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Der Vorgang kann einige Minuten dauern</translation>
+<translation id="4007898787815310968">Beim erweiterten Löschen des Laufwerks ist ein Fehler aufgetreten.
+
+Bei der Wiederherstellung ist ein unerwarteter Fehler aufgetreten. Unter der folgenden URL findest du Tipps zur Fehlerbehebung:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Verfügbare Netzwerke</translation>
+<translation id="4261250127007881003">Nachrichten-Protokoll</translation>
+<translation id="4287891348859705498">Protokolle auf das externe Laufwerk kopieren</translation>
+<translation id="4410491068110727276">Mit den Lautstärketasten kannst du nach oben oder unten gehen.</translation>
+<translation id="4412740632134951267">Wähle zum Ändern unten die erweiterten Optionen aus</translation>
+<translation id="4486160941938493301">Wenn du eine andere Wiederherstellungsmethode auswählen möchtest, drücke die Esc-Taste + Aktualisieren + Ein-/Aus-Taste</translation>
+<translation id="4503421634496749265">Versuche es noch einmal. Das Gerät muss eingesteckt sein und aufgeladen werden.</translation>
+<translation id="4652489998517778111">Starte das Gerät neu und versuche es noch einmal</translation>
+<translation id="4791159253869531619">Externes Laufwerk mit einem Image zur Wiederherstellung gefunden</translation>
+<translation id="4851795211104228792">Jetzt wird ein Update auf die neueste stabile Version durchgeführt (empfohlen)</translation>
+<translation id="4905949142713655149">Ein unerwarteter Fehler ist aufgetreten. Tipps zur Fehlerbehebung
+findest du unter der folgenden URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Die Systemwiederherstellung ist abgeschlossen.
+
+Du kannst jetzt das Wiederherstellungsmedium entfernen. Der Computer wird bald automatisch neu gestartet.</translation>
+<translation id="5080881219404532322">Du bist im Begriff, deinen Computer wiederherzustellen. Achte darauf, dass er mit einer Stromquelle verbunden ist.
+
+Wenn du die Wiederherstellung abbrechen möchtest, halte die Ein-/Aus-Taste gedrückt, bis der Computer ausgeschaltet wird. Dies kann bis zu 8 Sekunden dauern und ist bis zum Abschluß der Überprüfung möglich.</translation>
+<translation id="51254621993922230">Wiederherstellung abgeschlossen</translation>
+<translation id="537291066186627789">Die Systemwiederherstellung ist abgeschlossen.
+
+Bitte entferne das Wiederherstellungsmedium. Dein Computer wird dann
+automatisch neu gestartet.</translation>
+<translation id="5512602676102820748">Der Akku ist für ein Update zu schwach.
+
+Wird aufgeladen...
+
+Das Update beginnt automatisch, sobald der Akku ausreichend geladen ist.</translation>
+<translation id="5592705604979238266">Hilfe:</translation>
+<translation id="6185696379715117369">Bildlauf nach oben</translation>
+<translation id="635783852215913562">Mit den Pfeiltasten kannst du nach oben oder unten gehen.</translation>
+<translation id="6363786367719063276">Protokolle ansehen</translation>
+<translation id="6374469231428023295">Erneut versuchen</translation>
+<translation id="6388429950346313390">Ein Fehler ist aufgetreten</translation>
+<translation id="6408757960874122684">Dein Computer ist kein ChromeOS-System.
+
+Durch diesen Vorgang werden andere installierte Betriebssysteme sowie sämtliche Daten gelöscht. Es besteht keine Sicherungsmöglichkeit.
+Falls du auf diesem Computer Daten gespeichert hast, die du weiterhin benötigst, musst du die Wiederherstellung abbrechen.</translation>
+<translation id="6451786478565057499">Erweitertes Löschen des Laufwerks wird ausgeführt…
+
+Dies kann eine längere Zeit dauern.</translation>
+<translation id="64764858283438323">Das Image auf deinem Wiederherstellungsmedium ist ein nicht überprüftes Entwicklerimage.
+
+Die Wiederherstellung wird fortgesetzt, da der verifizierte Bootmodus deaktiviert ist. Wenn du den verifizierten Bootmodus später wieder aktivierst, musst du die Wiederherstellung mit einem aktuellen ChromeOS-Image wiederholen.</translation>
+<translation id="6566947361877177265">Mit einem Netzwerk verbinden, um die Wiederherstellung zu starten</translation>
+<translation id="6582194100503356658">Das kann einige Minuten dauern. Schalte das Gerät nicht aus und ziehe nicht das Stromkabel ab.</translation>
+<translation id="662657262312410525">Du verwendest ein veraltetes ChromeOS-Wiederherstellungsimage.
+
+Eine Anleitung zur Erstellung neuer Wiederherstellungsmedien findest du unter der folgenden URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Entferne das externe Laufwerk, um neu zu starten.</translation>
+<translation id="6691307183503218714">Du verwendest ein veraltetes offizielles ChromeOS-Wiederherstellungsimage.
+
+Die Wiederherstellung wird fortgesetzt, da die Überprüfung deaktiviert ist. Wenn du die Überprüfung später wieder aktivierst, musst du die Wiederherstellung mit einem aktuellen ChromeOS-Image wiederholen.</translation>
+<translation id="6868586188416530903">Protokoll des TPM-Firmware-Updaters</translation>
+<translation id="6895131867077828321">Gib dein Passwort ein. Drücke die Tabulatortaste, um das Passwort ein- oder auszublenden. Drücke zum Senden die Eingabetaste.</translation>
+<translation id="7126032376876878896">Über die Ein-/Aus-Taste kannst du die gewünschte Option auswählen.</translation>
+<translation id="7159548186721854353">Wenn das Gerät nicht automatisch neu gestartet wird, führe einen manuellen Neustart durch</translation>
+<translation id="7684530127758861598">Wiederherstellungs-Protokoll</translation>
+<translation id="7709095358410921767">Das erweiterte Löschen des Laufwerks wurde erfolgreich ausgeführt.
+
+Bei der Wiederherstellung ist ein unerwarteter Fehler aufgetreten. Unter der folgenden URL findest du Tipps zur Fehlerbehebung:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Gib dein Passwort noch einmal ein. Nur ASCII-Zeichen werden unterstützt.</translation>
+<translation id="7939062555109487992">Erweiterte Optionen</translation>
+<translation id="8048927549246926523">Wiederherstellung mithilfe einer Internetverbindung durchführen</translation>
+<translation id="8114187014283095781">Das erweiterte Löschen des Laufwerks wurde erfolgreich ausgeführt.
+
+Die Systemwiederherstellung ist abgeschlossen.
+Entferne das Wiederherstellungsmedium. Dein Computer wird anschließend automatisch neu gestartet.</translation>
+<translation id="8179976553408161302">Eingabetaste</translation>
+<translation id="8420829064199266609">Die Netzwerkverbindung wird hergestellt. Dieser Vorgang kann bis zu einer Minute dauern.</translation>
+<translation id="8433773763660502318">Die Wiederherstellung konnte nicht abgeschlossen werden</translation>
+<translation id="8473826843543665828">Wähle ein anderes Netzwerk aus oder versuche es noch einmal</translation>
+<translation id="8474679199432944250">Die ChromeOS-Betriebssystemüberprüfung ist deaktiviert.
+
+Falls dies nicht beabsichtigt ist, musst du die Wiederherstellung abbrechen und den Entwicklermodus deaktivieren, um die Überprüfung zu aktivieren. Weitere Informationen findest du unter der folgenden URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Wiederherstellung wird fertiggestellt</translation>
+<translation id="8596190965261846034">Update wird installiert...
+
+Schalte das Gerät nicht aus.
+Es startet automatisch neu, sobald das Update beendet ist.</translation>
+<translation id="8728458033228603970">Das System wird wiederhergestellt...
+
+Dieser Vorgang wird einige Minuten dauern. Bitte schalte den Computer nicht aus und unterbrich die Stromversorgung nicht.</translation>
+<translation id="88986195241502842">Bildlauf nach unten</translation>
+<translation id="8911667951938758302">Keine Netzwerkverbindung möglich</translation>
+<translation id="9146946647152579011">Wiederherstellung ist jetzt abgeschlossen</translation>
+<translation id="9156766649956178343">Bei der Wiederherstellung deines Geräts ist ein Fehler aufgetreten</translation>
+</translationbundle>

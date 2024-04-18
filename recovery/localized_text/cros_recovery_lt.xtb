@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="lt">
+<translation id="1201402288615127009">Kitas</translation>
+<translation id="1207194515919037363">Šiame įrenginyje saugos modulis neveikia.
+
+Jei reikia daugiau informacijos, apsilankykite šiuo URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Gaunant pasiekiamus tinklus kilo problema, bandykite iš naujo</translation>
+<translation id="1483971085438511843">Naudodami klavišą „Enter“ pasirinkite parinktį.</translation>
+<translation id="1486534340494484631">Vykdant patobulintą disko ištrynimą įvyko klaida.
+
+Sistemos atkūrimas baigtas.
+Pašalinkite atkūrimo mediją ir kompiuteris bus automatiškai paleistas iš naujo.</translation>
+<translation id="1638626287317244115">Kopijuoti žurnalus</translation>
+<translation id="175933110504178679">Šiuo procesu bus panaikinami jūsų asmens duomenys. Tai užtruks kelias minutes Neišjunkite įrenginio.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Išjungti maitinimą</translation>
+<translation id="2160704550417277456">Išplėstinės parinktys</translation>
+<translation id="2161775569013928937">Pradėti atkurti?</translation>
+<translation id="2238107357612570504">Atkūrimo derinimo parinktys</translation>
+<translation id="2249183435483068136">Neteisingi prisijungimo duomenys</translation>
+<translation id="2367943141906694421">Tinklų rasti nepavyko</translation>
+<translation id="2437368373459239842">Tai užtruks kelias minutes</translation>
+<translation id="2704439832119932045">Norėdami tęsti atkūrimo procesą, pasirinkite OS kanalą ir versiją</translation>
+<translation id="2731700343119398978">Palaukite...</translation>
+<translation id="2904079386864173492">Modelis:</translation>
+<translation id="3029977119648083072">Įveskite tinklo slaptažodį</translation>
+<translation id="3243756202241744259">Tvirtinamas atkūrimo medijos tinkamumas...</translation>
+<translation id="3377484800447890197">Atkuriant įrenginį įvyko klaida. Jei reikia sprendimų, žr.
+https://google.com/chromeos/recovery arba bandykite iš naujo.</translation>
+<translation id="33938768013536853">Akumuliatorius per daug išsikrovęs, kad būtų galima atnaujinti.
+
+Prijunkite „Chromebook“ įrenginį prie maitinimo šaltinio. Atnaujinimo procesas prasidės automatiškai, kai akumuliatorius bus pakankamai įkrautas.</translation>
+<translation id="3554552348994984455">Pradėti atkurti</translation>
+<translation id="3723985428118783104">Atkuriama</translation>
+<translation id="385051799172605136">Atgal</translation>
+<translation id="3928994486545789273">Pasirinkti tinklą</translation>
+<translation id="3942420633017001071">Diagnostika</translation>
+<translation id="3946632524220974380">Norint tęsti, reikia pakeisti kūrėjo raktą; procesas truks
+5 minutes.</translation>
+<translation id="3986180833426451964">Įrenginio savininkas reikalauja, kad šiame įrenginyje būtų įjungtas „ChromeOS“ patvirtinimas. Bandote įdiegti neoficialią „ChromeOS“ atkuriamąją turinio kopiją, kurios negalima patvirtinti.
+
+Jei reikia daugiau informacijos, apsilankykite šiuo URL:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Šis procesas gali užtrukti kelias minutes</translation>
+<translation id="4007898787815310968">Vykdant patobulintą disko ištrynimą įvyko klaida.
+
+Atkuriant įvyko netikėta klaida. Apsilankę šiuo URL adresu, peržiūrėkite trikčių šalinimo patarimus:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Pasiekiami tinklai</translation>
+<translation id="4261250127007881003">Pranešimų žurnalas</translation>
+<translation id="4287891348859705498">Kopijuoti žurnalus į išorinį diską</translation>
+<translation id="4410491068110727276">Naudodami garsumo mygtukus naršykite aukštyn arba žemyn.</translation>
+<translation id="4412740632134951267">Toliau pasirinkite norimas pakeisti išplėstines parinktis</translation>
+<translation id="4486160941938493301">Jei norite pasirinkti kitą atkūrimo metodą, grįžkite paspausdami klavišą „Esc“ + „Atnaujinti“ + maitinimo mygtuką</translation>
+<translation id="4503421634496749265">Bandykite dar kartą. Įsitikinkite, kad įrenginys prijungtas prie tinklo ir kraunamas.</translation>
+<translation id="4652489998517778111">Paleiskite iš naujo ir bandykite dar kartą</translation>
+<translation id="4791159253869531619">Aptiktas išorinis diskas su atkūrimo vaizdu</translation>
+<translation id="4851795211104228792">Bus atnaujinta į naujausią stabilią versiją (rekomenduojama)</translation>
+<translation id="4905949142713655149">Įvyko nenumatyta klaida. Žr. trikčių šalinimo patarimus,
+apsilankę šiuo URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Sistemos atkūrimas baigtas.
+
+Dabar saugu pašalinti atkūrimo mediją. Kompiuteris netrukus bus automatiškai paleistas iš naujo.</translation>
+<translation id="5080881219404532322">Ruošiatės atkurti kompiuterį. Įsitikinkite, kad jis
+ įjungtas į maitinimo šaltinį.
+
+Jei norite atšaukti atkūrimą, paspauskite maitinimo mygtuką ir laikykite paspaudę, kol kompiuteris išsijungs (tai užtruks apie 8 sekundes).
+Tai daryti saugu bet kuriuo metu vykdant patvirtinimo procesą.</translation>
+<translation id="51254621993922230">Atkurta</translation>
+<translation id="537291066186627789">Sistemos atkūrimas baigtas.
+
+Pašalinkite atkūrimo mediją ir kompiuteris bus automatiškai paleistas
+iš naujo.</translation>
+<translation id="5512602676102820748">Akumuliatorius per daug išsikrovęs, kad būtų galima atnaujinti.
+
+Įkraunama...
+
+Atnaujinimo procesas prasidės automatiškai, kai akumuliatorius bus pakankamai įkrautas.</translation>
+<translation id="5592705604979238266">Pagalbos centras:</translation>
+<translation id="6185696379715117369">Puslapiu aukštyn</translation>
+<translation id="635783852215913562">Naudodami rodyklių klavišus naršykite aukštyn arba žemyn.</translation>
+<translation id="6363786367719063276">Žr. žurnalus</translation>
+<translation id="6374469231428023295">Bandyti dar kartą</translation>
+<translation id="6388429950346313390">Deja, kažkas nepavyko</translation>
+<translation id="6408757960874122684">Panašu, kad kompiuteryje nėra „ChromeOS“ sistemos.
+
+Įvykdžius šią operaciją bus ištrinta bet kokia kita įdiegta operacinė sistema ir visi duomenys. Nebeturėsite galimybės sukurti atsarginės kopijos.
+Jei šiame kompiuteryje turite duomenų, kuriuos norite išsaugoti, turėtumėte atšaukti atkūrimą.</translation>
+<translation id="6451786478565057499">Vykdomas patobulintas disko ištrynimas...
+
+Tai gali ilgai užtrukti.</translation>
+<translation id="64764858283438323">Atkūrimo laikmenoje esanti turinio kopija yra nepatvirtinta kūrėjo turinio kopija.
+
+Atkūrimas toliau bus vykdomas, nes patvirtinto operacinės sistemos paleidimo funkcija išjungta. Jei vėliau vėl įjungsite patvirtinimą, turėsite pakartoti atkūrimo procesą naudodami oficialią „ChromeOS“ turinio kopiją.</translation>
+<translation id="6566947361877177265">Jei norite pradėti atkurti, prisijunkite prie tinklo</translation>
+<translation id="6582194100503356658">Tai gali užtrukti kelias minutes. Neišjunkite įrenginio ir neatjunkite maitinimo.</translation>
+<translation id="662657262312410525">Naudojate pasenusią „ChromeOS“ atkuriamąją turinio kopiją.
+
+Jei reikia instrukcijų, kaip sukurti naują atkūrimo laikmeną, apsilankykite šiuo URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Kad galėtumėte paleisti iš naujo, atjunkite išorinį diską.</translation>
+<translation id="6691307183503218714">Naudojate pasenusią oficialią „ChromeOS“ atkuriamąją turinio kopiją.
+
+Atkūrimas toliau bus vykdomas, nes patvirtinimas išjungtas. Jei vėliau vėl įjungsite patvirtinimą, turėsite pakartoti atkūrimo procesą naudodami atnaujintą „ChromeOS“ turinio kopiją.</translation>
+<translation id="6868586188416530903">tpm-firmware-updater žurnalas</translation>
+<translation id="6895131867077828321">Įveskite slaptažodį. Norėdami rodyti arba slėpti slaptažodį, paspauskite tabuliavimo klavišą. Paspauskite „Enter“, kad pateiktumėte.</translation>
+<translation id="7126032376876878896">Naudodami maitinimo mygtuką pasirinkite parinktį.</translation>
+<translation id="7159548186721854353">Jei įrenginys nepaleidžiamas iš naujo automatiškai, padarykite tai patys</translation>
+<translation id="7684530127758861598">Atkūrimo žurnalas</translation>
+<translation id="7709095358410921767">Sėkmingai atliktas patobulintas disko ištrynimas.
+
+Atkuriant įvyko netikėta klaida. Apsilankę šiuo URL adresu, peržiūrėkite trikčių šalinimo patarimus:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Įveskite slaptažodį dar kartą. Palaikomi tik ASCII simboliai.</translation>
+<translation id="7939062555109487992">Išplėstinės parinktys</translation>
+<translation id="8048927549246926523">Atkūrimas naudojant interneto ryšį</translation>
+<translation id="8114187014283095781">Sėkmingai atliktas patobulintas disko ištrynimas.
+
+Sistemos atkūrimas baigtas.
+Pašalinkite atkūrimo mediją ir kompiuteris bus automatiškai paleistas iš naujo.</translation>
+<translation id="8179976553408161302">Įvesti</translation>
+<translation id="8420829064199266609">Jungiamasi prie tinklo. Tai gali užtrukti iki vienos minutės.</translation>
+<translation id="8433773763660502318">Atkūrimo proceso baigti nepavyko</translation>
+<translation id="8473826843543665828">Pasirinkite naują tinklą arba bandykite dar kartą</translation>
+<translation id="8474679199432944250">„ChromeOS“ patvirtinimas išjungtas.
+
+Jei tai buvo padaryta per klaidą, atšaukite atkūrimą ir išjunkite kūrėjo režimą, kad įgalintumėte patvirtinimą. Jei reikia daugiau informacijos, apsilankykite šiuo URL:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Baigiama atkurti</translation>
+<translation id="8596190965261846034">Įdiegiamas naujinys...
+
+Neišjunkite įrenginio.
+Jis bus automatiškai paleistas iš naujo, kai atnaujinimo procesas bus baigtas.</translation>
+<translation id="8728458033228603970">Vykdomas sistemos atkūrimas...
+
+Tai truks kelias minutes. Neišjunkite kompiuterio arba
+neatjunkite maitinimo.</translation>
+<translation id="88986195241502842">Puslapiu žemyn</translation>
+<translation id="8911667951938758302">Prie tinklo prisijungti nepavyko</translation>
+<translation id="9146946647152579011">Atkūrimas baigtas</translation>
+<translation id="9156766649956178343">Atkuriant įrenginį įvyko klaida</translation>
+</translationbundle>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <polyline id="ic_dropdown-a" points="6 8 10 12 14 8 6 8"/>
+  </defs>
+  <rect x="0" y="0" width="20" height="20" style="fill: #000000" />
+  <use fill="#9AA0A6" fill-rule="evenodd" xlink:href="#ic_dropdown-a"/>
+</svg>

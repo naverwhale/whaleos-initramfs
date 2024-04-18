@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="nl">
+<translation id="1201402288615127009">Volgende</translation>
+<translation id="1207194515919037363">De beveiligingsmodule op dit apparaat werkt niet.
+
+Ga naar deze URL voor meer informatie:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Er is iets misgegaan bij het ophalen van beschikbare netwerken, probeer het opnieuw</translation>
+<translation id="1483971085438511843">Gebruik de Enter-toets om een optie te selecteren.</translation>
+<translation id="1486534340494484631">Er is een fout opgetreden tijdens de uitgebreide schijfverwijdering.
+
+Systeemherstel is voltooid.
+Verwijder het herstelmedium. Je computer wordt automatisch opnieuw gestart.</translation>
+<translation id="1638626287317244115">Logboeken kopiëren</translation>
+<translation id="175933110504178679">Met dit proces worden je persoonsgegevens gewist. Dit kan enkele minuten duren. Zet het apparaat niet uit.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Uitzetten</translation>
+<translation id="2160704550417277456">Geavanceerde opties</translation>
+<translation id="2161775569013928937">Herstel starten?</translation>
+<translation id="2238107357612570504">Herstelopties voor foutopsporing</translation>
+<translation id="2249183435483068136">Onjuiste inloggegevens</translation>
+<translation id="2367943141906694421">Kan geen netwerken vinden</translation>
+<translation id="2437368373459239842">Dit duurt een paar minuten</translation>
+<translation id="2704439832119932045">Selecteer OS-kanaal en -versie om door te gaan met het herstel</translation>
+<translation id="2731700343119398978">Even geduld...</translation>
+<translation id="2904079386864173492">Model:</translation>
+<translation id="3029977119648083072">Vul het wachtwoord van het netwerk in</translation>
+<translation id="3243756202241744259">De integriteit van je herstelmedium wordt geverifieerd...</translation>
+<translation id="3377484800447890197">Er is een fout opgetreden bij het herstellen van je apparaat. Ga naar
+https://google.com/chromeos/recovery voor mogelijke oplossingen of probeer het opnieuw.</translation>
+<translation id="33938768013536853">Batterij niet voldoende opgeladen voor update.
+
+Sluit je Chromebook aan op een stroombron. De update wordt automatisch gestart wanneer de batterij voldoende is opgeladen.</translation>
+<translation id="3554552348994984455">Herstel starten</translation>
+<translation id="3723985428118783104">Bezig met herstel</translation>
+<translation id="385051799172605136">Terug</translation>
+<translation id="3928994486545789273">Netwerk kiezen</translation>
+<translation id="3942420633017001071">Diagnose</translation>
+<translation id="3946632524220974380">De ontwikkelaarssleutel moet worden gewijzigd om door te gaan. Dit proces duurt vijf minuten.</translation>
+<translation id="3986180833426451964">De eigenaar van het apparaat vereist dat dit apparaat wordt uitgevoerd met ChromeOS-verificatie aangezet. Je probeert een niet-officiële ChromeOS-herstelimage te installeren die de verificatie niet doorstaat.
+
+Ga naar de onderstaande URL voor meer informatie:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Dit kan enkele minuten duren</translation>
+<translation id="4007898787815310968">Er is een fout opgetreden tijdens de uitgebreide schijfverwijdering.
+
+Er is een onverwachte fout opgetreden tijdens het herstel. Ga naar deze URL voor tips om problemen op te lossen:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Beschikbare netwerken</translation>
+<translation id="4261250127007881003">Berichtenlogboek</translation>
+<translation id="4287891348859705498">Logboeken kopiëren naar externe schijf</translation>
+<translation id="4410491068110727276">Gebruik de volumeknoppen om omhoog of omlaag te navigeren.</translation>
+<translation id="4412740632134951267">Selecteer hieronder geavanceerde opties die je wilt aanpassen</translation>
+<translation id="4486160941938493301">Als je een andere herstelmethode wilt kiezen, ga je terug door op Esc + Vernieuwen + Aan/uit te drukken</translation>
+<translation id="4503421634496749265">Probeer het opnieuw. Zorg dat het apparaat is aangesloten en wordt opgeladen.</translation>
+<translation id="4652489998517778111">Start opnieuw op en probeer het opnieuw</translation>
+<translation id="4791159253869531619">Externe schijf met herstelimage gedetecteerd</translation>
+<translation id="4851795211104228792">Je wordt nu geüpdatet naar de nieuwste stabiele versie (aanbevolen)</translation>
+<translation id="4905949142713655149">Er is een onverwachte fout opgetreden. Ga naar de onderstaande URL voor tips voor het oplossen van problemen:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Systeemherstel is voltooid.
+
+Je kunt het herstelmedium veilig verwijderen.
+Je computer wordt binnenkort automatisch opnieuw opgestart.</translation>
+<translation id="5080881219404532322">Je staat op het punt je computer te herstellen. Zorg ervoor dat de computer is aangesloten op een voedingsbron.
+
+Als je het herstel wilt annuleren, houd je de aan/uit-knop ingedrukt totdat de computer wordt uitgezet. (Dit duurt maximaal 8 seconden.)
+Je kunt dit op elk moment tijdens de verificatie veilig doen.</translation>
+<translation id="51254621993922230">Herstel afgerond</translation>
+<translation id="537291066186627789">Systeemherstel is voltooid.
+
+Verwijder het herstelmedium. Je computer wordt automatisch opnieuw opgestart.</translation>
+<translation id="5512602676102820748">Batterij niet voldoende opgeladen voor update.
+
+Opladen...
+
+De update wordt automatisch gestart wanneer de batterij voldoende is opgeladen.</translation>
+<translation id="5592705604979238266">Helpcentrum:</translation>
+<translation id="6185696379715117369">Page Up</translation>
+<translation id="635783852215913562">Gebruik de pijltoetsen om omhoog of omlaag te navigeren.</translation>
+<translation id="6363786367719063276">Logboeken bekijken</translation>
+<translation id="6374469231428023295">Opnieuw proberen</translation>
+<translation id="6388429950346313390">Er is iets misgegaan</translation>
+<translation id="6408757960874122684">Het lijkt erop dat je computer geen ChromeOS-systeem is.
+
+Als je deze bewerking uitvoert, worden andere geïnstalleerde besturingssystemen en alle gegevens verwijderd. Je kunt geen back-up maken.
+Als er gegevens op deze computer staan die je wilt behouden, annuleer je het herstel.</translation>
+<translation id="6451786478565057499">Uitgebreide schijfverwijdering is bezig…
+
+Dit kan lang duren.</translation>
+<translation id="64764858283438323">De image op je herstelmedium is een niet-geverifieerde ontwikkelaarsimage.
+
+Het herstel wordt voortgezet omdat Verified Boot is uitgezet.
+Als je verificatie later weer aanzet, moet je het herstel opnieuw uitvoeren met een officiële ChromeOS-image.</translation>
+<translation id="6566947361877177265">Maak verbinding met een netwerk om het herstel te starten</translation>
+<translation id="6582194100503356658">Dit kan een paar minuten duren. Zet het apparaat niet uit en haal de stekker niet uit het stopcontact.</translation>
+<translation id="662657262312410525">Je gebruikt een verouderde ChromeOS-herstelimage.
+
+Ga naar de volgende URL voor instructies om een nieuw herstelmedium te maken:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Ontkoppel je externe schijf om opnieuw op te starten.</translation>
+<translation id="6691307183503218714">Je gebruikt een verouderde officiële ChromeOS-herstelimage.
+
+Het herstel wordt voortgezet omdat verificatie is uitgezet.
+Als je verificatie later weer aanzet, moet je het herstel opnieuw uitvoeren met een up-to-date ChromeOS-image.</translation>
+<translation id="6868586188416530903">Logboek tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Typ je wachtwoord. Druk op Tab om het wachtwoord leesbaar te maken of te verbergen. Druk op Enter om het te versturen.</translation>
+<translation id="7126032376876878896">Gebruik de aan/uit-knop om een optie te selecteren.</translation>
+<translation id="7159548186721854353">Start je apparaat zelf opnieuw op als dat niet automatisch gebeurt</translation>
+<translation id="7684530127758861598">Herstellogboek</translation>
+<translation id="7709095358410921767">Uitgebreide schijfverwijdering is gelukt.
+
+Er is een onverwachte fout opgetreden tijdens het herstel. Ga naar deze URL voor tips om problemen op te lossen:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Vul je wachtwoord nog een keer in. Je kunt alleen ASCII-tekens gebruiken.</translation>
+<translation id="7939062555109487992">Geavanceerde opties</translation>
+<translation id="8048927549246926523">Herstellen via een internetverbinding</translation>
+<translation id="8114187014283095781">Uitgebreide schijfverwijdering is gelukt.
+
+Systeemherstel is voltooid.
+Verwijder het herstelmedium. Je computer wordt automatisch opnieuw gestart.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">Verbinding maken met het netwerk. Dit kan een minuut duren.</translation>
+<translation id="8433773763660502318">Kan het herstelproces niet voltooien</translation>
+<translation id="8473826843543665828">Selecteer een nieuw netwerk of probeer het opnieuw</translation>
+<translation id="8474679199432944250">ChromeOS-verificatie is uitgezet.
+
+Als dit niet de bedoeling is, annuleer je het herstel en zet je de ontwikkelaarsmodus uit om verificatie aan te zetten. Ga naar de onderstaande URL voor meer informatie:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Herstel afronden</translation>
+<translation id="8596190965261846034">Update installeren...
+
+Zet het apparaat niet uit.
+Het apparaat wordt automatisch opnieuw opgestart wanneer de update is voltooid.</translation>
+<translation id="8728458033228603970">Systeemherstel wordt uitgevoerd...
+
+Dit duurt enkele minuten. Zet de computer niet uit en haal de stekker niet uit het stopcontact.</translation>
+<translation id="88986195241502842">Page Down</translation>
+<translation id="8911667951938758302">Kan geen verbinding maken met het netwerk</translation>
+<translation id="9146946647152579011">Het herstel is nu voltooid</translation>
+<translation id="9156766649956178343">Fout bij herstellen van je apparaat</translation>
+</translationbundle>

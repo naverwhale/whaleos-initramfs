@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="zh-CN">
+<translation id="1201402288615127009">下一步</translation>
+<translation id="1207194515919037363">此设备上的安全模块无法正常运行。
+
+如需了解更多信息，请前往以下网址：
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">获取可用网络时出了点问题，请重试</translation>
+<translation id="1483971085438511843">使用 Enter 键可选择选项。</translation>
+<translation id="1486534340494484631">执行增强型磁盘删除操作时出错。
+
+系统已恢复完毕。
+请移除恢复媒体，您的计算机将会自动重启。</translation>
+<translation id="1638626287317244115">复制日志</translation>
+<translation id="175933110504178679">此流程会擦除您的个人数据。这将花费几分钟的时间。请勿关闭设备。</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">关机</translation>
+<translation id="2160704550417277456">高级选项</translation>
+<translation id="2161775569013928937">开始恢复？</translation>
+<translation id="2238107357612570504">恢复调试选项</translation>
+<translation id="2249183435483068136">凭据不正确</translation>
+<translation id="2367943141906694421">找不到任何网络</translation>
+<translation id="2437368373459239842">这将需要几分钟的时间</translation>
+<translation id="2704439832119932045">选择操作系统渠道和版本以继续恢复</translation>
+<translation id="2731700343119398978">请稍候...</translation>
+<translation id="2904079386864173492">型号：</translation>
+<translation id="3029977119648083072">输入网络密码</translation>
+<translation id="3243756202241744259">正在检验恢复媒体是否完整...</translation>
+<translation id="3377484800447890197">恢复设备时出错。请参阅 https://google.com/chromeos/recovery 了解可能的解决方案，或者重试。</translation>
+<translation id="33938768013536853">电量太低，无法更新。
+
+请将您的 Chromebook 连接到电源。待电池蓄有足够的电量后，更新即会自动开始。</translation>
+<translation id="3554552348994984455">开始恢复</translation>
+<translation id="3723985428118783104">正在恢复</translation>
+<translation id="385051799172605136">返回</translation>
+<translation id="3928994486545789273">选择网络</translation>
+<translation id="3942420633017001071">诊断</translation>
+<translation id="3946632524220974380">更改开发者密钥后才能继续操作（更改过程需要 5 分钟的时间）。</translation>
+<translation id="3986180833426451964">此设备的所有者规定：在此设备运行期间，ChromeOS 验证功能必须处于开启状态。您正尝试安装的非官方 ChromeOS 恢复映像并未通过验证。
+
+如需了解详情，请前往以下网址：
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">此过程可能需要几分钟的时间</translation>
+<translation id="4007898787815310968">执行增强型磁盘删除操作时出错。
+
+在恢复过程中发生了意外错误。如需查看问题排查提示，请前往：
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">可用网络</translation>
+<translation id="4261250127007881003">消息日志</translation>
+<translation id="4287891348859705498">将日志复制到外部磁盘</translation>
+<translation id="4410491068110727276">使用音量按钮可向上/向下移动。</translation>
+<translation id="4412740632134951267">若要更改，请从下方的高级选项中做出选择</translation>
+<translation id="4486160941938493301">如果您想改选一种不同的恢复方法，请按 Esc + Refresh + Power 组合键返回</translation>
+<translation id="4503421634496749265">请重试。务必要确保设备已接通电源，正在充电。</translation>
+<translation id="4652489998517778111">请重新启动并重试</translation>
+<translation id="4791159253869531619">检测到含有恢复映像的外部磁盘</translation>
+<translation id="4851795211104228792">您现在将会更新到最新的稳定版（推荐）</translation>
+<translation id="4905949142713655149">出现意外错误，如需问题排查提示，请前往以下网址：
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">系统恢复已完成。
+
+现在，您可以放心地移除所用的恢复媒体了。您的计算机很快就会自动重启。</translation>
+<translation id="5080881219404532322">您即将恢复计算机。请确保它已接通电源。
+
+如果您要取消恢复，请按住电源按钮直到计算机关闭（这最多需要 8 秒钟的时间）。
+在验证期间，您可随时取消恢复。</translation>
+<translation id="51254621993922230">已恢复完毕</translation>
+<translation id="537291066186627789">系统恢复完毕。
+
+请取走恢复媒体，您的计算机会自动重新启动。</translation>
+<translation id="5512602676102820748">电量太低，无法更新。
+
+正在充电…
+
+待电池蓄有足够的电量后，更新即会自动开始。</translation>
+<translation id="5592705604979238266">帮助中心：</translation>
+<translation id="6185696379715117369">向上翻页</translation>
+<translation id="635783852215913562">使用箭头键可向上/向下移动。</translation>
+<translation id="6363786367719063276">查看日志</translation>
+<translation id="6374469231428023295">重试</translation>
+<translation id="6388429950346313390">抱歉，出了点问题</translation>
+<translation id="6408757960874122684">您的计算机似乎未使用 ChromeOS 系统！
+
+此操作将会删除您可能已安装的所有其他操作系统以及所有数据，且无法事先备份。
+如果这台计算机上有您想保留的任何数据，您应取消恢复操作。</translation>
+<translation id="6451786478565057499">正在执行增强型磁盘删除操作…
+
+这可能需要很长时间。</translation>
+<translation id="64764858283438323">您的恢复媒体上的映像是未经验证的开发者映像。
+
+由于“启动时验证”功能处于关闭状态，恢复操作将继续进行。
+如果您日后重新开启验证功能，则需要使用官方 ChromeOS 映像重复执行恢复操作。</translation>
+<translation id="6566947361877177265">连接到网络以开始恢复</translation>
+<translation id="6582194100503356658">这可能需要几分钟的时间。请勿关闭设备或断开电源。</translation>
+<translation id="662657262312410525">您正在使用的 ChromeOS 恢复映像已过期。
+
+如需了解如何创建新的恢复媒体，请前往以下网址：
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">拔掉外部磁盘即可重启计算机。</translation>
+<translation id="6691307183503218714">您正在使用的官方 ChromeOS 恢复映像已过期。
+
+由于验证功能处于关闭状态，恢复操作将继续进行。
+如果您日后重新开启验证功能，则需要使用最新的 ChromeOS 映像重复执行恢复操作。</translation>
+<translation id="6868586188416530903">tpm-firmware-updater 日志</translation>
+<translation id="6895131867077828321">请输入您的密码。按 Tab 键可显示/隐藏密码。按 Enter 键可提交密码。</translation>
+<translation id="7126032376876878896">使用电源按钮可选择选项。</translation>
+<translation id="7159548186721854353">如果设备未自动重启，请手动重启</translation>
+<translation id="7684530127758861598">恢复日志</translation>
+<translation id="7709095358410921767">增强型磁盘删除操作已完成。
+
+在恢复过程中发生了意外错误。如需查看问题排查提示，请前往：
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">请再次输入您的密码。系统仅支持 ASCII 字符。</translation>
+<translation id="7939062555109487992">高级选项</translation>
+<translation id="8048927549246926523">使用互联网连接进行恢复</translation>
+<translation id="8114187014283095781">增强型磁盘删除操作已完成。
+
+系统已恢复完毕。
+请移除恢复媒体，您的计算机将会自动重启。</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">正在连接到网络。这最多可能需要 1 分钟的时间。</translation>
+<translation id="8433773763660502318">无法完成恢复流程</translation>
+<translation id="8473826843543665828">请选择一个新网络或重试</translation>
+<translation id="8474679199432944250">ChromeOS 验证功能处于关闭状态。
+
+如果该功能是无意中关闭的，您应取消恢复操作并停用开发者模式，以便启用验证功能。如需了解详情，请前往以下网址：
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">即将恢复完毕</translation>
+<translation id="8596190965261846034">正在安装更新…
+
+请不要关闭此设备。
+它会在更新完毕后自动重启。</translation>
+<translation id="8728458033228603970">正在恢复系统...
+
+此过程需要几分钟时间。请不要关闭计算机或断开电源。</translation>
+<translation id="88986195241502842">向下翻页</translation>
+<translation id="8911667951938758302">无法连接到网络</translation>
+<translation id="9146946647152579011">现已恢复完毕</translation>
+<translation id="9156766649956178343">恢复您的设备时出错</translation>
+</translationbundle>

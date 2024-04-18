@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="zh-TW">
+<translation id="1201402288615127009">繼續</translation>
+<translation id="1207194515919037363">這部裝置上的安全性模組無法運作。
+
+詳情請見以下網址：
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">取得可用的網路時發生問題，請再試一次</translation>
+<translation id="1483971085438511843">請使用 Enter 鍵選取所需選項。</translation>
+<translation id="1486534340494484631">執行進階磁碟刪除作業時發生錯誤。
+
+已完成系統還原。
+請取出還原媒體，電腦將自動重新啟動。</translation>
+<translation id="1638626287317244115">複製記錄</translation>
+<translation id="175933110504178679">這項程序會抹除個人資料。請稍候片刻，但不要關閉裝置。</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">關閉</translation>
+<translation id="2160704550417277456">進階選項</translation>
+<translation id="2161775569013928937">要開始復原嗎？</translation>
+<translation id="2238107357612570504">還原偵錯選項</translation>
+<translation id="2249183435483068136">憑證不正確</translation>
+<translation id="2367943141906694421">找不到任何網路</translation>
+<translation id="2437368373459239842">稍候片刻</translation>
+<translation id="2704439832119932045">選取作業系統版本即可繼續復原</translation>
+<translation id="2731700343119398978">請稍候...</translation>
+<translation id="2904079386864173492">型號：</translation>
+<translation id="3029977119648083072">輸入網路密碼</translation>
+<translation id="3243756202241744259">正在驗證復原媒體的完整性...</translation>
+<translation id="3377484800447890197">復原裝置時發生錯誤，詳情請參閱 https://google.com/chromeos/recovery 尋找可能的解決方案。你也可以再試一次。</translation>
+<translation id="33938768013536853">電量過低，無法進行更新。
+
+請將 Chromebook 接上電源。一旦電量足夠，
+Chromebook 就會自動開始進行更新。</translation>
+<translation id="3554552348994984455">開始復原</translation>
+<translation id="3723985428118783104">復原中</translation>
+<translation id="385051799172605136">返回</translation>
+<translation id="3928994486545789273">選擇網路</translation>
+<translation id="3942420633017001071">診斷</translation>
+<translation id="3946632524220974380">必須變更開發人員金鑰才能繼續接下來的步驟；這項程序需要 5 分鐘的時間。</translation>
+<translation id="3986180833426451964">根據裝置擁有者的設定，這部裝置必須開啟 ChromeOS 驗證功能才能正常運作，而你試圖安裝的非官方 ChromeOS 復原映像檔並未通過驗證程序。
+
+詳情請參閱以下網頁：
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">這個過程可能需要幾分鐘才能完成</translation>
+<translation id="4007898787815310968">執行進階磁碟刪除作業時發生錯誤。
+
+還原期間發生未預期的錯誤。請前往下列網址參閱疑難排解提示：
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">可用的網路</translation>
+<translation id="4261250127007881003">訊息記錄</translation>
+<translation id="4287891348859705498">將記錄複製到外部磁碟</translation>
+<translation id="4410491068110727276">請使用音量按鈕向上或向下瀏覽。</translation>
+<translation id="4412740632134951267">在下方選取要變更的進階選項</translation>
+<translation id="4486160941938493301">如要選擇其他復原方式，請按下 Esc 鍵 + 重新整理鍵 + 電源鍵，即可返回上一步</translation>
+<translation id="4503421634496749265">請再試一次，並確保裝置已接上電源且正在充電。</translation>
+<translation id="4652489998517778111">請重新啟動，然後再試一次</translation>
+<translation id="4791159253869531619">已偵測到包含還原映像檔的外部磁碟</translation>
+<translation id="4851795211104228792">你目前會更新至最新的穩定版本 (建議做法)</translation>
+<translation id="4905949142713655149">發生未預期的錯誤，請前往下列網址查看疑難排解提示：
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">系統已復原。
+
+現在可安心移除復原媒體。電腦隨即會
+自動重新啟動。</translation>
+<translation id="5080881219404532322">你即將還原電腦，請確認電腦已接上電源。如要取消還原，請按住電源按鈕，直到電腦關閉為止 (最多需要 8 秒鐘的時間)。在系統驗證期間，你隨時可以取消還原作業。</translation>
+<translation id="51254621993922230">已復原完成</translation>
+<translation id="537291066186627789">系統已復原。
+
+請移除復原媒體，移除後電腦會自動重新啟動。</translation>
+<translation id="5512602676102820748">電量過低，無法進行更新。
+
+充電中…
+
+一旦電量足夠，Chromebook 就會自動開始進行更新。</translation>
+<translation id="5592705604979238266">說明中心：</translation>
+<translation id="6185696379715117369">Page Up 鍵</translation>
+<translation id="635783852215913562">請使用方向鍵向上或向下瀏覽。</translation>
+<translation id="6363786367719063276">查看記錄</translation>
+<translation id="6374469231428023295">再試一次</translation>
+<translation id="6388429950346313390">很抱歉，發生錯誤</translation>
+<translation id="6408757960874122684">你的電腦應該不是 ChromeOS 系統！這項操作會刪除你安裝的其他作業系統及所有相關資料，而且過程中無法進行備份。
+如果這台電腦上有任何你想保存的資料，建議你取消復原作業。</translation>
+<translation id="6451786478565057499">正在執行進階磁碟刪除作業...
+
+這項作業可能會花費大量時間。</translation>
+<translation id="64764858283438323">復原媒體中的映像檔是未經驗證的開發人員映像檔。
+
+由於驗證開機程序已關閉，因此復原作業將繼續進行。
+如果你之後重新開啟驗證功能，就必須使用官方 ChromeOS 映像檔再次執行復原作業。</translation>
+<translation id="6566947361877177265">連上網路即可開始復原</translation>
+<translation id="6582194100503356658">請稍候片刻，但不要關閉裝置或拔除電源線</translation>
+<translation id="662657262312410525">你使用的 ChromeOS 復原映像檔已過期。
+
+請前往下列網址，瞭解如何建立新的復原媒體：
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">請拔除外部磁碟以重新啟動。</translation>
+<translation id="6691307183503218714">你使用的官方 ChromeOS 復原映像檔已過期。
+
+由於驗證程序已關閉，因此復原作業將繼續進行。
+如果你之後重新開啟驗證功能，就必須使用最新的 ChromeOS 映像檔再次執行復原作業。</translation>
+<translation id="6868586188416530903">tpm-firmware-updater 記錄</translation>
+<translation id="6895131867077828321">輸入你的密碼，過程中按下 Tab 鍵即可顯示或隱藏密碼。輸入完畢後，請按下 Enter 鍵提交。</translation>
+<translation id="7126032376876878896">請使用電源按鈕選取所需選項。</translation>
+<translation id="7159548186721854353">如果裝置並未自動重新啟動，請手動操作</translation>
+<translation id="7684530127758861598">還原記錄</translation>
+<translation id="7709095358410921767">已成功執行進階磁碟刪除作業。
+
+還原期間發生未預期的錯誤。請前往下列網址參閱疑難排解提示：
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">請再次輸入你的密碼。系統僅支援 ASCII 字元。</translation>
+<translation id="7939062555109487992">進階選項</translation>
+<translation id="8048927549246926523">透過網際網路連線進行復原</translation>
+<translation id="8114187014283095781">已成功執行進階磁碟刪除作業。
+
+已完成系統還原。
+請取出還原媒體，電腦將自動重新啟動。</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">正在連線至網路，請稍候片刻</translation>
+<translation id="8433773763660502318">無法完成復原程序</translation>
+<translation id="8473826843543665828">請選取新的網路或再試一次</translation>
+<translation id="8474679199432944250">ChromeOS 驗證功能已關閉。
+
+如果你是不小心關閉這項功能，建議你取消復原作業並停用開發人員模式，然後啟用驗證功能。詳情請參閱以下網頁：
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">即將復原完成</translation>
+<translation id="8596190965261846034">正在安裝更新…
+
+請勿關閉裝置。
+更新完成後，裝置會自動重新啟動。</translation>
+<translation id="8728458033228603970">系統正在復原...
+
+這個程序需要幾分鐘才能完成。請勿關閉電腦或切斷電源。</translation>
+<translation id="88986195241502842">Page Down 鍵</translation>
+<translation id="8911667951938758302">無法連上網路</translation>
+<translation id="9146946647152579011">已完成還原作業</translation>
+<translation id="9156766649956178343">還原裝置時發生錯誤</translation>
+</translationbundle>

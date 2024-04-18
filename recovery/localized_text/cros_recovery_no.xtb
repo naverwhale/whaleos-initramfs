@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+<!DOCTYPE translationbundle>
+<translationbundle lang="no">
+<translation id="1201402288615127009">Neste</translation>
+<translation id="1207194515919037363">Sikkerhetsmodulen på denne enheten fungerer ikke.
+
+Du finner mer informasjon på denne nettadressen:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="1246412656779440622">Det var problemer med å hente tilgjengelige nettverk – prøv på nytt</translation>
+<translation id="1483971085438511843">Bruk Enter-tasten for å velge et alternativ.</translation>
+<translation id="1486534340494484631">En feil oppsto under forbedret disksletting.
+
+Systemgjenopprettingen er fullført.
+Fjern gjenopprettingsmediet, så blir datamaskinen automatisk startet på nytt.</translation>
+<translation id="1638626287317244115">Kopiér logger</translation>
+<translation id="175933110504178679">Denne prosessen medfører at de personlige dataene dine blir visket ut. Dette kommer til å ta flere minutter. Ikke slå av enheten.</translation>
+<translation id="1977020597896356883">https://google.com/chromeos/recovery</translation>
+<translation id="1995660704900986789">Slå av</translation>
+<translation id="2160704550417277456">Avanserte alternativer</translation>
+<translation id="2161775569013928937">Vil du starte gjenopprettingen?</translation>
+<translation id="2238107357612570504">Feilsøkingsalternativer for gjenoppretting</translation>
+<translation id="2249183435483068136">Feil legitimasjon</translation>
+<translation id="2367943141906694421">Fant ingen nettverk</translation>
+<translation id="2437368373459239842">Dette kommer til å ta noen minutter</translation>
+<translation id="2704439832119932045">Velg OS-kanal og -versjon for å fortsette gjenopprettingen</translation>
+<translation id="2731700343119398978">Vent litt …</translation>
+<translation id="2904079386864173492">Modell:</translation>
+<translation id="3029977119648083072">Oppgi nettverkspassordet</translation>
+<translation id="3243756202241744259">Bekrefter integriteten til gjenopprettingsmediet …</translation>
+<translation id="3377484800447890197">Det oppstod en feil under gjenopprettingen av enheten. Se
+https://google.com/chromeos/recovery for mulige løsninger, eller prøv på nytt.</translation>
+<translation id="33938768013536853">Det er for lite batteri igjen til å starte oppdateringen.
+
+Koble Chromebooken til en strømkilde. Oppdateringen starter automatisk når batteriet er tilstrekkelig ladet.</translation>
+<translation id="3554552348994984455">Start gjenoppretting</translation>
+<translation id="3723985428118783104">Gjenoppretting pågår</translation>
+<translation id="385051799172605136">Tilbake</translation>
+<translation id="3928994486545789273">Velg nettverk</translation>
+<translation id="3942420633017001071">Diagnostikk</translation>
+<translation id="3946632524220974380">Bytting av utviklernøkkel kreves for å fortsette. Dette tar
+5 minutter.</translation>
+<translation id="3986180833426451964">Eieren av denne enheten krever at enheten kjører med ChromeOS-bekreftelse
+slått på. Du prøver å installere en uoffisiell gjenopprettingsavbildning for
+ChromeOS som ikke kan bekreftes.
+
+Se denne nettadressen for mer informasjon:
+
+https://www.google.com/chromeos/devmode</translation>
+<translation id="4006102694824401878">Denne prosessen kan ta noen minutter</translation>
+<translation id="4007898787815310968">En feil oppsto under forbedret disksletting.
+
+En uventet feil oppsto under gjenopprettingen. Se denne nettadressen for feilsøkingstips:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="4157577338965464221">Tilgjengelige nettverk</translation>
+<translation id="4261250127007881003">Meldingslogg</translation>
+<translation id="4287891348859705498">Kopiér logger til den eksterne disken</translation>
+<translation id="4410491068110727276">Bruk volumknappene for å navigere opp eller ned.</translation>
+<translation id="4412740632134951267">Velg avanserte alternativer under for å endre</translation>
+<translation id="4486160941938493301">Hvis du vil velge en annen gjenopprettingsmetode, går du tilbake ved å trykke Escape + Refresh + av/på-knappen</translation>
+<translation id="4503421634496749265">Prøv på nytt. Sørg for at enheten er koblet til strøm og lades.</translation>
+<translation id="4652489998517778111">Start på nytt og prøv igjen</translation>
+<translation id="4791159253869531619">Fant en ekstern disk med en gjenopprettingsavbildning</translation>
+<translation id="4851795211104228792">Du blir nå oppdatert til nyeste stabile versjon (anbefalt)</translation>
+<translation id="4905949142713655149">En uventet feil har oppstått. Se denne nettadressen
+for feilsøkingstips:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="496201662522655493">Systemgjenopprettingen er fullført.
+
+Nå kan du fjerne gjenopprettingsmediet. Datamaskinen starter automatisk på nytt om kort tid.</translation>
+<translation id="5080881219404532322">Du er i ferd med å gjenopprette datamaskinen din. Kontroller at datamaskinen er
+koblet til en strømkilde.
+
+Hvis du vil avbryte gjenopprettingen, trykker du på av/på-knappen og holder den
+inne til datamaskinen slår seg av (dette kan ta opptil åtte sekunder).
+Du kan trygt gjøre dette når som helst under verifiseringen.</translation>
+<translation id="51254621993922230">Gjenoppretting er fullført</translation>
+<translation id="537291066186627789">Systemgjenopprettingen er fullført.
+
+Datamaskinen starter på nytt automatisk når du fjerner
+gjenopprettingsmediet.</translation>
+<translation id="5512602676102820748">Det er for lite batteri igjen til å starte oppdateringen.
+
+Lader …
+
+Oppdateringen starter automatisk når batteriet er tilstrekkelig ladet.</translation>
+<translation id="5592705604979238266">Brukerstøtte:</translation>
+<translation id="6185696379715117369">Opp én side</translation>
+<translation id="635783852215913562">Bruk piltastene for å navigere opp eller ned.</translation>
+<translation id="6363786367719063276">Se loggene</translation>
+<translation id="6374469231428023295">Prøv på nytt</translation>
+<translation id="6388429950346313390">Beklager, men noe gikk galt</translation>
+<translation id="6408757960874122684">Datamaskinen din ser ikke ut til å være et ChromeOS-system.
+
+Denne operasjonen sletter andre operativsystemer du har installert, samt alle data, og sikkerhetskopiering er ikke mulig.
+Hvis du har data på denne datamaskinen som du vil ta vare på, bør du
+avbryte gjenopprettingen.</translation>
+<translation id="6451786478565057499">Forbedret disksletting pågår …
+
+Dette kan ta lang tid.</translation>
+<translation id="64764858283438323">Avbildningen på gjenopprettingsmediet er en ubekreftet utvikleravbildning.
+
+Gjenopprettingen fortsetter fordi bekreftet oppstart er slått av.
+Hvis du slår på bekreftelse igjen senere, må du gjenta
+gjenopprettingen med en oppdatert avbildning for ChromeOS.</translation>
+<translation id="6566947361877177265">Koble til et nettverk for å starte gjenopprettingen</translation>
+<translation id="6582194100503356658">Dette kan ta noen minutter. Ikke slå av enheten eller koble fra strømmen.</translation>
+<translation id="662657262312410525">Du bruker en foreldet gjenopprettingsavbildning for ChromeOS.
+
+På denne nettadressen finner du instruksjoner for hvordan du oppretter nye gjenopprettingsmedier:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="6630033970080307657">Koble fra den eksterne disken for å starte på nytt.</translation>
+<translation id="6691307183503218714">Du bruker en foreldet offisiell gjenopprettingsavbildning for ChromeOS.
+
+Gjenopprettingen fortsetter fordi bekreftelse er slått av.
+Hvis du slår på bekreftelse igjen senere, må du gjenta
+gjenopprettingen med en oppdatert avbildning for ChromeOS.</translation>
+<translation id="6868586188416530903">Logg for tpm-firmware-updater</translation>
+<translation id="6895131867077828321">Skriv inn passordet ditt. Trykk på Tab for å vise eller skjule passordet. Trykk på Enter for å sende inn.</translation>
+<translation id="7126032376876878896">Bruk av/på-knappen for å velge et alternativ.</translation>
+<translation id="7159548186721854353">Start på nytt manuelt hvis enheten ikke startes på nytt automatisk</translation>
+<translation id="7684530127758861598">Gjenopprettingslogg</translation>
+<translation id="7709095358410921767">Forbedret disksletting var vellykket.
+
+En uventet feil oppsto under gjenopprettingen. Se denne nettadressen for feilsøkingstips:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="77159243231245687">Oppgi passordet ditt på nytt. Kun ASCII-tegn støttes.</translation>
+<translation id="7939062555109487992">Avanserte alternativer</translation>
+<translation id="8048927549246926523">Gjenopprett ved bruk av en internettilkobling</translation>
+<translation id="8114187014283095781">Forbedret disksletting var vellykket.
+
+Systemgjenopprettingen er fullført.
+Fjern gjenopprettingsmediet, så blir datamaskinen automatisk startet på nytt.</translation>
+<translation id="8179976553408161302">Enter</translation>
+<translation id="8420829064199266609">Kobler til nettverket. Dette kan ta opptil et minutt.</translation>
+<translation id="8433773763660502318">Kunne ikke fullføre gjenopprettingsprosessen</translation>
+<translation id="8473826843543665828">Velg et nytt nettverk, eller prøv på nytt</translation>
+<translation id="8474679199432944250">ChromeOS-bekreftelse er slått av.
+
+Hvis dette er utilsiktet, bør du avbryte gjenopprettingen og slå av
+utviklermodus for å slå på bekreftelse. Du kan finne mer informasjon
+på denne nettadressen:
+
+https://www.google.com/chromeos/recovery</translation>
+<translation id="8523174215108794127">Fullfører gjenopprettingen</translation>
+<translation id="8596190965261846034">Installerer oppdateringen …
+
+Ikke slå av enheten.
+Den starter på nytt automatisk når oppdateringen er fullført.</translation>
+<translation id="8728458033228603970">Systemgjenoppretting pågår …
+
+Dette tar noen minutter. Ikke slå av datamaskinen eller koble fra strømmen.</translation>
+<translation id="88986195241502842">Ned én side</translation>
+<translation id="8911667951938758302">Kunne ikke koble til nettverket</translation>
+<translation id="9146946647152579011">Gjenopprettingen er nå fullført</translation>
+<translation id="9156766649956178343">Feil under gjenoppretting av enheten</translation>
+</translationbundle>

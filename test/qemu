@@ -1,0 +1,93 @@
+#!/bin/bash
+# Copyright 2016 The ChromiumOS Authors
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+set -e
+
+usage() {
+  cat <<EOF
+Usage: qemu [options]
+
+Run this initramfs target in qemu for quick testing.
+
+All options are passed through to qemu.  Pass -help to get qemu usage.
+EOF
+
+  exit
+}
+
+# Show the command to be run (including quoting), and then run it.
+# A bit over-engineered ...
+echo_run() {
+  local arg
+  for arg in "$@"; do
+    if [[ "${arg}" == *[\ *?]* || "${arg}" == *"["* ]]; then
+      printf "'%s' " "${arg}"
+    else
+      printf '%s ' "${arg}"
+    fi
+  done
+  echo
+  "$@"
+}
+
+main() {
+  # Parse args from the user.
+  local arg graphics
+  for arg in "$@"; do
+    case ${arg} in
+    -nographic)
+      graphics="false"
+      ;;
+    -h|--help)
+      usage
+      ;;
+    esac
+  done
+
+  # Set up default args for all targets.
+  local args=(
+    -kernel kernel/arch/x86/boot/bzImage
+
+    -drive file=chromiumos_image.bin,index=0,media=disk,cache=unsafe
+    -usb -drive id=usb_disk,if=none,file=chromiumos_image_usb.bin
+    -device usb-storage,drive=usb_disk
+
+    -vga cirrus
+
+    -enable-kvm
+    -no-reboot
+
+    -smp 4
+    -m 512
+  )
+
+  # Set up default args based on the target.
+  cd "$(dirname "$(readlink -f -- "$0")")"
+
+  local usb_kernel_guid="$(cgpt show chromiumos_image_usb.bin -i 2 -u)"
+  local kcmdline="qemu cros_debug panic=3 kern_guid=${usb_kernel_guid}"
+  case $(basename "${PWD}") in
+  factory_netboot)
+    graphics="false"
+    ;;
+  factory_shim)
+    graphics="false"
+    kcmdline+=" cros_factory_install"
+    ;;
+  recovery)
+    ;;
+  esac
+  if [[ "${graphics}" == "false" ]]; then
+    args+=( -display none -nographic )
+    kcmdline+=" console=ttyS0"
+  fi
+  args+=( -append "${kcmdline}" )
+
+  # Launch qemu!
+  echo_run \
+    sudo qemu-system-x86_64 \
+    "${args[@]}" "$@"
+}
+main "$@"

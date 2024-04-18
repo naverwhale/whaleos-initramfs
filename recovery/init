@@ -1,0 +1,425 @@
+#!/bin/sh -x
+# Copyright 2011 The ChromiumOS Authors
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+#
+# /init script for use in recovery installer.  Note that this script uses the
+# busybox shell (not bash, not dash).
+
+. /lib/init.sh
+
+# USB card partition and mount point.
+USB_MNT=/usb
+REAL_USB_DEV=
+USB_DEV=
+
+STATEFUL_MNT=/stateful
+STATE_DEV=
+
+LOG_DEV=
+LOG_DIR=/log
+LOG_FILE=${LOG_DIR}/recovery.log
+
+TPM_B_LOCKED=
+TPM_PP_LOCKED=
+TPM_FAILED_SELFTEST=
+
+KERN_B_CACHE=/tmp/kern_b_cache.bin
+REAL_KERN_B_HASH=
+
+# Special file systems required in addition to the root file system.
+BASE_MOUNTS="/sys /proc /dev"
+
+# Used to ensure the factory check only occurs with
+# a properly matched root and kernel.
+UNOFFICIAL_ROOT=0
+
+. /lib/completion_settings.sh
+. /lib/messages.sh
+
+# Load default settings, which may be overridden by board_recovery.sh.
+. /lib/defaults.sh
+. /lib/recovery_init.sh
+if [ -f /lib/board_recovery.sh ]; then
+  . /lib/board_recovery.sh
+fi
+
+. /lib/dm_root_utils.sh
+
+# Look for a device with our GPT ID.
+wait_for_gpt_root() {
+  [ -z "$KERN_ARG_KERN_GUID" ] && return 1
+
+  dlog -n "Looking for rootfs using kern_guid..."
+  local try=0
+  # Wait up to a minute to give devices & users time to respond.
+  while [ $(( try += 1 )) -lt 600 ]; do
+    dlogf " ."
+    kern=$(cgpt find -1 -u $KERN_ARG_KERN_GUID)
+    # We always try ROOT-A in recovery.
+    newroot="${kern%[0-9]*}3"
+    if [ -b "$newroot" ]; then
+      USB_DEV="$newroot"
+      dlog "Found $USB_DEV"
+      return 0
+    fi
+    sleep 0.1
+  done
+  dlog "Failed waiting for kern_guid"
+  return 1
+}
+
+# Attempt to find the root defined in the signed recovery
+# kernel we're booted into to. Exports REAL_USB_DEV if there
+# is a root partition that may be used - on succes or failure.
+find_official_root() {
+  dlogf "Checking for an official recovery image . . ."
+
+  # Check for a kernel selected root device or one in a well known location.
+  wait_for_gpt_root || return 1
+
+  # Now see if it has a Chrome OS rootfs partition.
+  cgpt find -t rootfs "$(strip_partition "$USB_DEV")" || return 1
+  REAL_USB_DEV="$USB_DEV"
+
+  # USB_DEV points to the rootfs partition of removable media. And its value
+  # can be one of /dev/sda3 (arm), /dev/sdb3 (x86, arm) and /dev/mmcblk1p3
+  # (arm). Get stateful partition by replacing partition number with "1".
+  LOG_DEV="${USB_DEV%[0-9]*}"1  # Default to stateful.
+
+  # Must verify that install kernel hash matches current kernel hash argument.
+  verify_install_kernel_hash || return 1
+
+  # Now see if the root should be integrity checked.
+  local kernel_command_line="$(dump_kernel_config "${KERN_B_CACHE}")"
+  if check_if_dm_root "${kernel_command_line}"; then
+    setup_dm_root "${kernel_command_line}" "${USB_DEV}" || return 1
+    USB_DEV="${DM_DEV}"
+  fi
+
+  mount_usb || return 1
+  return 0
+}
+
+find_developer_root() {
+  is_developer_mode || return 1
+
+  # Lock the TPM prior to using an untrusted root.
+  lock_tpm || return 1
+
+  # Don't allow an untrusted root when the TPM is in failed selftest mode.
+  [ -n "${TPM_FAILED_SELFTEST}" ] && return 1
+
+  dlogf "\nSearching for developer root . . ."
+  # If an official root could not be mounted, free up the underlying device
+  # if it is claimed by verity.
+  remove_dm_root
+
+  # If we found a valid rootfs earlier, then we're done.
+  # TODO(wad) Attempt to setup an unofficial dm root prior to
+  # mounting the USB directly
+  USB_DEV="$REAL_USB_DEV"
+  [ -z "$USB_DEV" ] && return 1
+  set_unofficial_root || return 1
+  mount_usb || return 1
+  return 0
+}
+
+is_old_style_verity_argv() {
+  # TODO(ellyjones): remove by 2011-08-31. Part of crosbug.com/15772.
+  # "0 1740800 verity %U+1 %U+1 1740800 0 sha1 $hash"
+  local depth="$(echo "$1" | cut -f7 -d' ')"
+  if [ "${depth}" = "0" ]; then
+    return 0
+  fi
+  return 1
+}
+
+init_kern_b_cache() {
+  if [ -e "$KERN_B_CACHE" ]; then
+    return 0
+  fi
+  local dev="${REAL_USB_DEV%[0-9]*}4"
+  if [ ! -b "$dev" ]; then
+    return 1
+  fi
+  dd if="$dev" of="$KERN_B_CACHE" || return 1
+  return 0
+}
+
+get_real_kern_b_hash() {
+  REAL_KERN_B_HASH=$(sha256sum "$KERN_B_CACHE" | cut -f1 -d' ')
+  [ -n "$REAL_KERN_B_HASH" ]
+}
+
+verify_install_kernel_hash() {
+  init_kern_b_cache || return 1
+  get_real_kern_b_hash || return 1
+
+  if [ "$REAL_KERN_B_HASH" != "$KERN_ARG_KERN_B_HASH" ]; then
+    if ! is_developer_mode; then
+      dlog "The recovery kernel cannot be verified."
+      return 1
+    fi
+  fi
+
+  return 0
+}
+
+mount_usb() {
+  dlog -n "Mounting usb"
+  for try in $(seq 20); do
+    dlogf " ."
+    if mount -n -o ro "$USB_DEV" "$USB_MNT"; then
+      dlog "ok"
+      return 0
+    fi
+    sleep 1
+  done
+  dlog "Failed to mount usb!"
+  return 1
+}
+
+get_stateful_dev() {
+  STATE_DEV=${REAL_USB_DEV%[0-9]*}1
+  if [ ! -b "$STATE_DEV" ]; then
+    dlog "Failed to determine stateful device"
+    return 1
+  fi
+  return 0
+}
+
+unmount_usb() {
+  dlog "Unmounting $USB_MNT"
+  umount "$USB_MNT"
+  # Make sure we clean up a device-mapper root.
+  if [ "$USB_DEV" = "/dev/dm-0" ]; then
+    dlog "Removing dm-verity target"
+    remove_dm_root
+  fi
+  dlog
+  dlog "$REAL_USB_DEV can now be safely removed"
+  dlog
+  return 0
+}
+
+strip_partition() {
+  local dev="${1%[0-9]*}"
+  # handle mmcblk0p case as well
+  echo "${dev%p*}"
+}
+
+# Usage: save_log_files [log_dev] [log_fs]
+# Save log files stored in LOG_DIR in addition to demsg to the device specified.
+# Args:
+#  log_dev: The block device holding the filesystem where the logs should be
+#      copied to. By default the LOG_DEV device is used, which points to the
+#      stateful partition in the USB_DEV device.
+#  log_fs: The filesystem type (default: ext4).
+save_log_files() {
+  # The recovery stateful is usually too small for ext3.
+  # TODO(wad) We could also just write the data raw if needed.
+  #           Should this also try to save
+  local log_dev="${1:-$LOG_DEV}"
+  local log_fs="${2:-ext4}"
+
+  [ -z "${log_dev}" ] && return 0
+
+  if [ ! -b "${log_dev}" ]; then
+    dlog "Can't store logs on passed device '${log_dev}': not a block device."
+    return 1
+  fi
+
+  dlog "Dumping dmesg to ${LOG_DIR}"
+  dmesg > "${LOG_DIR}"/dmesg
+
+  if [ -e /sys/firmware/log ]; then
+    dlog "Copying firmware log to ${LOG_DIR}"
+    cp /sys/firmware/log "${LOG_DIR}/firmware.log"
+  else
+    dlog "No firmware log found on this platform"
+  fi
+
+  dlog "Saving log files from: ${LOG_DIR} -> ${log_dev}"
+  (
+    set -e
+    mount -n -t "${log_fs}" -o sync,rw "${log_dev}" /tmp
+
+    # Purge old recovery logs. This isn't 100% correct for cases where recovery
+    # media gets used across multiple devices that have their clocks set
+    # incorrectly, but it's hopefully good enough in practice.
+    local dir
+    for dir in $(ls -t /tmp/ | grep '^recovery_logs\.[0-9]*$' | tail -n +10); do
+      rm -rf "/tmp/${dir}" || :
+    done
+
+    # Make a new directory and store the logs from this run in it.
+    local log_dev_dir="recovery_logs.$(date '+%s')"
+    rm -rf "/tmp/${log_dev_dir}"
+    mkdir -p "/tmp/${log_dev_dir}"
+    cp "${LOG_DIR}"/* "/tmp/${log_dev_dir}/"
+    rm -f /tmp/recovery_logs
+    ln -sf "${log_dev_dir}" /tmp/recovery_logs
+  )
+  local err=$?
+
+  # Attempt umount, even if there was an error to avoid leaking the mount.
+  umount -n /tmp || err=$?
+
+  if [ ${err} -eq 0 ] ; then
+    dlog "Successfully saved the log file"
+  else
+    dlog "Failures seen trying to save log file"
+  fi
+}
+
+is_unofficial_root() {
+  [ $UNOFFICIAL_ROOT -eq 1 ]
+}
+
+set_unofficial_root() {
+  UNOFFICIAL_ROOT=1
+  return 0
+}
+
+is_nonchrome() {
+  crossystem "mainfw_type?nonchrome" || crossystem "mainfw_type?netboot"
+}
+
+is_developer_mode() {
+  # Legacy/unsupported systems are mapped to developer mode.
+  is_nonchrome && return 0
+  # Otherwise the exit status will be accurate.
+  crossystem "devsw_boot?1"
+}
+
+lock_tpm() {
+  if [ -z "$TPM_B_LOCKED" ]; then
+    # Depending on the system, the tpm may need to be started.
+    # Don't fail if it doesn't work though.
+    tpmc startup >/dev/null 2>&1
+    tpmc ctest
+    tpmc block
+    case "$?" in
+      0)
+        TPM_B_LOCKED=y
+        ;;
+      28)
+        # TPM is in failed selftest mode, i.e. not operational. Continue so
+        # later code gets a chance to recover the TPM. Don't allow untrusted
+        # code to execute though.
+        TPM_FAILED_SELFTEST=y
+        ;;
+      *)
+        if is_nonchrome; then
+          dlog "No security chip appears to exist in this non-Chrome device."
+          dlog "The security of your experience will suffer."
+          # Forge onward.
+          TPM_B_LOCKED=y
+        else
+          dlog "Failed to lock bGlobalLock."
+          message security_module_failure
+          return 1  # Never reached.
+        fi
+        ;;
+    esac
+  fi
+  if [ -z "$TPM_PP_LOCKED" ]; then
+    # TODO: tpmc pplock if appropriate
+    TPM_PP_LOCKED=y
+  fi
+  return 0
+}
+
+# Extract and export kernel arguments
+export_args() {
+  # We trust our kernel command line explicitly.
+  local arg=
+  local key=
+  local val=
+  local acceptable_set='[A-Za-z0-9]_'
+  for arg in "$@"; do
+    key=$(echo "${arg%%=*}" | tr 'a-z' 'A-Z' | \
+                   tr -dc "$acceptable_set" '_')
+    val="${arg#*=}"
+    export "KERN_ARG_$key"="$val"
+    dlog "Exporting kernel argument $key as KERN_ARG_$key"
+  done
+}
+
+# Set panel brightness to maximum level
+set_brightness() {
+  local backlight_device=
+  local brightness=
+  local i=
+  for backlight_device in /sys/class/backlight/*; do
+
+    # In order to set a backlight to maximum brightness, we do the following:
+    # - Turn the backlight device on (using bl_power).
+    # - Read max_brightness and pipe that into the desired brightness.
+    # - Verify that the backlight's actual brightness matches our expectation.
+    #
+    # The hardware is particularly volatile during startup due to modeset and
+    # hw initialization. We want to give ourselves the best chance of success,
+    # so we'll try up to 5 times before continuing with recovery.
+    for i in $(seq 1 5); do
+      echo 0 > "${backlight_device}/bl_power" # 0 = FB_BLANK_UNBLANK (ie: on)
+      brightness=$(cat "${backlight_device}/max_brightness")
+      echo "${brightness}" > "${backlight_device}/brightness"
+      if [ "$(cat "${backlight_device}/actual_brightness")" = \
+           "${brightness}" ]; then
+        break
+      fi
+      sleep 0.5
+    done
+  done
+}
+
+main() {
+  exec >"${LOG_FILE}" 2>&1 </dev/null
+
+  initialize
+
+  # Now that /dev is up, mirror all logs to UART (if it's available).
+  (tail -f -n +1 "${LOG_FILE}" > /dev/console) &
+
+  # Export the kernel command line as a parsed blob prepending KERN_ARG_ to each
+  # argument.
+  export_args $(cat /proc/cmdline | sed -e 's/"[^"]*"/DROPPED/g')
+
+  # Always lock the TPM first.
+  lock_tpm || on_error
+
+  # Verify FW version.
+  verify_fw_version || handle_error $?
+
+  # We should select the locale before showing any messages.
+  select_locale
+
+  # Show a welcome page first.
+  message recovery_in_progress
+
+  if ! find_official_root ; then
+    if find_developer_root; then
+      message developer_image
+    else
+      on_error
+    fi
+  fi
+
+  # Extract the real boot source, which may be masked by dm-verity.
+  get_stateful_dev || on_error
+
+  message validate
+
+  set_brightness
+
+  recovery_install
+}
+
+# Make this source-able for testing.
+if [ "$0" = "/init" ]; then
+  main "$@"
+  # Should never reach here.
+  exit 1
+fi

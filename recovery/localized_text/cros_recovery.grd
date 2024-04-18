@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grit base_dir="." latest_public_release="0" current_release="1"
+      source_lang_id="en-US" enc_check="möl">
+  <outputs>
+    <!-- Generate output in chrome_message_json format. The resulting JSON
+         files are processed by make_images to render the translated message
+         text to PNG image files. These are used by the recovery installer
+         script to display messages on screen. -->
+    <output filename="am.json" type="chrome_messages_json" lang="am" />
+    <output filename="ar.json" type="chrome_messages_json" lang="ar" />
+    <output filename="bg.json" type="chrome_messages_json" lang="bg" />
+    <output filename="bn.json" type="chrome_messages_json" lang="bn" />
+    <output filename="ca.json" type="chrome_messages_json" lang="ca" />
+    <output filename="cs.json" type="chrome_messages_json" lang="cs" />
+    <output filename="da.json" type="chrome_messages_json" lang="da" />
+    <output filename="de.json" type="chrome_messages_json" lang="de" />
+    <output filename="el.json" type="chrome_messages_json" lang="el" />
+    <output filename="en-GB.json" type="chrome_messages_json" lang="en-GB" />
+    <output filename="en.json" type="chrome_messages_json" lang="en" />
+    <output filename="en-US.json" type="chrome_messages_json" lang="en-US" />
+    <output filename="es.json" type="chrome_messages_json" lang="es" />
+    <output filename="es-419.json" type="chrome_messages_json" lang="es-419" />
+    <output filename="et.json" type="chrome_messages_json" lang="et" />
+    <output filename="fa.json" type="chrome_messages_json" lang="fa" />
+    <output filename="fi.json" type="chrome_messages_json" lang="fi" />
+    <output filename="fil.json" type="chrome_messages_json" lang="fil" />
+    <output filename="fr.json" type="chrome_messages_json" lang="fr" />
+    <output filename="gu.json" type="chrome_messages_json" lang="gu" />
+    <output filename="hi.json" type="chrome_messages_json" lang="hi" />
+    <output filename="hr.json" type="chrome_messages_json" lang="hr" />
+    <output filename="hu.json" type="chrome_messages_json" lang="hu" />
+    <output filename="id.json" type="chrome_messages_json" lang="id" />
+    <output filename="it.json" type="chrome_messages_json" lang="it" />
+    <output filename="he.json" type="chrome_messages_json" lang="iw" />
+    <output filename="ja.json" type="chrome_messages_json" lang="ja" />
+    <output filename="kn.json" type="chrome_messages_json" lang="kn" />
+    <output filename="ko.json" type="chrome_messages_json" lang="ko" />
+    <output filename="lt.json" type="chrome_messages_json" lang="lt" />
+    <output filename="lv.json" type="chrome_messages_json" lang="lv" />
+    <output filename="ml.json" type="chrome_messages_json" lang="ml" />
+    <output filename="mr.json" type="chrome_messages_json" lang="mr" />
+    <output filename="ms.json" type="chrome_messages_json" lang="ms" />
+    <output filename="nl.json" type="chrome_messages_json" lang="nl" />
+    <output filename="nb.json" type="chrome_messages_json" lang="no" />
+    <output filename="pl.json" type="chrome_messages_json" lang="pl" />
+    <output filename="pt-BR.json" type="chrome_messages_json" lang="pt-BR" />
+    <output filename="pt-PT.json" type="chrome_messages_json" lang="pt-PT" />
+    <output filename="ro.json" type="chrome_messages_json" lang="ro" />
+    <output filename="ru.json" type="chrome_messages_json" lang="ru" />
+    <output filename="sk.json" type="chrome_messages_json" lang="sk" />
+    <output filename="sl.json" type="chrome_messages_json" lang="sl" />
+    <output filename="sr.json" type="chrome_messages_json" lang="sr" />
+    <output filename="sv.json" type="chrome_messages_json" lang="sv" />
+    <output filename="sw.json" type="chrome_messages_json" lang="sw" />
+    <output filename="ta.json" type="chrome_messages_json" lang="ta" />
+    <output filename="te.json" type="chrome_messages_json" lang="te" />
+    <output filename="th.json" type="chrome_messages_json" lang="th" />
+    <output filename="tr.json" type="chrome_messages_json" lang="tr" />
+    <output filename="uk.json" type="chrome_messages_json" lang="uk" />
+    <output filename="vi.json" type="chrome_messages_json" lang="vi" />
+    <output filename="zh-CN.json" type="chrome_messages_json" lang="zh-CN" />
+    <output filename="zh-TW.json" type="chrome_messages_json" lang="zh-TW" />
+  </outputs>
+  <translations>
+    <file path="cros_recovery_am.xtb" lang="am" />
+    <file path="cros_recovery_ar.xtb" lang="ar" />
+    <file path="cros_recovery_bg.xtb" lang="bg" />
+    <file path="cros_recovery_bn.xtb" lang="bn" />
+    <file path="cros_recovery_ca.xtb" lang="ca" />
+    <file path="cros_recovery_cs.xtb" lang="cs" />
+    <file path="cros_recovery_da.xtb" lang="da" />
+    <file path="cros_recovery_de.xtb" lang="de" />
+    <file path="cros_recovery_el.xtb" lang="el" />
+    <file path="cros_recovery_en-GB.xtb" lang="en-GB" />
+    <file path="cros_recovery_es.xtb" lang="es" />
+    <file path="cros_recovery_es-419.xtb" lang="es-419" />
+    <file path="cros_recovery_et.xtb" lang="et" />
+    <file path="cros_recovery_fa.xtb" lang="fa" />
+    <file path="cros_recovery_fi.xtb" lang="fi" />
+    <file path="cros_recovery_fil.xtb" lang="fil" />
+    <file path="cros_recovery_fr.xtb" lang="fr" />
+    <file path="cros_recovery_gu.xtb" lang="gu" />
+    <file path="cros_recovery_hi.xtb" lang="hi" />
+    <file path="cros_recovery_hr.xtb" lang="hr" />
+    <file path="cros_recovery_hu.xtb" lang="hu" />
+    <file path="cros_recovery_id.xtb" lang="id" />
+    <file path="cros_recovery_it.xtb" lang="it" />
+    <file path="cros_recovery_iw.xtb" lang="iw" />
+    <file path="cros_recovery_ja.xtb" lang="ja" />
+    <file path="cros_recovery_kn.xtb" lang="kn" />
+    <file path="cros_recovery_ko.xtb" lang="ko" />
+    <file path="cros_recovery_lt.xtb" lang="lt" />
+    <file path="cros_recovery_lv.xtb" lang="lv" />
+    <file path="cros_recovery_ml.xtb" lang="ml" />
+    <file path="cros_recovery_mr.xtb" lang="mr" />
+    <file path="cros_recovery_ms.xtb" lang="ms" />
+    <file path="cros_recovery_nl.xtb" lang="nl" />
+    <file path="cros_recovery_no.xtb" lang="no" />
+    <file path="cros_recovery_pl.xtb" lang="pl" />
+    <file path="cros_recovery_pt-BR.xtb" lang="pt-BR" />
+    <file path="cros_recovery_pt-PT.xtb" lang="pt-PT" />
+    <file path="cros_recovery_ro.xtb" lang="ro" />
+    <file path="cros_recovery_ru.xtb" lang="ru" />
+    <file path="cros_recovery_sk.xtb" lang="sk" />
+    <file path="cros_recovery_sl.xtb" lang="sl" />
+    <file path="cros_recovery_sr.xtb" lang="sr" />
+    <file path="cros_recovery_sv.xtb" lang="sv" />
+    <file path="cros_recovery_sw.xtb" lang="sw" />
+    <file path="cros_recovery_ta.xtb" lang="ta" />
+    <file path="cros_recovery_te.xtb" lang="te" />
+    <file path="cros_recovery_th.xtb" lang="th" />
+    <file path="cros_recovery_tr.xtb" lang="tr" />
+    <file path="cros_recovery_uk.xtb" lang="uk" />
+    <file path="cros_recovery_vi.xtb" lang="vi" />
+    <file path="cros_recovery_zh-CN.xtb" lang="zh-CN" />
+    <file path="cros_recovery_zh-TW.xtb" lang="zh-TW" />
+  </translations>
+  <release seq="1">
+    <messages fallback_to_english="true">
+      <message name="block_dev_mode" desc="Message shown by the recovery installer upon attempts to install an unofficial image on a device that has been set up to block developer mode.">
+The device owner requires this device to run with Whale OS
+verification turned on.  You are trying to install an unofficial
+Whale OS recovery image which does not pass verification.
+
+For more information, refer to this URL:
+
+https://whalebook.naver.com/en/whaleos
+      </message>
+      <message name="cancel" desc="Message shown by the recovery installer before actual installation, providing instructions on how to cancel.">
+ You are about to recover your computer. Please make sure it is
+ plugged in to a power source.
+
+If you want to cancel recovery, press the power button and hold it
+down until the computer turns off (this takes up to 8 seconds).
+It is safe to do this at any time during verification.
+      </message>
+      <message name="complete" desc="Message shown by the recovery installer upon completion of the image installation procedure.">
+System recovery is complete.
+
+Please remove the recovery media and your computer will restart
+automatically.
+      </message>
+      <message name="complete_noninteractive" desc="Message shown by the recovery installer upon completion of the image installation procedure for hands-free installs.">
+System recovery is complete.
+
+It is now safe to remove the recovery media. Your computer will
+automatically restart shortly.
+      </message>
+      <message name="dev_invalid_kernel" desc="Message shown by the recovery installer when developer mode is enabled and an image that is signed with outdated signing keys gets installed.">
+You are using an out-of-date official Whale OS recovery image.
+
+Recovery will continue because verification is turned off.
+If you later turn verification back on, you will need to repeat
+recovery with an up-to-date Whale OS image.
+      </message>
+      <message name="dev_switch" desc="Message shown by the recovery installer to alert the user to the fact that developer mode is enabled.">
+Whale OS verification is turned off.
+
+If this is unintentional, you should cancel recovery and disable
+developer mode in order to enable verification.  For more information,
+refer to this URL:
+
+https://whalebook.naver.com/en/whaleos
+      </message>
+      <message name="error" desc="Message shown by the recovery installer when encountering an unexpected error.">
+An unexpected error has occurred.  Please refer to this URL for
+troubleshooting tips:
+
+https://whalebook.naver.com/en/whaleos
+      </message>
+      <message name="invalid_kernel" desc="Message shown by the recovery installer on an attempt to install a recovery image that was signed by an outdated signing key.">
+You are using an out-of-date Whale OS recovery image.
+
+Please refer to this URL for instructions on how to create new
+recovery media:
+
+https://whalebook.naver.com/en/whaleos
+      </message>
+      <message name="key_change" desc="Message shown by the recovery installer in developer mode when installing a kernel that fails validation against the signing keys installed on the device.">
+A developer key change is required to proceed; the process requires
+5 minutes.
+      </message>
+      <message name="non_chrome" desc="Message shown by the recovery installer when running on a machine that does not look like Chrome OS hardware.">
+Your computer does not appear to be a Whale OS system!
+
+This operation will delete any other operating system you may have
+installed and all the data; there will be no opportunity for backup.
+If you have any data on this computer that you want to preserve, you
+should cancel recovery.
+      </message>
+      <message name="recovering" desc="Message shown by the recovery installer while the recovery image is getting installed on the device.">
+System recovery is in progress...
+
+This will take a few minutes. Please do not turn off the computer or
+disconnect the power.
+      </message>
+      <message name="security_module_failure" desc="Message shown by the recovery installer when the security module is in an non-operational state.">
+The security module on this device is not working.
+
+Please refer to this URL for more information:
+
+https://whalebook.naver.com/en/whaleos
+      </message>
+      <message name="unverified" desc="Message shown by the recovery installer in developer mode to alert the user when installing an unverified image.">
+The image on your recovery media is an unverified developer image.
+
+Recovery will continue because verified boot is turned off.
+If you later turn verification back on, you will need to repeat
+recovery with an official Whale OS image.
+      </message>
+      <message name="update_firmware" desc="Message shown by the recovery installer while installing a firmware update.">
+Installing update...
+
+Please do not turn off the device.
+It will automatically reboot when the update finishes.
+      </message>
+      <message name="update_firmware_low_battery" desc="Message shown by the recovery installer when a firmware update is ready to be installed but the battery isn't sufficiently charged and no charger is connected.">
+Battery too low for update.
+
+Please connect your Whalebook to a power source. The update
+will automatically begin as soon as the battery has enough charge.
+      </message>
+      <message name="update_firmware_low_battery_charging" desc="Message shown by the recovery installer when a firmware update is ready to be installed but we wait for the battery to be sufficiently charged.">
+Battery too low for update.
+
+Charging...
+
+The update will automatically begin as soon as the battery has enough charge.
+      </message>
+      <message name="validating" desc="Message shown by the recovery installer while checking the validity of the installation image.">
+Verifying the integrity of your recovery media...
+      </message>
+      <message name="wait" desc="Message shown by the recovery installer to inform the user to wait for completion of an ongoing operation.">
+Please wait...
+      </message>
+      <message name="disk_wipe_started" desc="Message shown by the recovery installer to inform the user that disks are being wiped.">
+Enhanced disk deletion is in progress...
+
+This may take a lot of time.
+      </message>
+      <message name="recovery_complete_wipe_success" desc="Message shown by the recovery installer to inform the user that disks wipe and recovery are successfully executed.">
+Enhanced disk deletion was successful.
+
+System recovery is complete.
+Please remove the recovery media and your computer will restart automatically.
+      </message>
+      <message name="recovery_complete_wipe_fail" desc="Message shown by the recovery installer to inform the user that disks wipe is failed and recovery is successfully executed.">
+There was an error during enhanced disk deletion.
+
+System recovery is complete.
+Please remove the recovery media and your computer will restart automatically.
+      </message>
+      <message name="recovery_error_wipe_fail" desc="Message shown by the recovery installer when encountering an error during recovery and disk wipe is failed.">
+There was an error during enhanced disk deletion.
+
+An unexpected error has occurred during recovery. Please refer to this URL for troubleshooting tips:
+
+https://whalebook.naver.com/en/whaleos
+      </message>
+      <message name="recovery_error_wipe_success" desc="Message shown by the recovery installer when encountering an error during recovery and disk wipe is succeed.">
+Enhanced disk deletion was successful.
+
+An unexpected error has occurred during recovery. Please refer to this URL for troubleshooting tips:
+
+https://whalebook.naver.com/en/whaleos
+      </message>
+      <message name="title_recovery_in_progress" desc="Title shown by the recovery installer when recovery begins">
+External disk with recovery image detected
+      </message>
+      <message name="desc_recovery_in_progress" desc="Detailed description by the recovery installer when recovery begins">
+This process may take a few minutes
+      </message>
+      <message name="title_recovery_complete" desc="Title shown by the recovery installer when recovery finished">
+Recovery is now complete
+      </message>
+      <message name="desc_recovery_complete" desc="Detailed description shown by the recovery installer when recovery finished">
+Unplug your external disk to restart.
+      </message>
+      <message name="title_debug_options" desc="Title of the deug info screen">
+Recovery debug options
+      </message>
+      <message name="footer_left_1" desc="Combined with footer_left_2/3, the left half of footer">
+Model:
+      </message>
+      <message name="footer_left_2" desc="See footer_left_1">
+Help center:
+      </message>
+      <message name="footer_left_3" desc="See footer_left_1">
+https://whalebook.naver.com/en/whaleos
+      </message>
+      <message name="footer_right_1_clamshell" desc="Combined with footer_right_2_clamshell, the right half of footer for clamshell device">
+Use the arrow keys to navigate up or down.
+      </message>
+      <message name="footer_right_2_clamshell" desc="See footer_right_1_clamshell">
+Use the enter key to select an option.
+      </message>
+      <message name="footer_right_1_tablet" desc="Combined with footer_right_2_tablet, the right half of footer for tablet device">
+Use the volume buttons to navigate up or down.
+      </message>
+      <message name="footer_right_2_tablet" desc="See footer_right_2_tablet">
+Use the power button to select an option.
+      </message>
+      <message name="title_recovery_failed" desc="Title of the general error screen">
+Error recovering your device
+      </message>
+      <message name="desc_recovery_failed" desc="Detailed description for general error screen">
+There was an error while recovering your device, Refer to
+https://whalebook.naver.com/en/whaleos for possible solutions or try again.
+      </message>
+      <message name="btn_try_again" desc="In the error screen, button that tells user to reboot and try again">
+Try Again
+      </message>
+      <message name="btn_diagnostics" desc="In the error screen, button that sends user to the diagnistics menu">
+Diagnostics
+      </message>
+      <message name="btn_power_off" desc="Power off button">
+Power off
+      </message>
+      <message name="btn_debug_options" desc="In the error screen, button that sends user to the debug options menu">
+Advanced options
+      </message>
+      <message name="tip_copy_logs" desc="In the debug options menu, tooltip before btn_copy_logs">
+Copy logs to your external disk
+      </message>
+      <message name="btn_copy_logs" desc="In the debug options menu, button that let user to copy error log to their USB stick">
+Copy logs
+      </message>
+      <message name="tip_view_logs" desc="In the debug options menu, tooltip before the view log button">
+View logs
+      </message>
+      <message name="btn_recovery_log" desc="In the debug options menu, button that let user to view the recovery log">
+Recovery log
+      </message>
+      <message name="btn_message_log" desc="In the debug options menu, button that let user to view the /var/log/messages log">
+Messages log
+      </message>
+      <message name="btn_tpm_log" desc="In the debug options menu, button that let user to view the tpm log">
+tpm-firmware-updater log
+      </message>
+      <message name="btn_back" desc="Caption of 'Back to previous page' button' on various screens">
+Back
+      </message>
+      <message name="btn_page_up" desc="General file navigation button">
+Page up
+      </message>
+      <message name="btn_page_down" desc="General file navigation button">
+Page down
+      </message>
+      <message name="title_recovery_log" desc="Title shown to the user when viewing recovery log">
+Recovery log
+      </message>
+      <message name="title_message_log" desc="Title shown to the user when viewing /var/log/messages log">
+Messages log
+      </message>
+      <message name="title_tpm_log" desc="Title shown to the user when viewing tpm log">
+tpm-firmware-updater log
+      </message>
+ <!-- MiniOS string translations. Do not copy or update in other locales. -->
+<message name="btn_next" desc="Next Page button">
+Next
+      </message>
+      <message name="btn_enter" desc="Enter button">
+Enter
+      </message>
+      <message name="btn_choose_network" desc="To go back to the network selection screen from the error screen.">
+Choose network
+      </message>
+      <message name="btn_start_recovery" desc="Start recovery button on user confirmation screen">
+Start recovery?
+      </message>
+      <message name="title_MiniOS_password" desc="Title shown to the user to enter their password">
+Enter the network password
+      </message>
+      <message name="desc_MiniOS_password" desc="Detailed description for entering password">
+Type your password. Press Tab to show or hide the password. Press Enter to submit.
+      </message>
+      <message name="title_MiniOS_welcome" desc="Title shown to the user when beginning recovery">
+Recover using an internet connection
+      </message>
+      <message name="desc_MiniOS_welcome" desc="Detailed description shown to the user when beginning recovery">
+Press Next to begin recovery process. This may take several minutes.
+      </message>
+      <message name="title_MiniOS_dropdown" desc="Title shown to the user when starting process">
+Connect to a network to begin recovery
+      </message>
+      <message name="title_MiniOS_downloading" desc="Title shown to the user when downloading">
+Recovery in progress
+      </message>
+      <message name="desc_MiniOS_downloading" desc="Title shown to the user when downloading">
+This may take a few minutes. Do not turn off the device or disconnect the power.
+      </message>
+      <message name="title_MiniOS_finalizing" desc="Title shown to the user when almost done with installation">
+Finishing recovery
+      </message>
+      <message name="desc_MiniOS_finalizing" desc="Title shown to the user when almost done with installation">
+This will take a few minutes
+      </message>
+      <message name="title_MiniOS_complete" desc="Title shown to the user when finished with recovery">
+Recovery completed
+      </message>
+      <message name="desc_MiniOS_complete" desc="Detailed description shown when finished with recovery">
+Restart manually if the device doesn’t automatically restart
+      </message>
+      <message name="title_MiniOS_pick_image" desc="Title shown to the user about recovery version">
+You will now be updated to the latest stable version (Recommended)
+      </message>
+      <message name="desc_MiniOS_pick_image" desc="Detailed description about recovery version">
+Select advanced options below to change
+      </message>
+      <message name="title_MiniOS_advanced_options" desc="Title shown to the user in image advanced options">
+Select OS channel and version to continue recovery
+      </message>
+      <message name="title_MiniOS_wait_for_connection" desc="Title shown to the user while waiting for the network connection status">
+Connecting to the network. This may take up to a minute.
+      </message>
+      <message name="title_MiniOS_user_confirm" desc="Title shown to the user asking for permission to recover">
+Start recovery
+      </message>
+      <message name="desc_MiniOS_user_confirm" desc="Detailed description presented to the user asking for permission to recover">
+This process will wipe your personal data. This will take several minutes. Do not turn off the device.
+      </message>
+      <message name="title_MiniOS_network_error" desc="Title shown to the user when there is an error getting networks">
+Could not find any networks
+      </message>
+      <message name="desc_MiniOS_network_error" desc="Detailed description for network error">
+There was an issue getting available networks, please retry
+      </message>
+       <message name="title_MiniOS_connection_error" desc="Title shown to the user when there is an error connecting to the network">
+Could not connect to the network
+      </message>
+      <message name="desc_MiniOS_connection_error" desc="Detailed description for connection error">
+Please select a new network or try again
+      </message>
+      <message name="title_MiniOS_password_error" desc="Title shown to the user when unable to connect to chosen network">
+Incorrect Credentials
+      </message>
+      <message name="desc_MiniOS_password_error" desc="Detailed description when unable to connect to chosen network">
+Please enter your password again. Only ASCII characters are supported.
+      </message>
+      <message name="title_MiniOS_download_error" desc="Title shown to the user when there is a download error during recovery">
+Could not finish the recovery process
+      </message>
+      <message name="desc_MiniOS_download_error" desc="Detailed description for error when there is a download error during recovery">
+Please reboot and try again
+      </message>
+      <message name="title_MiniOS_general_error" desc="Title shown to the user when there is an error">
+Sorry, something went wrong
+      </message>
+      <message name="desc_MiniOS_general_error" desc="Detailed description for error">
+Please try again. Make sure the device is plugged in and charging.
+      </message>
+      <message name="btn_MiniOS_display_options" desc="Button for options menu">
+Available Networks
+      </message>
+      <message name="btn_MiniOS_advanced_options" desc="Button for advanced options menu">
+Advanced Options
+      </message>
+    </messages>
+  </release>
+</grit>

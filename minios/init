@@ -1,0 +1,82 @@
+#!/bin/sh
+# Copyright 2020 The ChromiumOS Authors
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+LOG_FILE=/dev/kmsg
+
+# Kernel log-levels.
+LOG_INFO="<6>"
+LOG_ERROR="<3>"
+
+# Tag for log messages.
+TAG="minios-init"
+
+# Set panel brightness to maximum level
+set_brightness() {
+  local backlight_device=
+  local brightness=
+  for backlight_device in /sys/class/backlight/*; do
+
+    # In order to set a backlight to maximum brightness, we do the following:
+    # - Turn the backlight device on (using bl_power).
+    # - Read max_brightness and pipe that into the desired brightness.
+    # - Verify that the backlight's actual brightness matches our expectation.
+    #
+    # The hardware is particularly volatile during startup due to modeset and
+    # hw initialization. We want to give ourselves the best chance of success,
+    # so we'll try up to 5 times before continuing with recovery.
+    for _ in $(seq 1 5); do
+      echo 0 > "${backlight_device}/bl_power" # 0 = FB_BLANK_UNBLANK (ie: on)
+      brightness=$(cat "${backlight_device}/max_brightness")
+      echo "${brightness}" > "${backlight_device}/brightness"
+      if [ "$(cat "${backlight_device}/actual_brightness")" = \
+           "${brightness}" ]; then
+        break
+      fi
+    done
+  done
+}
+
+minios_info() {
+  echo "${LOG_INFO}${TAG}: $*" | tee "${LOG_FILE}" 1>&2
+}
+
+minios_err() {
+  echo "${LOG_ERROR}${TAG}: $*" | tee "${LOG_FILE}" 1>&2
+}
+
+# For initramfs, this init script is responsible for the equivalent of
+# `prepare_namespace()`. For MiniOS this simplifies to waiting for the
+# fixed block devices to become available.
+wait_for_fixed_dst_drive() {
+  # Wait up to 10 seconds.
+  local NUM_TRIES=100
+  local SLEEP_SECONDS=0.1
+
+  load_base_vars
+  minios_info "Looking for destination drive ..."
+
+  local try=0
+  while [ $(( try += 1 )) -lt "${NUM_TRIES}" ]; do
+    DST="$(get_fixed_dst_drive)"
+    if [ -n "${DST}" ]; then
+      minios_info "Found destination drive: ${DST}"
+      return 0
+    fi
+    sleep "${SLEEP_SECONDS}"
+  done
+
+  minios_err "Failed waiting for destination drive"
+  return 1
+}
+
+# shellcheck source=/dev/null
+. /usr/bin/write_gpt.sh
+. /usr/share/misc/chromeos-common.sh
+# shellcheck source=../common/init.sh
+. /lib/init.sh
+initialize
+set_brightness
+wait_for_fixed_dst_drive
+exec /bin/init

@@ -1,0 +1,609 @@
+#!/usr/bin/env python3
+# Copyright 2012 The ChromiumOS Authors
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+"""Generate message images from localized translations."""
+
+import argparse
+import contextlib
+import json
+import multiprocessing
+import os
+import re
+import subprocess
+import sys
+import tempfile
+
+from PIL import Image  # pylint: disable=import-error
+
+
+# The list of supported locales, and their associated fonts.  Fonts should
+# generally match the list of families in Chrome's IDS_UI_FONT_FAMILY_CROS
+# string.  If you're adding a new locale, it's usually (mostly) enough just to
+# update this dictionary.  See the README for information about the caveats.
+DEFAULT_FONT = "Noto Sans UI,Droid Sans Fallback,sans-serif, 14px"
+SUPPORTED_LOCALES = {
+    "de": DEFAULT_FONT,
+    "en-GB": DEFAULT_FONT,
+    "en-US": DEFAULT_FONT,
+    "es": DEFAULT_FONT,
+    "es-419": DEFAULT_FONT,
+    "fr": DEFAULT_FONT,
+    "it": DEFAULT_FONT,
+    "ja": "MotoyaG04Gothic,Noto Sans UI,IPAPGothic,Droid Sans Fallback,"
+    "sans-serif, 14px",
+    "ko": "Noto Sans UI,NanumGothic,Droid Sans Fallback,sans-serif, 14px",
+    "nl": DEFAULT_FONT,
+    "pt-BR": DEFAULT_FONT,
+    "sv": DEFAULT_FONT,
+}
+
+
+# A handful of locales reuse the texts from other locales.
+# (With apologies to our Aussie and Canadian friends, who really
+# deserve locales of their own ;-) ).
+LOCALE_LINKS = (
+    ("en-CA", "en-US"),
+    ("en-AU", "en-GB"),
+)
+
+
+# We package some plain ASCII glyphs for basic dynamic text rendering.
+MONOSPACE_FONT = "Monospace,24px"
+MONOSPACE_GLYPH_WIDTH = 14
+MONOSPACE_GLYPH_HEIGHT = 25
+MONOSPACE_GLYPHS = "abcdefghijklmnopqrstuvwxyz0123456789.-"
+
+
+# Message box dimensions.
+# MESSAGE_BOX_WIDTH:
+#     Width in pixels of an image containing message text.  This
+#     width must not exceed the width of the "boot_message_light.png"
+#     image.  At the time of this comment, the limit is 1024 pixels.
+# MESSAGE_BOX_HEIGHT:
+#     Height in pixels of an image containing message text.  This
+#     height must not exceed one third of the height of the frame
+#     allocated for messages in "boot_message_light.png".  At the time
+#     of this comment, the limit is 115 pixels.
+# TEXT_INSET_WIDTH:
+#     Message images will have a margin of this many pixels on the
+#     right and left of the text.
+# TEXT_INSET_HEIGHT:
+#     Message images will have a margin of this many pixels on the
+#     top and bottom of the text.
+
+MESSAGE_BOX_WIDTH = 1000
+MESSAGE_BOX_HEIGHT = 115
+TEXT_INSET_WIDTH = 50
+TEXT_INSET_HEIGHT = 0
+
+# Progress bar dimensions.
+# The progress bar is laid out along these lines:
+#   +--------------+ <--- Outer border
+#   |             <+--- Inner border
+#   | XXX......... |
+#   |   ^          |
+#   +---+----------+
+#       |
+#       +---- Progress bar increments
+#
+# PROGRESS_INCREMENT:
+#     The width in pixels of a 1% increment in the progress bar.
+# PROGRESS_INCREMENT_HEIGHT:
+#     The height in pixels of a progress bar increment.
+# PROGRESS_BAR_OUTER_BORDER:
+#     The thickness in pixels of the outer border.
+# PROGRESS_BAR_INNER_BORDER:
+#     The thickness in pixels of the inner border.
+# PROGRESS_BAR_INSET:
+#     The inset (width and height) for the progress bar increments
+#     within the progress bar image; this is just the sum of the
+#     thickness of the inner and outer border.
+# PROGRESS_BAR_WIDTH:
+#     The total width in pixels of the progress bar, including the
+#     borders.
+# PROGRESS_BAR_HEIGHT:
+#     The total height in pixels of the progress bar, including the
+#     borders.
+
+PROGRESS_INCREMENT = 3
+PROGRESS_INCREMENT_HEIGHT = 17
+PROGRESS_BAR_OUTER_BORDER = 2
+PROGRESS_BAR_INNER_BORDER = 1
+
+PROGRESS_BAR_INSET = PROGRESS_BAR_OUTER_BORDER + PROGRESS_BAR_INNER_BORDER
+PROGRESS_BAR_WIDTH = 100 * PROGRESS_INCREMENT + 2 * PROGRESS_BAR_INSET
+PROGRESS_BAR_HEIGHT = PROGRESS_INCREMENT_HEIGHT + 2 * PROGRESS_BAR_INSET
+
+
+# Parameters for placement of message icons and the progress bar.
+# "LEFT" and "TOP" are calculated as offsets relative to the center
+# of the message image; see OffsetFromCenter(), below.
+#
+# These are calculated just to be available in constants.sh.
+#
+# ICON_INSET_LEFT:
+#     Some messages include an icon (e.g. the activity spinner)
+#     beside the text.  This is the number of pixels to inset the
+#     icon image on the X axis.  Icons are 21 or 22 pixels wide, so
+#     the inset must be at least 22 pixels less than the text inset.
+# ICON_INSET_TOP:
+#     Inset from the top of the message image for a message icon.
+# PROGRESS_BAR_LEFT:
+#     Offset along the X axis where the progress bar should be
+#     placed.
+# PROGRESS_BAR_TOP:
+#     Offset along the Y axis where the progress bar should be
+#     placed.
+# PROGRESS_INCREMENT_LEFT:
+#     Offset along the X axis for placement of the leftmost progress
+#     bar increment.
+# PROGRESS_INCREMENT_TOP:
+#     Offset along the Y axis for placement of the top of progress
+#     bar increments.
+
+
+def _OffsetFromCenter(offset, target, reference):
+    """Return the offset needed to align images with frecon.
+
+    frecon places the center of an image at an offset from the center of
+    the screen.  In cases where we want to place the _edge_ of a target
+    image A at a location relative to the same edge of a reference image
+    B, the distance to the center of A and B must both be accounted for.
+
+    This function performs the necessary calculations to find the
+    offset to apply in either the X or Y direction, given the
+    corresponding width or height of the target and reference images.
+
+    Args:
+        offset: Desired offset relative to the edge (top or left) of
+            the reference image.
+        target: Size (width or height) of the target image.
+        reference: Size (width or height) of the reference image.
+
+    Returns:
+        The offset from the center of the target image needed to
+        place the target at `offset`.
+    """
+    # The two separate rounding expressions here are necessary as is,
+    # to account for the centering from the two separate frecon
+    # invocations.  This rounding may nonetheless do the wrong thing
+    # if the screen has an odd number of rows or columns.  :-(
+    #
+    # Don't try to tweak this unless you really know what you're
+    # doing, you've studied the relevant code in frecon, and you've
+    # tested all four cases of (target, reference) x (even, odd).
+    # You have been warned.
+    return offset + (target + 1) // 2 - (reference + 1) // 2
+
+
+_ICON_WIDTH = 22
+ICON_INSET_LEFT = _OffsetFromCenter(
+    TEXT_INSET_WIDTH - _ICON_WIDTH - 10, _ICON_WIDTH, MESSAGE_BOX_WIDTH
+)
+ICON_INSET_TOP = _OffsetFromCenter(
+    TEXT_INSET_HEIGHT, _ICON_WIDTH, MESSAGE_BOX_HEIGHT
+)
+
+_PROGRESS_BAR_TOP_OFFSET = 30
+PROGRESS_BAR_LEFT = _OffsetFromCenter(
+    TEXT_INSET_WIDTH, PROGRESS_BAR_WIDTH, MESSAGE_BOX_WIDTH
+)
+PROGRESS_BAR_TOP = _OffsetFromCenter(
+    _PROGRESS_BAR_TOP_OFFSET, PROGRESS_BAR_HEIGHT, MESSAGE_BOX_HEIGHT
+)
+
+PROGRESS_INCREMENT_LEFT = _OffsetFromCenter(
+    TEXT_INSET_WIDTH + PROGRESS_BAR_INSET, PROGRESS_INCREMENT, MESSAGE_BOX_WIDTH
+)
+PROGRESS_INCREMENT_TOP = _OffsetFromCenter(
+    _PROGRESS_BAR_TOP_OFFSET + PROGRESS_BAR_INSET,
+    PROGRESS_INCREMENT_HEIGHT,
+    MESSAGE_BOX_HEIGHT,
+)
+
+
+# Color parameters:
+# BACKGROUND:
+#     This is the background color.  N.B.:  This color must be the
+#     same as the background color of the "boot_message_light.png"
+#     image file from chromeos-assets; if that image changes, this
+#     color will need to change.
+# TEXT_COLOR:
+#     This is the foreground color for message text.
+# PROGRESS_COLOR:
+#     This is the foreground color for the progress bar, used for
+#     the outer border and incremental updates.
+#
+# 'BACKGROUND' is shared with messages.sh, which requires a 24-bit
+# RGB value; for consistency all three colors are defined as 24-bit
+# RGB values, and then converted to the 3 separate floating point
+# component values that Cairo expects to be passed.
+
+BACKGROUND = 0xFEFEFE
+TEXT_COLOR = 0x333333
+PROGRESS_COLOR = 0xBBBBBB
+
+
+# Input text files are broken into paragraphs like so:
+#   This is a sample line of text in the first paragraph.
+#   This is a second line in the same paragraph.
+#
+#   This is the second paragraph.
+#
+# Pango believes newlines are used to separate paragraphs, so
+# we convert all single newline characters to a space.  We leave
+# the double newlines for a paragraph separator so that Pango will
+# render the paragraphs with additional separation.
+#
+# Also, text returned from translators may have spurious whitespace,
+# so we convert CR-LF into just LF, and convert multiple blanks into
+# a single blank.
+
+NEWLINE_PATTERN = re.compile(r"([^\n])\n([^\n])")
+NEWLINE_REPLACEMENT = r"\1 \2"
+CRLF_PATTERN = re.compile(r"\r\n")
+MULTIBLANK_PATTERN = re.compile(r"   *")
+
+
+def OptimizeImage(src_img, dst_img):
+    """Optimize |src_img|, and save into |dst_img|."""
+    # These pngcrush options won't generate the smallest .png file possible,
+    # instead, the goal here is to generate .png files that the xz step that
+    # compresses the initramfs can compress well, taking advantage of the
+    # redundancy between files. See crbug.com/465647 for details.
+    pngcrush_args = (
+        "pngcrush",
+        "-quiet",
+        # Set the color type to "grayscale without alpha channel".
+        "-c",
+        "0",
+        # Use method 1 (no filtering).
+        "-m",
+        "1",
+        # zlib level 0 (no compression).
+        "-l",
+        "0",
+        # No filter.
+        "-f",
+        "0",
+        src_img,
+        dst_img,
+    )
+
+    subprocess.check_call(pngcrush_args)
+
+
+def CreateMessageImage(msgtext, locale, imagename):
+    """Create a message image file containing the given text.
+
+    Args:
+        msgtext: String with the text; it has already been adjusted
+            to remove extra white space and create proper paragraph breaks.
+        locale: The locale to use for source translations.
+        imagename: Path name for the final .png image.
+    """
+    # pango-view cannot specify height and individual margins, so we want to
+    # create image as text inset only, and then extend to proper size.
+    text_width = MESSAGE_BOX_WIDTH - 2 * TEXT_INSET_WIDTH
+    text_height = MESSAGE_BOX_HEIGHT - 2 * TEXT_INSET_HEIGHT
+    # pango-view supports specifying content by parameter (--text=) but that may
+    # cause python to fail due to unicode when running inside ebuilds.  Write to
+    # a temporary file to avoid that.
+    with tempfile.NamedTemporaryFile() as txt_file:
+        params = (
+            "pango-view",
+            "-q",
+            "--pixels",
+            "--hinting=auto",
+            "--align=left",
+            "--margin=0",
+            "--language=%s" % locale,
+            "--foreground=#%06x" % TEXT_COLOR,
+            "--background=#%06x" % BACKGROUND,
+            "--width=%d" % text_width,
+            "--font=%s" % SUPPORTED_LOCALES.get(locale, DEFAULT_FONT),
+            "--output=%s" % imagename,
+            txt_file.name,
+        )
+        txt_file.write(msgtext.encode("utf_8_sig"))
+        txt_file.flush()
+        subprocess.check_call(params)
+
+    # Check that the text didn't get clipped. Note the size here is different
+    # from final output image.
+    image = Image.open(imagename)
+    if image.size[1] > text_height:
+        raise RuntimeError(
+            "ERROR: Text for %s (%dx%d) exceeds image text size (%dx%d)"
+            % (imagename, image.size[0], image.size[1], text_width, text_height)
+        )
+
+    # Expand image with correct margins.
+    new_image = Image.new(
+        image.mode, (MESSAGE_BOX_WIDTH, MESSAGE_BOX_HEIGHT), BACKGROUND
+    )
+    new_image.paste(image, (TEXT_INSET_WIDTH, TEXT_INSET_HEIGHT))
+    temp_imagename = "%s.tmp%s" % os.path.splitext(imagename)
+    new_image.save(temp_imagename)
+
+    OptimizeImage(temp_imagename, imagename)
+
+    os.unlink(temp_imagename)
+
+
+def CreateMonospaceGlyph(char, glyph_path):
+    """Renders a single |char| into |glyph_path|."""
+    with tempfile.NamedTemporaryFile(suffix=".png") as temp:
+        subprocess.check_call(
+            [
+                "pango-view",
+                "-q",
+                "--pixels",
+                "--hinting=auto",
+                "--margin=0",
+                "--foreground=#%06x" % TEXT_COLOR,
+                "--background=#%06x" % BACKGROUND,
+                "--font=%s" % MONOSPACE_FONT,
+                "--text=%s" % char,
+                "--output=%s" % temp.name,
+            ]
+        )
+
+        OptimizeImage(temp.name, glyph_path)
+
+
+def CreateProgressBar(image_dir):
+    """Create images for the progress bar.
+
+    Two images are created:  "progress_box.png" is an empty progress
+    bar; "progress_increment.png" is a 1% increment of the progress
+    bar.  |image_dir| is the directory in which the output files
+    should be created.
+
+    The "progress_box.png" file is just the outer border with an empty
+    progress bar.  It's created by filling the entire rectangle with
+    the foreground color, and then redrawing a smaller rectangle
+    inside in the background color, inset by the border.
+    """
+    progress_box = Image.new(
+        "RGB", (PROGRESS_BAR_WIDTH, PROGRESS_BAR_HEIGHT), PROGRESS_COLOR
+    )
+    progress_box.paste(
+        Image.new(
+            "RGB",
+            (
+                PROGRESS_BAR_WIDTH - 2 * PROGRESS_BAR_OUTER_BORDER,
+                PROGRESS_BAR_HEIGHT - 2 * PROGRESS_BAR_OUTER_BORDER,
+            ),
+            BACKGROUND,
+        ),
+        (PROGRESS_BAR_OUTER_BORDER, PROGRESS_BAR_OUTER_BORDER),
+    )
+    filename = os.path.join(image_dir, "progress_box.png")
+    progress_box.save(filename)
+    print(f"wrote {os.path.basename(filename)}")
+
+    progress_increment = Image.new(
+        "RGB", (PROGRESS_INCREMENT, PROGRESS_INCREMENT_HEIGHT), PROGRESS_COLOR
+    )
+    filename = os.path.join(image_dir, "progress_increment.png")
+    progress_increment.save(filename)
+    print(f"wrote {os.path.basename(filename)}")
+
+
+def _LoadMessages(filename):
+    """Load messaages from |filename|."""
+    with open(filename, "rb") as fp:
+        return json.load(fp)
+
+
+def CreateLocales(textdir, screendir, locale_list):
+    """Create message images for all locales.
+
+    The per-locale XTB files containing translations are found in |textdir|.
+    The per-locale output images are written under |screendir|.  The locales to
+    be used are specified in |locale_list|.
+
+    All locales share a distinguished image named "empty.png" that
+    contains no text.
+    """
+    # Need to create the empty image before processing the others.
+    empty_base = "empty.png"
+    empty_file = os.path.join(screendir, empty_base)
+    CreateMessageImage("", "en-US", empty_file)
+
+    with contextlib.ExitStack() as stack:
+        pool = stack.enter_context(multiprocessing.Pool())
+        # Create a temporary directory for grit's translation output.
+        tmpdir = stack.enter_context(tempfile.TemporaryDirectory())
+
+        # Invoke the grit build command to generate JSON files from the XTB
+        # translations.  The results are placed in `tmpdir` as specified in
+        # cros_recovery.grd, i.e. one JSON file per locale.
+        subprocess.check_call(
+            [
+                "grit",
+                "-i",
+                os.path.join(textdir, "cros_recovery.grd"),
+                "build",
+                "-o",
+                tmpdir,
+            ]
+        )
+
+        # Newer grit will omit fallback messages, so we have to provide them.
+        en_translations = _LoadMessages(os.path.join(tmpdir, "en.json"))
+
+        for locale in locale_list:
+            print(f"Locale {locale}")
+            locale_screen = os.path.join(screendir, locale)
+            os.makedirs(locale_screen, exist_ok=True)
+            locale_empty = os.path.join(locale_screen, empty_base)
+            if not os.path.exists(locale_empty):
+                os.link(empty_file, locale_empty)
+
+            # Read the JSON file to obtain translated messages.
+            translations = _LoadMessages(
+                os.path.join(tmpdir, "%s.json" % (locale,))
+            )
+            # Overlay the English fallbacks.
+            missing = set()
+            for msgid in en_translations.keys():
+                if msgid not in translations:
+                    missing.add(str(msgid))
+                    translations[msgid] = en_translations[msgid]
+            if missing and locale not in {"en-US"}:
+                print(f'  missing translations: {" ".join(sorted(missing))}')
+
+            # Generate an image file for translated message.
+            for tag, msgdict in translations.items():
+                msgtext = msgdict["message"]
+                msgtext = re.sub(CRLF_PATTERN, "\n", msgtext)
+                msgtext = re.sub(NEWLINE_PATTERN, NEWLINE_REPLACEMENT, msgtext)
+                msgtext = re.sub(MULTIBLANK_PATTERN, " ", msgtext)
+                # Strip any trailing whitespace.  A trailing newline appears to
+                # make Pango report a larger layout size than what's actually
+                # visible.
+                msgtext = msgtext.strip()
+                pngfilename = os.path.join(locale_screen, tag + ".png")
+                pool.apply_async(
+                    CreateMessageImage, (msgtext, locale, pngfilename)
+                )
+
+        # We have to wait for async tasks to finish ourselves.  Pool context
+        # managers call terminate rather than wait.
+        pool.close()
+        pool.join()
+
+    os.unlink(empty_file)
+
+
+def CreateLinkedLocales(screendir, locale_list, link_list):
+    """Created locales that are linked to pre-existing locales.
+
+    `locale_list` is a list of locales that already exist, and
+    `link_list` is a list of (`target`, `orig`) tuples.  For each
+    `orig` that is also in `locale_list`, the corresponding `target`
+    is created as a linked copy of `orig`.
+
+    `orig` is expected to exist under the directory `screendir` and
+    `target` is created there.
+    """
+    for target, orig in link_list:
+        if orig not in locale_list:
+            continue
+        print(f"Locale {target} linked to {orig}")
+        locale_screen = os.path.join(screendir, target)
+        orig_screen = os.path.join(screendir, orig)
+        os.makedirs(locale_screen, exist_ok=True)
+        for _, _, filenames in os.walk(orig_screen):
+            for filename in filenames:
+                orig_file = os.path.join(orig_screen, filename)
+                locale_file = os.path.join(locale_screen, filename)
+                if os.path.exists(locale_file):
+                    os.unlink(locale_file)
+                os.link(orig_file, locale_file)
+
+
+def CreateConstantDefs(image_dir):
+    """Create the 'constants.sh' source file used by 'messages.sh'.
+
+    A number of parameters defined in module are needed in
+    'messages.sh', primarily to calculate the placement of images.
+    Create a simple shell source that assigns the parameters their
+    values.
+    """
+    export_vars = (
+        ("BACKGROUND", "%06x"),
+        ("MESSAGE_BOX_WIDTH", "%d"),
+        ("MESSAGE_BOX_HEIGHT", "%d"),
+        ("ICON_INSET_LEFT", "%d"),
+        ("ICON_INSET_TOP", "%d"),
+        ("PROGRESS_BAR_LEFT", "%d"),
+        ("PROGRESS_BAR_TOP", "%d"),
+        ("PROGRESS_INCREMENT", "%d"),
+        ("PROGRESS_INCREMENT_LEFT", "%d"),
+        ("PROGRESS_INCREMENT_TOP", "%d"),
+        ("MONOSPACE_GLYPH_WIDTH", "%d"),
+        ("MONOSPACE_GLYPH_HEIGHT", "%d"),
+    )
+    fileheader = """\
+# Copyright 2012 The ChromiumOS Authors
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+#
+# DO NOT EDIT THIS FILE:  It is automatically generated by %s.
+
+"""
+    constants_sh = os.path.join(image_dir, "constants.sh")
+    with open(constants_sh, "w", encoding="utf-8") as genfile:
+        genfile.write(fileheader % os.path.basename(sys.argv[0]))
+        for var, fmt in export_vars:
+            genfile.write(("%s=" + fmt + "\n") % (var, globals()[var]))
+    print(f"wrote {os.path.basename(constants_sh)}")
+
+
+def CreateMonospaceGlyphs(image_dir):
+    """Creates images for a set of basic ASCII glyphs."""
+    glyph_dir = os.path.join(image_dir, "glyphs")
+    os.makedirs(glyph_dir, exist_ok=True)
+
+    for char in MONOSPACE_GLYPHS:
+        CreateMonospaceGlyph(
+            char, os.path.join(glyph_dir, "%d.png" % ord(char))
+        )
+
+
+def get_parser():
+    """Return a CLI parser for this program."""
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "textdir",
+        default="localized_text",
+        nargs="?",
+        help="Input dir full of xtb translations " "(default: %(default)s)",
+    )
+    parser.add_argument(
+        "screendir",
+        default="screens",
+        nargs="?",
+        help="Output dir to write all the screen images "
+        "(default: %(default)s)",
+    )
+    parser.add_argument(
+        "locales",
+        default=sorted(SUPPORTED_LOCALES),
+        nargs="*",
+        help="The languages to process (default: %(default)s)",
+    )
+    return parser
+
+
+def main(argv):
+    """Create message images for given locales.
+
+    For user convenience, if invoked without arguments we construct
+    appropriate defaults.
+
+    This command is also invoked by the ebuild; be sure you understand
+    that usage before you tinker with the command line syntax.
+    """
+    parser = get_parser()
+    opts = parser.parse_args(argv)
+    textdir = opts.textdir
+    screendir = opts.screendir
+    locale_list = opts.locales
+
+    os.makedirs(screendir, exist_ok=True)
+
+    CreateLocales(textdir, screendir, locale_list)
+    CreateLinkedLocales(screendir, locale_list, LOCALE_LINKS)
+    CreateProgressBar(screendir)
+    CreateConstantDefs(screendir)
+    CreateMonospaceGlyphs(screendir)
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

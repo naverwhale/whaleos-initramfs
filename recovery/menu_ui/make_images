@@ -1,0 +1,602 @@
+#!/usr/bin/env python3
+# Copyright 2020 The ChromiumOS Authors
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+"""Refer to the README for details about how to use this command.
+
+usage:
+  ./make_images [ <localized_text> <screens> [ <locale> ... ] ]
+"""
+
+import contextlib
+import glob
+import json
+import multiprocessing
+import os
+import re
+import string
+import subprocess
+import sys
+import tempfile
+
+from PIL import Image  # pylint: disable=import-error
+
+
+# The list of supported locales, and their associated fonts.  Fonts should
+# generally match the list of families in Chrome's IDS_UI_FONT_FAMILY_CROS
+# string.  If you're adding a new locale, it's usually (mostly) enough just to
+# update this dictionary.  See the README for information about the caveats.
+DEFAULT_FONT = "Roboto"
+FONT_MAPPING = {
+    "ar": "Noto Sans Arabic UI",
+    "bn": "Noto Sans Bengali UI",
+    "fa": "Noto Sans Arabic UI",
+    "gu": "Noto Sans Gujarati UI",
+    "he": "Noto Sans Hebrew",
+    "hi": "Noto Sans Devanagari UI",
+    "ja": "Noto Sans CJK JP",
+    "kn": "Noto Sans Kannada UI",
+    "ko": "Noto Sans CJK KR",
+    "ml": "Noto Sans Malayalam UI",
+    "mr": "Noto Sans Devanagari UI",
+    "ta": "Noto Sans Tamil UI",
+    "te": "Noto Sans Telugu UI",
+    "th": "Noto Sans Thai UI",
+    "zh-CN": "Noto Sans CJK SC",
+    "zh-TW": "Noto Sans CJK TC",
+}
+SUPPORTED_LOCALES = (
+    "en-US", #"bn", "ca", "da", "de", "et", "es", "es-419", "fil", "fr", "hr", "id", "it", "lv", "lt", "hu", "ms", "nl", "nb", "pl", "pt-PT", "pt-BR", "ro", "sk", "sl", "fi", "sv", "vi", "tr", "cs", "el", "bg", "ru", "sr", "uk", "he", "ar", "fa", "mr", "hi", "gu", "ta", "te", "kn", "ml", "th", "zh-CN", "zh-TW", "ja",
+    "ko",
+)
+
+# We package some plain ASCII glyphs for basic dynamic text rendering.
+MONOSPACE_FONT = "Cousine %dpx"
+MONOSPACE_GLYPHS = string.digits + string.ascii_letters + string.punctuation
+
+BLACK = "#000000"
+BACKGROUND = "#202124"
+ADV_BTN_FOCUSED_BACKGROUND = "#2B2F37"
+TEXT_COLOR = "#ffffff"
+GREY_TEXT_COLOR = "#9aa0a6"  # used in footers
+PROGRESS_COLOR = "#bbbbbb"
+#BLUE = "#8ab4f8"  # button text/background color
+BLUE = '#386aff' # button text/background color for Whale
+WHALE_GREEN = '#7a9bff'
+DROPDOWN_BG_COLOR = "#2d2e30"
+
+TITLE_FONT_SIZE = 32
+TITLE_LINE_HEIGHT = 36
+DEFAULT_FONT_SIZE = 18
+DEFAULT_LINE_HEIGHT = 21
+FOOTER_FONT_SIZE = 14 # to prevent overlapping footer text
+
+# Localized text tags to sort UI elements.
+MINIOS_STRING = "MiniOS"
+BASE_ELEMENTS = ["btn", "footer", "debug", "log"]
+
+# UI options. MINIOS_UI for network based recovery flow and RECOVERY_UI for
+# the external disk recovery flow.
+MINIOS_UI = "minios_ui"
+RECOVERY_UI = "menu_ui"
+
+# Input text files are broken into paragraphs like so:
+#   This is a sample line of text in the first paragraph.
+#   This is a second line in the same paragraph.
+#
+#   This is the second paragraph.
+#
+# Pango believes newlines are used to separate paragraphs, so
+# we convert all single newline characters to a space.  We leave
+# the double newlines for a paragraph separator so that Pango will
+# render the paragraphs with additional separation.
+#
+# Also, text returned from translators may have spurious whitespace,
+# so we convert CR-LF into just LF, and convert multiple blanks into
+# a single blank.
+
+NEWLINE_PATTERN = re.compile("([^\n])\n([^\n])")
+NEWLINE_REPLACEMENT = r"\1 \2"
+CRLF_PATTERN = re.compile("\r\n")
+MULTIBLANK_PATTERN = re.compile("   *")
+URL_PATTERN = re.compile("https://[a-zA-Z0-9/._-]+")
+
+
+def PatchUrlString(msgtext):
+    # Put allow_breaks=false attribute around URLs to disallow line breaks.
+    return URL_PATTERN.sub(r'<span allow_breaks="false">\g<0></span>', msgtext)
+
+
+def CreateMessageImage(
+    msgtext,
+    locale,
+    imagename,
+    foreground=TEXT_COLOR,
+    background=BACKGROUND,
+    align="left",
+    fontsize=DEFAULT_FONT_SIZE,
+    width=720,
+    height=-1,
+):
+    """Create a message image file containing the given text.
+
+    `msgtxt` is a string with the text; it has already been adjusted
+    to remove extra white space and create proper paragraph breaks.
+
+    `imagename` is the path name for the final .png image.
+    """
+    # pango-view supports specifying content by parameter (--text=) but that may
+    # cause python to fail due to unicode when running inside ebuilds.  Write to
+    # a temporary file to avoid that.
+    with tempfile.NamedTemporaryFile() as txt_file:
+        font = FONT_MAPPING.get(locale, DEFAULT_FONT) + ", %dpx" % fontsize
+        params = [
+            "pango-view",
+            "-q",
+            "--pixels",
+            "--hinting=auto",
+            "--align=%s" % align,
+            "--margin=0",
+            "--language=%s" % locale,
+            "--foreground=%s" % foreground,
+            "--background=%s" % background,
+            "--font=%s" % font,
+            "--output=%s" % imagename,
+            "--height=%d" % height,
+            "--markup",
+        ]
+        if width:
+            params += ["--width=%d" % width]
+        params += [txt_file.name]
+        msgtext = PatchUrlString(msgtext)
+        txt_file.write(msgtext.encode("utf_8_sig"))
+        txt_file.flush()
+        subprocess.check_call(params)
+
+
+def CreateMonospaceGlyph(
+    char, glyph_path, fontsize, fg_color, background_color
+):
+    """Renders a single |char| into |glyph_path|."""
+    subprocess.check_call(
+        [
+            "pango-view",
+            "-q",
+            "--pixels",
+            "--hinting=auto",
+            "--margin=0",
+            "--foreground=%s" % fg_color,
+            "--background=%s" % background_color,
+            "--font=%s" % (MONOSPACE_FONT % fontsize),
+            "--text=%s" % char,
+            "--output=%s" % glyph_path,
+        ]
+    )
+
+
+def _LoadMessages(filename):
+    """Load messaages from |filename|."""
+    with open(filename, "rb") as fp:
+        return json.load(fp)
+
+
+def _GetTextStyles(tag):
+    if tag.startswith("title_"):
+        return {"fontsize": TITLE_FONT_SIZE, "height": TITLE_LINE_HEIGHT}
+
+    if tag.startswith("desc_"):
+        return {"height": 0}
+
+    if tag.startswith("footer_"):
+        return {"foreground": GREY_TEXT_COLOR, "fontsize": FOOTER_FONT_SIZE}
+
+    return {}
+
+
+def _GetButtonStyles(tag):
+    button_style = {
+        "foreground": BLUE,
+        "background": BACKGROUND,
+        "align": "center",
+        "width": 0,
+        "fontsize": FOOTER_FONT_SIZE,
+    }
+    advanced_options_style = {
+        "foreground": BLUE,
+        "background": BACKGROUND,
+        "width": 0,
+        "fontsize": FOOTER_FONT_SIZE,
+    }
+    advanced_options_style_focused = {
+        "foreground": BLUE,
+        "background": ADV_BTN_FOCUSED_BACKGROUND,
+        "width": 0,
+        "fontsize": FOOTER_FONT_SIZE,
+    }
+
+    if tag in ("btn_diagnostics", "btn_debug_options", "btn_power_off"):
+        return advanced_options_style, advanced_options_style_focused
+
+    focused_style = button_style.copy()
+    focused_style["foreground"], focused_style["background"] = (
+        focused_style["background"],
+        focused_style["foreground"],
+    )
+
+    return button_style, focused_style
+
+
+def _GetMenuItemStyles():
+    # For items inside expanded dropdown menu.
+    normal_style = {"width": 0, "background": DROPDOWN_BG_COLOR}
+#    focused_style = dict(normal_style, background=BLUE, foreground=BACKGROUND)
+    focused_style = dict(normal_style, background=WHALE_GREEN, foreground=BACKGROUND)
+    # for the selected item in a folded dropdown
+    folded_style = dict(normal_style, background=BLACK)
+
+    return normal_style, focused_style, folded_style
+
+
+def IsRightToLeftLanguage(locale):
+    return locale in ("ar", "fa", "he")
+
+
+def CreateLocales(textdir, screendir, locale_list, ui_type):
+    """Create message images for all locales.
+
+    The per-locale XTB files containing translations are found in |textdir|.
+    The per-locale output images are written under |screendir|.  The locales to
+    be used are specified in |locale_list|.
+
+    All locales share a distinguished image named "empty.png" that
+    contains no text. If |ui_type| is true, then only include strings in the
+    textdir that are tagged `MINIOS_STRING`. For the recovery ui, ignore
+    everything with that tag. Base elements are always included.
+    """
+    # Need to create the empty image before processing the others.
+    empty_base = "empty.png"
+    empty_file = os.path.join(screendir, empty_base)
+    CreateMessageImage("", "en-US", empty_file)
+
+    with contextlib.ExitStack() as stack:
+        pool = stack.enter_context(multiprocessing.Pool())
+        # Create a temporary directory for grit's translation output.
+        tmpdir = stack.enter_context(tempfile.TemporaryDirectory())
+
+        # Invoke the grit build command to generate JSON files from the XTB
+        # translations.  The results are placed in `tmpdir` as specified in
+        # cros_recovery.grd, i.e. one JSON file per locale.
+        subprocess.check_call(
+            [
+                "grit",
+                "-i",
+                os.path.join(textdir, "cros_recovery.grd"),
+                "build",
+                "-o",
+                tmpdir,
+            ]
+        )
+
+        # Newer grit will omit fallback messages, so we have to provide them.
+        en_translations = _LoadMessages(os.path.join(tmpdir, "en.json"))
+
+        for locale in locale_list:
+            print("Locale %s" % locale)
+            locale_screen = os.path.join(screendir, locale)
+            if not os.path.isdir(locale_screen):
+                os.mkdir(locale_screen)
+            locale_empty = os.path.join(locale_screen, empty_base)
+            if not os.path.exists(locale_empty):
+                os.link(empty_file, locale_empty)
+
+            # Read the JSON file to obtain translated messages.
+            translations = _LoadMessages(
+                os.path.join(tmpdir, "%s.json" % (locale,))
+            )
+            # Overlay the English fallbacks.
+            missing = set()
+            for msgid in en_translations.keys():
+                if msgid not in translations:
+                    missing.add(str(msgid))
+                    translations[msgid] = en_translations[msgid]
+            if missing and locale not in {"en-US"}:
+                print(
+                    "  missing translations: %s" % (" ".join(sorted(missing)),)
+                )
+
+            # Generate an image file for translated message.
+            for tag, msgdict in translations.items():
+                if not any(substring in tag for substring in BASE_ELEMENTS):
+                    # Other than base element tags, only include `MiniOS`
+                    # strings when running the `minios_ui` and the recovery
+                    # strings when running `menu_ui`.
+                    if ui_type == MINIOS_UI and not MINIOS_STRING in tag:
+                        continue
+                    elif ui_type == RECOVERY_UI and MINIOS_STRING in tag:
+                        continue
+                msgtext = msgdict["message"]
+                msgtext = re.sub(CRLF_PATTERN, "\n", msgtext)
+                msgtext = re.sub(NEWLINE_PATTERN, NEWLINE_REPLACEMENT, msgtext)
+                msgtext = re.sub(MULTIBLANK_PATTERN, " ", msgtext)
+                # Strip any trailing whitespace.  A trailing newline appears to
+                # make Pango report a larger layout size than what's actually
+                # visible.
+                msgtext = msgtext.strip()
+                pngfilename = os.path.join(locale_screen, tag + ".png")
+                if tag.startswith("btn_"):
+                    style_normal, style_focused = _GetButtonStyles(tag)
+                    pool.apply_async(
+                        CreateMessageImage,
+                        (msgtext, locale, pngfilename),
+                        style_normal,
+                    )
+                    focused_filename = os.path.join(
+                        locale_screen, tag + "_focused.png"
+                    )
+                    pool.apply_async(
+                        CreateMessageImage,
+                        (msgtext, locale, focused_filename),
+                        style_focused,
+                    )
+                else:
+                    style = _GetTextStyles(tag)
+                    # footer_left_3 (ChromeOS website url) should be
+                    # right-aligned for rtl languages.
+                    if IsRightToLeftLanguage(locale) and tag == "footer_left_3":
+                        style["align"] = "right"
+                    pool.apply_async(
+                        CreateMessageImage,
+                        (msgtext, locale, pngfilename),
+                        style,
+                    )
+
+        with open(
+            os.path.join(textdir, "locale_names.json"),
+            "rb",
+        ) as f:
+            for locale, text in json.load(f).items():
+                style_normal, style_focused, style_folded = _GetMenuItemStyles()
+
+                for style, name in zip(
+                    (style_normal, style_focused, style_folded),
+                    ("language", "language_focused", "language_folded"),
+                ):
+                    pool.apply_async(
+                        CreateMessageImage,
+                        (
+                            text,
+                            locale,
+                            os.path.join(screendir, locale, name + ".png"),
+                        ),
+                        style,
+                    )
+
+        # We have to wait for async tasks to finish ourselves.  Pool context
+        # managers call terminate rather than wait.
+        pool.close()
+        pool.join()
+
+    os.unlink(empty_file)
+
+
+def CreateMonospaceGlyphs(glyph_dir, text_color, background_color):
+    """Creates images for a set of basic ASCII glyphs."""
+    os.makedirs(glyph_dir, exist_ok=True)
+
+    for char in MONOSPACE_GLYPHS:
+        CreateMonospaceGlyph(
+            char,
+            os.path.join(glyph_dir, "%d.png" % ord(char)),
+            FOOTER_FONT_SIZE,
+            text_color,
+            background_color,
+        )
+
+
+def GetImageWidth(imgpath):
+    with Image.open(imgpath) as image:
+        return image.size[0]
+
+
+def GetImageHeight(imgpath):
+    with Image.open(imgpath) as image:
+        return image.size[1]
+
+
+def CalculateButtonWidth(screendir, locale, *args):
+    """Returns the maximum width of given buttons."""
+
+    width = 64
+    for button in args:
+        pngfile = button + ".png"
+        if os.path.exists(os.path.join(screendir, locale, pngfile)):
+            width = max(
+                width, GetImageWidth(os.path.join(screendir, locale, pngfile))
+            )
+        else:
+            # fallback to en-US
+            width = max(
+                width, GetImageWidth(os.path.join(screendir, "en-US", pngfile))
+            )
+    return width
+
+
+def CreateConstantDefs(screendir, all_locales, ui_type):
+    for locale in all_locales:
+        with open(
+            os.path.join(screendir, locale, "constants.sh"),
+            "w",
+            encoding="utf-8",
+        ) as out:
+            on_error_btn_width = CalculateButtonWidth(
+                screendir, locale, "btn_try_again"
+            )
+            print("ON_ERROR_BTN_WIDTH=%d" % on_error_btn_width, file=out)
+
+            debug_options_btn_width = CalculateButtonWidth(
+                screendir,
+                locale,
+                "btn_copy_logs",
+                "btn_recovery_log",
+                "btn_message_log",
+                "btn_back",
+            )
+            print(
+                "DEBUG_OPTIONS_BTN_WIDTH=%d" % debug_options_btn_width, file=out
+            )
+
+            view_log_btn_width = CalculateButtonWidth(
+                screendir, locale, "btn_page_up", "btn_page_down", "btn_back"
+            )
+            print("VIEW_LOG_BTN_WIDTH=%d" % view_log_btn_width, file=out)
+
+            # the secondary buttons are left-aligned, so we need information
+            # about their maximum width and individual width.
+            adv_buttons = [
+                "btn_debug_options",
+                "btn_MiniOS_advanced_options",
+                "btn_power_off",
+            ]
+            adv_option_btn_width = CalculateButtonWidth(
+                screendir, locale, *adv_buttons
+            )
+            print("ADV_OPTION_BTN_WIDTH=%d" % adv_option_btn_width, file=out)
+            for button in adv_buttons:
+                width = CalculateButtonWidth(screendir, locale, button)
+                print("BUTTON_%s_WIDTH=%d" % (button, width), file=out)
+
+            if ui_type == MINIOS_UI:
+                instructions = [
+                    "MiniOS_general_error",
+                    "MiniOS_complete",
+                    "MiniOS_password",
+                    "MiniOS_download_error",
+                    "MiniOS_network_error",
+                    "MiniOS_password_error",
+                    "MiniOS_pick_image",
+                    "MiniOS_downloading",
+                    "MiniOS_user_confirm",
+                    "MiniOS_finalizing",
+                    "MiniOS_welcome",
+                    "MiniOS_connection_error",
+                ]
+            else:
+                instructions = [
+                    "recovery_in_progress",
+                    "recovery_complete",
+                    "recovery_failed",
+                ]
+
+            for instruction in instructions:
+                title_img_path = os.path.join(
+                    screendir, locale, "title_" + instruction + ".png"
+                )
+                desc_img_path = os.path.join(
+                    screendir, locale, "desc_" + instruction + ".png"
+                )
+                print(
+                    "TITLE_%s_HEIGHT=%d"
+                    % (instruction, GetImageHeight(title_img_path)),
+                    file=out,
+                )
+                print(
+                    "DESC_%s_HEIGHT=%d"
+                    % (instruction, GetImageHeight(desc_img_path)),
+                    file=out,
+                )
+
+            out.flush()
+
+
+def CreateLanguageDefs(screendir, all_locales):
+    with open(
+        os.path.join(screendir, "lang_constants.sh"), "w", encoding="utf-8"
+    ) as out:
+        for locale in all_locales:
+            language_img_width = GetImageWidth(
+                os.path.join(screendir, locale, "language.png")
+            )
+            locale_var_name = locale.replace("-", "_")
+            print(
+                "LANGUAGE_%s_WIDTH=%d" % (locale_var_name, language_img_width),
+                file=out,
+            )
+        print('SUPPORTED_LOCALES="%s"' % " ".join(all_locales), file=out)
+
+
+def ConvertSvg(assetsdir, screendir):
+    for svg in glob.glob(os.path.join(assetsdir, "*.svg")):
+        name, _ = os.path.splitext(os.path.basename(svg))  # discard file ext
+        png = os.path.join(screendir, name + ".png")
+        print("%s -> %s" % (svg, png))
+        subprocess.check_call(
+            ["rsvg-convert", "-b", BACKGROUND, "-o", png, svg]
+        )
+
+
+def main(argv):
+    """Create message images for given locales.
+
+    For user convenience, if invoked without arguments we construct
+    appropriate defaults.
+
+    This command is also invoked by the ebuild; be sure you understand
+    that usage before you tinker with the command line syntax.
+    """
+    locale_list = list(SUPPORTED_LOCALES)
+    if len(argv) == 1:
+        ui_type = RECOVERY_UI
+        textdir = "localized_text"
+        screendir = "screens"
+    elif len(argv) > 2:
+        if argv[1] not in (MINIOS_UI, RECOVERY_UI):
+            sys.stderr.write(
+                "usage: first argument must be either minios_ui or " "menu_ui"
+            )
+            sys.exit(1)
+        else:
+            ui_type = argv[1]
+        textdir = argv[2]
+        screendir = argv[3]
+        if argv[4:]:
+            locale_list = argv[4:]
+    else:
+        sys.stderr.write(
+            "usage: %s [ (minios_ui/menu_ui) <dir> <dir> "
+            "[ <locale> ... ] ]\n" % os.path.basename(argv[0])
+        )
+        sys.exit(1)
+    assetsdir = "menu_ui/assets"
+
+    if not os.path.isdir(screendir):
+        os.mkdir(screendir)
+
+    CreateLocales(textdir, screendir, locale_list, ui_type)
+    CreateMonospaceGlyphs(
+        os.path.join(screendir, "glyphs/white"), TEXT_COLOR, BACKGROUND
+    )
+    CreateMonospaceGlyphs(
+        os.path.join(screendir, "glyphs/grey"), GREY_TEXT_COLOR, BACKGROUND
+    )
+
+    # For dynamic text on dropdown menu.
+    CreateMonospaceGlyphs(
+        os.path.join(screendir, "glyphs/dropdown_grey"),
+        GREY_TEXT_COLOR,
+        DROPDOWN_BG_COLOR,
+    )
+
+    # For dynamic text on focused buttons.
+    CreateMonospaceGlyphs(
+#        os.path.join(screendir, "glyphs/black"), BACKGROUND, BLUE
+        os.path.join(screendir, "glyphs/black"), BACKGROUND, WHALE_GREEN
+    )
+
+    CreateConstantDefs(screendir, SUPPORTED_LOCALES, ui_type)
+    CreateLanguageDefs(screendir, SUPPORTED_LOCALES)
+    ConvertSvg(assetsdir, screendir)
+
+
+if __name__ == "__main__":
+    main(sys.argv)
